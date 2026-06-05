@@ -1,4 +1,6 @@
+using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using System.Text;
 
 namespace UnicodeEmoji.StringProperties.Internal;
 
@@ -91,6 +93,46 @@ internal static class EmojiTrie
         properties = (EmojiSequenceProperties)EmojiTrieData.Props[node];
         return properties != EmojiSequenceProperties.None;
     }
+
+    /// <summary>
+    /// Collects every emoji sequence stored in the trie whose properties intersect
+    /// <paramref name="filter"/>, as UTF-16 strings. The trie is a tree (edges == nodes - 1),
+    /// so a depth-first walk visits each sequence exactly once. Order is unspecified.
+    /// </summary>
+    internal static List<string> CollectSequences(EmojiSequenceProperties filter)
+    {
+        var result = new List<string>();
+        var scalars = new List<int>(MaxDepth);
+        Walk(0, scalars, filter, result);
+        return result;
+
+        static void Walk(int node, List<int> scalars, EmojiSequenceProperties filter, List<string> result)
+        {
+            var props = (EmojiSequenceProperties)EmojiTrieData.Props[node];
+            if (scalars.Count > 0 && (props & filter) != 0)
+            {
+                var sb = new StringBuilder(scalars.Count);
+                foreach (int scalar in scalars)
+                {
+                    sb.Append(char.ConvertFromUtf32(scalar));
+                }
+
+                result.Add(sb.ToString());
+            }
+
+            int start = EmojiTrieData.ChildOffsets[node];
+            int end = EmojiTrieData.ChildOffsets[node + 1];
+            for (int edge = start; edge < end; edge++)
+            {
+                scalars.Add(EmojiTrieData.ChildKeys[edge]);
+                Walk(EmojiTrieData.ChildNodes[edge], scalars, filter, result);
+                scalars.RemoveAt(scalars.Count - 1);
+            }
+        }
+    }
+
+    // A sequence is at most MaxSequenceLength scalars; used to size the DFS path buffer.
+    private const int MaxDepth = EmojiTrieData.MaxSequenceLength;
 
     /// <summary>
     /// Finds the longest emoji sequence that starts at <paramref name="start"/>.

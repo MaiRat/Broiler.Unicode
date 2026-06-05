@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnicodeEmoji.StringProperties.Internal;
 
 namespace UnicodeEmoji.StringProperties;
@@ -102,6 +103,23 @@ public static class EmojiStringProperties
     /// <returns><see langword="true"/> if every requested property bit is present; otherwise <see langword="false"/>.</returns>
     public static bool HasProperties(ReadOnlySpan<char> value, EmojiSequenceProperties properties) =>
         (GetProperties(value) & properties) == properties;
+
+    /// <summary>
+    /// Returns every emoji sequence in the bundled data whose properties intersect
+    /// <paramref name="filter"/>, as UTF-16 strings (for example every <c>Emoji_Keycap_Sequence</c>,
+    /// or — with <see cref="EmojiSequenceProperties.RgiEmoji"/> — the full RGI set).
+    /// </summary>
+    /// <param name="filter">A mask selecting which sequences to return. A sequence is included
+    /// when it satisfies any set bit.</param>
+    /// <returns>The matching sequences. Order is unspecified; callers that need a stable or
+    /// length-sorted order should sort the result themselves.</returns>
+    /// <remarks>
+    /// Intended for building an enumeration of a string property (for example to expand a
+    /// <c>\p{RGI_Emoji}</c> regular-expression escape into an alternation). The result is
+    /// materialized fresh on each call.
+    /// </remarks>
+    public static IReadOnlyList<string> GetSequences(EmojiSequenceProperties filter) =>
+        EmojiTrie.CollectSequences(filter);
 
     /// <summary>
     /// Enumerates the RGI emoji contained in <paramref name="text"/> using greedy, allocation-free,
