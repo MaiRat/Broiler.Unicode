@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/benchmarks/">
+    <Project Path="benchmarks/UnicodeEmoji.StringProperties.Benchmarks/UnicodeEmoji.StringProperties.Benchmarks.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/UnicodeEmoji.StringProperties.DataTool/UnicodeEmoji.StringProperties.DataTool.csproj" />
+    <Project Path="src/UnicodeEmoji.StringProperties.Generator/UnicodeEmoji.StringProperties.Generator.csproj" />
+    <Project Path="src/UnicodeEmoji.StringProperties/UnicodeEmoji.StringProperties.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/UnicodeEmoji.StringProperties.Tests/UnicodeEmoji.StringProperties.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,16 @@
+<Project>
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <!-- Repository-wide metadata reused by the packable library. -->
+    <Authors>UnicodeEmoji contributors</Authors>
+    <Company>UnicodeEmoji</Company>
+    <Product>UnicodeEmoji.StringProperties</Product>
+    <RepositoryType>git</RepositoryType>
+    <UnicodeEmojiVersion>16.0</UnicodeEmojiVersion>
+  </PropertyGroup>
+
+</Project>

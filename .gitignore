@@ -1,0 +1,22 @@
+## .NET build output
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+## BenchmarkDotNet
+BenchmarkDotNet.Artifacts/
+
+## IDE
+.vs/
+.idea/
+*.user
+
+## NuGet output
+artifacts/
+*.nupkg
+*.snupkg
+
+## Test results
+TestResults/
+[Tt]est[Rr]esults/

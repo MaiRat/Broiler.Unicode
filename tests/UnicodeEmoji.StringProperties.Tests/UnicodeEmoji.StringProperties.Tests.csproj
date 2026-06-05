@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <!-- Golden data uses non-ASCII emoji literals. -->
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../src/UnicodeEmoji.StringProperties/UnicodeEmoji.StringProperties.csproj" />
+    <ProjectReference Include="../../src/UnicodeEmoji.StringProperties.Generator/UnicodeEmoji.StringProperties.Generator.csproj" />
+  </ItemGroup>
+
+  <!-- Make the committed Unicode data files available to data-driven tests. -->
+  <ItemGroup>
+    <None Include="../../data/unicode/**/*.txt" CopyToOutputDirectory="PreserveNewest" LinkBase="data/unicode" />
+  </ItemGroup>
+
+</Project>

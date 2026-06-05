@@ -1,0 +1,59 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-test-pack:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: |
+            8.0.x
+            9.0.x
+
+      - name: Restore
+        run: dotnet restore UnicodeEmoji.StringProperties.slnx
+
+      - name: Verify formatting
+        run: dotnet format UnicodeEmoji.StringProperties.slnx --verify-no-changes --severity warn
+
+      - name: Build
+        run: dotnet build UnicodeEmoji.StringProperties.slnx -c Release --no-restore
+
+      - name: Test (net8.0 + net9.0)
+        run: dotnet test UnicodeEmoji.StringProperties.slnx -c Release --no-build --verbosity normal
+
+      - name: Verify generated tables are up to date
+        run: |
+          dotnet run --project src/UnicodeEmoji.StringProperties.Generator -c Release --no-build -- 16.0
+          if ! git diff --quiet -- src/UnicodeEmoji.StringProperties/Generated/EmojiTrieData.g.cs; then
+            echo "::error::Generated EmojiTrieData.g.cs is out of date. Run the DataTool 'generate' command and commit the result."
+            git --no-pager diff -- src/UnicodeEmoji.StringProperties/Generated/EmojiTrieData.g.cs
+            exit 1
+          fi
+
+      - name: Pack
+        run: dotnet pack src/UnicodeEmoji.StringProperties/UnicodeEmoji.StringProperties.csproj -c Release --no-build -o artifacts
+
+      - name: Upload NuGet package
+        uses: actions/upload-artifact@v4
+        with:
+          name: nupkg
+          path: |
+            artifacts/*.nupkg
+            artifacts/*.snupkg
+          if-no-files-found: error
