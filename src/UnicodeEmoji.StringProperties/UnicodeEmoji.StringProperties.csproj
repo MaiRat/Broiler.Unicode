@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+    <RootNamespace>UnicodeEmoji.StringProperties</RootNamespace>
+    <AssemblyName>UnicodeEmoji.StringProperties</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <!-- NuGet packaging -->
+    <IsPackable>true</IsPackable>
+    <PackageId>UnicodeEmoji.StringProperties</PackageId>
+    <Description>Managed, allocation-light matching of Unicode RGI emoji string properties (RGI_Emoji, Basic_Emoji, Emoji ZWJ/flag/tag/keycap/modifier sequences) backed by a generated trie. No ICU/native dependency.</Description>
+    <PackageTags>unicode;emoji;rgi;uts51;trie;text</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)../../README.md" Pack="true" PackagePath="\" Condition="Exists('$(MSBuildThisFileDirectory)../../README.md')" />
+  </ItemGroup>
+
+</Project>

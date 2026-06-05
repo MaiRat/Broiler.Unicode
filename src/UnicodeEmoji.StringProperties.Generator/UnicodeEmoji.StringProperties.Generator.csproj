@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+    <RootNamespace>UnicodeEmoji.StringProperties.Generator</RootNamespace>
+    <IsPackable>false</IsPackable>
+    <!-- Referenced by the test project to reuse the parser; keep types public. -->
+  </PropertyGroup>
+
+</Project>
