@@ -4,7 +4,7 @@ Managed, allocation-light matching of **Unicode RGI emoji string properties** (U
 backed by a generated trie. No ICU, no native dependency, no runtime downloads, no giant regex.
 
 - **Supported Unicode emoji version:** **16.0**
-- **Target frameworks:** `net8.0`, `net9.0`
+- **Target frameworks:** `net8.0`, `net10.0`
 - **Dependencies:** none (pure managed C#)
 
 ```csharp
@@ -171,7 +171,7 @@ giant alternation regex.
 
 ```
 src/
-  UnicodeEmoji.StringProperties/            # the NuGet library (net8.0; net9.0)
+  UnicodeEmoji.StringProperties/            # the NuGet library (net8.0; net10.0)
   UnicodeEmoji.StringProperties.Generator/  # parser + trie builder + source emitter
   UnicodeEmoji.StringProperties.DataTool/   # downloads data + drives the generator
 tests/
