@@ -1,0 +1,1317 @@
+{
+  "main": {
+    "ar": {
+      "units": {
+        "long": {
+          "angle-degree": {
+            "gender": "feminine",
+            "displayName": "\u062F\u0631\u062C\u0629",
+            "unitPattern-count-zero": "{0} \u062F\u0631\u062C\u0629",
+            "unitPattern-count-one": "\u062F\u0631\u062C\u0629",
+            "unitPattern-count-two": "\u062F\u0631\u062C\u062A\u0627\u0646",
+            "unitPattern-count-few": "{0} \u062F\u0631\u062C\u0627\u062A",
+            "unitPattern-count-many": "{0} \u062F\u0631\u062C\u0629",
+            "unitPattern-count-other": "{0} \u062F\u0631\u062C\u0629"
+          },
+          "area-hectare": {
+            "gender": "masculine",
+            "displayName": "\u0647\u0643\u062A\u0627\u0631",
+            "unitPattern-count-zero": "{0} \u0647\u0643\u062A\u0627\u0631",
+            "unitPattern-count-one": "{0} \u0647\u0643\u062A\u0627\u0631",
+            "unitPattern-count-two": "{0} \u0647\u0643\u062A\u0627\u0631",
+            "unitPattern-count-few": "{0} \u0647\u0643\u062A\u0627\u0631",
+            "unitPattern-count-many": "{0} \u0647\u0643\u062A\u0627\u0631",
+            "unitPattern-count-other": "{0} \u0647\u0643\u062A\u0627\u0631"
+          },
+          "area-acre": {
+            "displayName": "\u0641\u062F\u0627\u0646",
+            "unitPattern-count-zero": "{0} \u0641\u062F\u0627\u0646",
+            "unitPattern-count-one": "\u0641\u062F\u0627\u0646",
+            "unitPattern-count-two": "{0} \u0641\u062F\u0627\u0646",
+            "unitPattern-count-few": "{0} \u0641\u062F\u0627\u0646",
+            "unitPattern-count-many": "{0} \u0641\u062F\u0627\u0646",
+            "unitPattern-count-other": "{0} \u0641\u062F\u0627\u0646"
+          },
+          "concentr-percent": {
+            "gender": "feminine",
+            "displayName": "\u0628\u0627\u0644\u0645\u0627\u0626\u0629",
+            "unitPattern-count-zero": "{0}\u066A",
+            "unitPattern-count-one": "{0} \u0628\u0627\u0644\u0645\u0627\u0626\u0629",
+            "unitPattern-count-two": "{0}\u066A",
+            "unitPattern-count-few": "{0}\u066A",
+            "unitPattern-count-many": "{0}\u066A",
+            "unitPattern-count-other": "{0} \u0628\u0627\u0644\u0645\u0627\u0626\u0629"
+          },
+          "digital-petabyte": {
+            "gender": "masculine",
+            "displayName": "\u0628\u064A\u062A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-zero": "{0} \u0628\u064A\u062A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-one": "{0} \u0628\u064A\u062A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-two": "{0} \u0628\u064A\u062A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-few": "{0} \u0628\u064A\u062A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-many": "{0} \u0628\u064A\u062A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-other": "{0} \u0628\u064A\u062A\u0627\u0628\u0627\u064A\u062A"
+          },
+          "digital-terabyte": {
+            "gender": "masculine",
+            "displayName": "\u062A\u064A\u0631\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-zero": "{0} \u062A\u064A\u0631\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-one": "{0} \u062A\u064A\u0631\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-two": "{0} \u062A\u064A\u0631\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-few": "{0} \u062A\u064A\u0631\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-many": "{0} \u062A\u064A\u0631\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-other": "{0} \u062A\u064A\u0631\u0627\u0628\u0627\u064A\u062A"
+          },
+          "digital-terabit": {
+            "gender": "masculine",
+            "displayName": "\u062A\u064A\u0631\u0627\u0628\u062A",
+            "unitPattern-count-zero": "{0} \u062A\u064A\u0631\u0627\u0628\u062A",
+            "unitPattern-count-one": "{0} \u062A\u064A\u0631\u0627\u0628\u062A",
+            "unitPattern-count-two": "{0} \u062A\u064A\u0631\u0627\u0628\u062A",
+            "unitPattern-count-few": "{0} \u062A\u064A\u0631\u0627\u0628\u062A",
+            "unitPattern-count-many": "{0} \u062A\u064A\u0631\u0627\u0628\u062A",
+            "unitPattern-count-other": "{0} \u062A\u064A\u0631\u0627\u0628\u062A"
+          },
+          "digital-gigabyte": {
+            "gender": "masculine",
+            "displayName": "\u063A\u064A\u063A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-zero": "{0} \u063A\u064A\u063A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-one": "{0} \u063A\u064A\u063A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-two": "{0} \u063A\u064A\u063A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-few": "{0} \u063A\u064A\u063A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-many": "{0} \u063A\u064A\u063A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-other": "{0} \u063A\u064A\u063A\u0627\u0628\u0627\u064A\u062A"
+          },
+          "digital-gigabit": {
+            "gender": "masculine",
+            "displayName": "\u063A\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-zero": "{0} \u063A\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-one": "{0} \u063A\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-two": "{0} \u063A\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-few": "{0} \u063A\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-many": "{0} \u063A\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-other": "{0} \u063A\u064A\u063A\u0627\u0628\u062A"
+          },
+          "digital-megabyte": {
+            "gender": "masculine",
+            "displayName": "\u0645\u064A\u063A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-zero": "{0} \u0645\u064A\u063A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-one": "{0} \u0645\u064A\u063A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-two": "{0} \u0645\u064A\u063A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-few": "{0} \u0645\u064A\u063A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-many": "{0} \u0645\u064A\u063A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-other": "{0} \u0645\u064A\u063A\u0627\u0628\u0627\u064A\u062A"
+          },
+          "digital-megabit": {
+            "gender": "masculine",
+            "displayName": "\u0645\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-zero": "{0} \u0645\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-one": "{0} \u0645\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-two": "{0} \u0645\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-few": "{0} \u0645\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-many": "{0} \u0645\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-other": "{0} \u0645\u064A\u063A\u0627\u0628\u062A"
+          },
+          "digital-kilobyte": {
+            "gender": "masculine",
+            "displayName": "\u0643\u064A\u0644\u0648\u0628\u0627\u064A\u062A",
+            "unitPattern-count-zero": "{0} \u0643\u064A\u0644\u0648\u0628\u0627\u064A\u062A",
+            "unitPattern-count-one": "{0} \u0643\u064A\u0644\u0648\u0628\u0627\u064A\u062A",
+            "unitPattern-count-two": "{0} \u0643\u064A\u0644\u0648\u0628\u0627\u064A\u062A",
+            "unitPattern-count-few": "{0} \u0643\u064A\u0644\u0648\u0628\u0627\u064A\u062A",
+            "unitPattern-count-many": "{0} \u0643\u064A\u0644\u0648\u0628\u0627\u064A\u062A",
+            "unitPattern-count-other": "{0} \u0643\u064A\u0644\u0648\u0628\u0627\u064A\u062A"
+          },
+          "digital-kilobit": {
+            "gender": "masculine",
+            "displayName": "\u0643\u064A\u0644\u0648\u0628\u062A",
+            "unitPattern-count-zero": "{0} \u0643\u064A\u0644\u0648\u0628\u062A",
+            "unitPattern-count-one": "{0} \u0643\u064A\u0644\u0648\u0628\u062A",
+            "unitPattern-count-two": "{0} \u0643\u064A\u0644\u0648\u0628\u062A",
+            "unitPattern-count-few": "{0} \u0643\u064A\u0644\u0648\u0628\u062A",
+            "unitPattern-count-many": "{0} \u0643\u064A\u0644\u0648\u0628\u062A",
+            "unitPattern-count-other": "{0} \u0643\u064A\u0644\u0648\u0628\u062A"
+          },
+          "digital-byte": {
+            "gender": "masculine",
+            "displayName": "\u0628\u0627\u064A\u062A",
+            "unitPattern-count-zero": "{0} \u0628\u0627\u064A\u062A",
+            "unitPattern-count-one": "{0} \u0628\u0627\u064A\u062A",
+            "unitPattern-count-two": "{0} \u0628\u0627\u064A\u062A",
+            "unitPattern-count-few": "{0} \u0628\u0627\u064A\u062A",
+            "unitPattern-count-many": "{0} \u0628\u0627\u064A\u062A",
+            "unitPattern-count-other": "{0} \u0628\u0627\u064A\u062A"
+          },
+          "digital-bit": {
+            "gender": "masculine",
+            "displayName": "\u0628\u062A",
+            "unitPattern-count-zero": "{0} \u0628\u062A",
+            "unitPattern-count-one": "{0} \u0628\u062A",
+            "unitPattern-count-two": "{0} \u0628\u062A",
+            "unitPattern-count-few": "{0} \u0628\u062A",
+            "unitPattern-count-many": "{0} \u0628\u062A",
+            "unitPattern-count-other": "{0} \u0628\u062A"
+          },
+          "duration-year": {
+            "gender": "feminine",
+            "displayName": "\u0633\u0646\u0648\u0627\u062A",
+            "unitPattern-count-zero": "{0} \u0633\u0646\u0629",
+            "unitPattern-count-one": "\u0633\u0646\u0629",
+            "unitPattern-count-two": "\u0633\u0646\u062A\u0627\u0646",
+            "unitPattern-count-few": "{0} \u0633\u0646\u0648\u0627\u062A",
+            "unitPattern-count-many": "{0} \u0633\u0646\u0629",
+            "unitPattern-count-other": "{0} \u0633\u0646\u0629",
+            "perUnitPattern": "{0} \u0641\u064A \u0627\u0644\u0633\u0646\u0629"
+          },
+          "duration-month": {
+            "gender": "masculine",
+            "displayName": "\u0634\u0647\u0648\u0631",
+            "unitPattern-count-zero": "{0} \u0634\u0647\u0631",
+            "unitPattern-count-one": "\u0634\u0647\u0631",
+            "unitPattern-count-two": "\u0634\u0647\u0631\u0627\u0646",
+            "unitPattern-count-few": "{0} \u0623\u0634\u0647\u0631",
+            "unitPattern-count-many": "{0} \u0634\u0647\u0631\u064B\u0627",
+            "unitPattern-count-other": "{0} \u0634\u0647\u0631",
+            "perUnitPattern": "{0} \u0641\u064A \u0627\u0644\u0634\u0647\u0631"
+          },
+          "duration-week": {
+            "gender": "masculine",
+            "displayName": "\u0623\u0633\u0627\u0628\u064A\u0639",
+            "unitPattern-count-zero": "{0} \u0623\u0633\u0628\u0648\u0639",
+            "unitPattern-count-one": "\u0623\u0633\u0628\u0648\u0639",
+            "unitPattern-count-two": "\u0623\u0633\u0628\u0648\u0639\u0627\u0646",
+            "unitPattern-count-few": "{0} \u0623\u0633\u0627\u0628\u064A\u0639",
+            "unitPattern-count-many": "{0} \u0623\u0633\u0628\u0648\u0639\u064B\u0627",
+            "unitPattern-count-other": "{0} \u0623\u0633\u0628\u0648\u0639",
+            "perUnitPattern": "{0} \u0641\u064A \u0627\u0644\u0623\u0633\u0628\u0648\u0639"
+          },
+          "duration-day": {
+            "gender": "masculine",
+            "displayName": "\u0623\u064A\u0627\u0645",
+            "unitPattern-count-zero": "{0} \u064A\u0648\u0645",
+            "unitPattern-count-one": "\u064A\u0648\u0645",
+            "unitPattern-count-two": "\u064A\u0648\u0645\u0627\u0646",
+            "unitPattern-count-few": "{0} \u0623\u064A\u0627\u0645",
+            "unitPattern-count-many": "{0} \u064A\u0648\u0645\u064B\u0627",
+            "unitPattern-count-other": "{0} \u064A\u0648\u0645",
+            "perUnitPattern": "{0} \u0641\u064A \u0627\u0644\u064A\u0648\u0645"
+          },
+          "duration-hour": {
+            "gender": "feminine",
+            "displayName": "\u0633\u0627\u0639\u0627\u062A",
+            "unitPattern-count-zero": "{0} \u0633\u0627\u0639\u0629",
+            "unitPattern-count-one": "\u0633\u0627\u0639\u0629",
+            "unitPattern-count-two": "\u0633\u0627\u0639\u062A\u0627\u0646",
+            "unitPattern-count-few": "{0} \u0633\u0627\u0639\u0627\u062A",
+            "unitPattern-count-many": "{0} \u0633\u0627\u0639\u0629",
+            "unitPattern-count-other": "{0} \u0633\u0627\u0639\u0629",
+            "perUnitPattern": "{0} \u0641\u064A \u0627\u0644\u0633\u0627\u0639\u0629"
+          },
+          "duration-minute": {
+            "gender": "feminine",
+            "displayName": "\u062F\u0642\u064A\u0642\u0629",
+            "unitPattern-count-zero": "{0} \u062F\u0642\u064A\u0642\u0629",
+            "unitPattern-count-one": "\u062F\u0642\u064A\u0642\u0629",
+            "unitPattern-count-two": "\u062F\u0642\u064A\u0642\u062A\u0627\u0646",
+            "unitPattern-count-few": "{0} \u062F\u0642\u0627\u0626\u0642",
+            "unitPattern-count-many": "{0} \u062F\u0642\u064A\u0642\u0629",
+            "unitPattern-count-other": "{0} \u062F\u0642\u064A\u0642\u0629",
+            "perUnitPattern": "{0} \u0643\u0644 \u062F\u0642\u064A\u0642\u0629"
+          },
+          "duration-second": {
+            "gender": "feminine",
+            "displayName": "\u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-zero": "{0} \u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-one": "\u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-two": "\u062B\u0627\u0646\u064A\u062A\u0627\u0646",
+            "unitPattern-count-few": "{0} \u062B\u0648\u0627\u0646",
+            "unitPattern-count-many": "{0} \u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-other": "{0} \u062B\u0627\u0646\u064A\u0629",
+            "perUnitPattern": "{0} \u0641\u064A \u0627\u0644\u062B\u0627\u0646\u064A\u0629"
+          },
+          "duration-millisecond": {
+            "gender": "feminine",
+            "displayName": "\u0645\u0644\u064A \u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-zero": "{0} \u0645\u0644\u064A \u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-one": "{0} \u0645\u0644\u064A \u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-two": "{0} \u0645\u0644\u064A \u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-few": "{0} \u0645\u0644\u064A \u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-many": "{0} \u0645\u0644\u064A \u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-other": "{0} \u0645\u0644\u064A \u062B\u0627\u0646\u064A\u0629"
+          },
+          "duration-microsecond": {
+            "gender": "feminine",
+            "displayName": "\u0645\u064A\u0643\u0631\u0648\u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-zero": "{0} \u0645\u064A\u0643\u0631\u0648\u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-one": "{0} \u0645\u064A\u0643\u0631\u0648\u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-two": "{0} \u0645\u064A\u0643\u0631\u0648\u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-few": "{0} \u0645\u064A\u0643\u0631\u0648\u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-many": "{0} \u0645\u064A\u0643\u0631\u0648\u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-other": "{0} \u0645\u064A\u0643\u0631\u0648\u062B\u0627\u0646\u064A\u0629"
+          },
+          "duration-nanosecond": {
+            "gender": "feminine",
+            "displayName": "\u0646\u0627\u0646\u0648 \u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-zero": "{0} \u0646\u0627\u0646\u0648 \u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-one": "{0} \u0646\u0627\u0646\u0648 \u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-two": "{0} \u0646\u0627\u0646\u0648 \u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-few": "{0} \u0646\u0627\u0646\u0648 \u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-many": "{0} \u0646\u0627\u0646\u0648 \u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-other": "{0} \u0646\u0627\u0646\u0648 \u062B\u0627\u0646\u064A\u0629"
+          },
+          "length-kilometer": {
+            "gender": "masculine",
+            "displayName": "\u0643\u064A\u0644\u0648\u0645\u062A\u0631",
+            "unitPattern-count-zero": "{0} \u0643\u064A\u0644\u0648\u0645\u062A\u0631",
+            "unitPattern-count-one": "{0} \u0643\u064A\u0644\u0648\u0645\u062A\u0631",
+            "unitPattern-count-two": "{0} \u0643\u064A\u0644\u0648\u0645\u062A\u0631",
+            "unitPattern-count-few": "{0} \u0643\u064A\u0644\u0648\u0645\u062A\u0631\u0627\u062A",
+            "unitPattern-count-many": "{0} \u0643\u064A\u0644\u0648\u0645\u062A\u0631\u064B\u0627",
+            "unitPattern-count-other": "{0} \u0643\u064A\u0644\u0648\u0645\u062A\u0631",
+            "perUnitPattern": "{0}/\u0643\u064A\u0644\u0648\u0645\u062A\u0631"
+          },
+          "length-meter": {
+            "gender": "masculine",
+            "displayName": "\u0645\u062A\u0631",
+            "unitPattern-count-zero": "{0} \u0645\u062A\u0631",
+            "unitPattern-count-one": "\u0645\u062A\u0631",
+            "unitPattern-count-two": "{0} \u0645\u062A\u0631",
+            "unitPattern-count-few": "{0} \u0623\u0645\u062A\u0627\u0631",
+            "unitPattern-count-many": "{0} \u0645\u062A\u0631\u064B\u0627",
+            "unitPattern-count-other": "{0} \u0645\u062A\u0631",
+            "perUnitPattern": "{0} \u0644\u0643\u0644 \u0645\u062A\u0631"
+          },
+          "length-centimeter": {
+            "gender": "masculine",
+            "displayName": "\u0633\u0646\u062A\u064A\u0645\u062A\u0631",
+            "unitPattern-count-zero": "{0} \u0633\u0646\u062A\u064A\u0645\u062A\u0631",
+            "unitPattern-count-one": "{0} \u0633\u0646\u062A\u064A\u0645\u062A\u0631",
+            "unitPattern-count-two": "{0} \u0633\u0646\u062A\u064A\u0645\u062A\u0631",
+            "unitPattern-count-few": "{0} \u0633\u0646\u062A\u064A\u0645\u062A\u0631",
+            "unitPattern-count-many": "{0} \u0633\u0646\u062A\u064A\u0645\u062A\u0631",
+            "unitPattern-count-other": "{0} \u0633\u0646\u062A\u064A\u0645\u062A\u0631",
+            "perUnitPattern": "{0}/\u0633\u0646\u062A\u064A\u0645\u062A\u0631"
+          },
+          "length-millimeter": {
+            "gender": "masculine",
+            "displayName": "\u0645\u0644\u064A\u0645\u062A\u0631",
+            "unitPattern-count-zero": "{0} \u0645\u0644\u064A\u0645\u062A\u0631",
+            "unitPattern-count-one": "{0} \u0645\u0644\u064A\u0645\u062A\u0631",
+            "unitPattern-count-two": "{0} \u0645\u0644\u064A\u0645\u062A\u0631",
+            "unitPattern-count-few": "{0} \u0645\u0644\u064A\u0645\u062A\u0631",
+            "unitPattern-count-many": "{0} \u0645\u0644\u064A\u0645\u062A\u0631",
+            "unitPattern-count-other": "{0} \u0645\u0644\u064A\u0645\u062A\u0631"
+          },
+          "length-mile": {
+            "displayName": "\u0645\u064A\u0644",
+            "unitPattern-count-zero": "{0} \u0645\u064A\u0644",
+            "unitPattern-count-one": "\u0645\u064A\u0644",
+            "unitPattern-count-two": "\u0645\u064A\u0644\u0627\u0646",
+            "unitPattern-count-few": "{0} \u0623\u0645\u064A\u0627\u0644",
+            "unitPattern-count-many": "{0} \u0645\u064A\u0644\u0627\u064B",
+            "unitPattern-count-other": "{0} \u0645\u064A\u0644"
+          },
+          "length-yard": {
+            "displayName": "\u064A\u0627\u0631\u062F\u0629",
+            "unitPattern-count-zero": "{0} \u064A\u0627\u0631\u062F\u0629",
+            "unitPattern-count-one": "\u064A\u0627\u0631\u062F\u0629",
+            "unitPattern-count-two": "{0} \u064A\u0627\u0631\u062F\u0629",
+            "unitPattern-count-few": "{0} \u064A\u0627\u0631\u062F\u0629",
+            "unitPattern-count-many": "{0} \u064A\u0627\u0631\u062F\u0629",
+            "unitPattern-count-other": "{0} \u064A\u0627\u0631\u062F\u0629"
+          },
+          "length-foot": {
+            "displayName": "\u0642\u062F\u0645",
+            "unitPattern-count-zero": "{0} \u0642\u062F\u0645",
+            "unitPattern-count-one": "\u0642\u062F\u0645",
+            "unitPattern-count-two": "{0} \u0642\u062F\u0645",
+            "unitPattern-count-few": "{0} \u0642\u062F\u0645",
+            "unitPattern-count-many": "{0} \u0642\u062F\u0645",
+            "unitPattern-count-other": "{0} \u0642\u062F\u0645",
+            "perUnitPattern": "{0} \u0644\u0643\u0644 \u0642\u062F\u0645"
+          },
+          "length-inch": {
+            "displayName": "\u0628\u0648\u0635\u0629",
+            "unitPattern-count-zero": "{0} \u0628\u0648\u0635\u0629",
+            "unitPattern-count-one": "{0} \u0628\u0648\u0635\u0629",
+            "unitPattern-count-two": "{0} \u0628\u0648\u0635\u0629",
+            "unitPattern-count-few": "{0} \u0628\u0648\u0635\u0629",
+            "unitPattern-count-many": "{0} \u0628\u0648\u0635\u0629",
+            "unitPattern-count-other": "{0} \u0628\u0648\u0635\u0629",
+            "perUnitPattern": "{0}/\u0628\u0648\u0635\u0629"
+          },
+          "length-mile-scandinavian": {
+            "gender": "masculine",
+            "displayName": "\u0645\u064A\u0644 \u0627\u0633\u0643\u0646\u062F\u0646\u0627\u0641\u064A",
+            "unitPattern-count-zero": "{0} \u0645\u064A\u0644 \u0627\u0633\u0643\u0646\u062F\u0646\u0627\u0641\u064A",
+            "unitPattern-count-one": "{0} \u0645\u064A\u0644 \u0627\u0633\u0643\u0646\u062F\u0646\u0627\u0641\u064A",
+            "unitPattern-count-two": "{0} \u0645\u064A\u0644 \u0627\u0633\u0643\u0646\u062F\u0646\u0627\u0641\u064A",
+            "unitPattern-count-few": "{0} \u0645\u064A\u0644 \u0627\u0633\u0643\u0646\u062F\u0646\u0627\u0641\u064A",
+            "unitPattern-count-many": "{0} \u0645\u064A\u0644 \u0627\u0633\u0643\u0646\u062F\u0646\u0627\u0641\u064A",
+            "unitPattern-count-other": "{0} \u0645\u064A\u0644 \u0627\u0633\u0643\u0646\u062F\u0646\u0627\u0641\u064A"
+          },
+          "mass-kilogram": {
+            "gender": "masculine",
+            "displayName": "\u0643\u064A\u0644\u0648\u063A\u0631\u0627\u0645",
+            "unitPattern-count-zero": "{0} \u0643\u064A\u0644\u0648\u063A\u0631\u0627\u0645",
+            "unitPattern-count-one": "{0} \u0643\u064A\u0644\u0648\u063A\u0631\u0627\u0645",
+            "unitPattern-count-two": "{0} \u0643\u064A\u0644\u0648\u063A\u0631\u0627\u0645",
+            "unitPattern-count-few": "{0} \u0643\u064A\u0644\u0648\u063A\u0631\u0627\u0645",
+            "unitPattern-count-many": "{0} \u0643\u064A\u0644\u0648\u063A\u0631\u0627\u0645",
+            "unitPattern-count-other": "{0} \u0643\u064A\u0644\u0648\u063A\u0631\u0627\u0645",
+            "perUnitPattern": "{0}/\u0643\u064A\u0644\u0648\u063A\u0631\u0627\u0645"
+          },
+          "mass-gram": {
+            "gender": "masculine",
+            "displayName": "\u063A\u0631\u0627\u0645",
+            "unitPattern-count-zero": "{0} \u063A\u0631\u0627\u0645",
+            "unitPattern-count-one": "\u063A\u0631\u0627\u0645",
+            "unitPattern-count-two": "\u063A\u0631\u0627\u0645\u0627\u0646",
+            "unitPattern-count-few": "{0} \u063A\u0631\u0627\u0645\u0627\u062A",
+            "unitPattern-count-many": "{0} \u063A\u0631\u0627\u0645\u064B\u0627",
+            "unitPattern-count-other": "{0} \u063A\u0631\u0627\u0645",
+            "perUnitPattern": "{0}/\u063A\u0631\u0627\u0645"
+          },
+          "mass-stone": {
+            "displayName": "\u0633\u062A\u0648\u0646",
+            "unitPattern-count-zero": "{0} \u0633\u062A\u0648\u0646",
+            "unitPattern-count-one": "{0} \u0633\u062A\u0648\u0646",
+            "unitPattern-count-two": "{0} \u0633\u062A\u0648\u0646",
+            "unitPattern-count-few": "{0} \u0633\u062A\u0648\u0646",
+            "unitPattern-count-many": "{0} \u0633\u062A\u0648\u0646",
+            "unitPattern-count-other": "{0} \u0633\u062A\u0648\u0646"
+          },
+          "mass-pound": {
+            "displayName": "\u0631\u0637\u0644",
+            "unitPattern-count-zero": "{0} \u0631\u0637\u0644",
+            "unitPattern-count-one": "{0} \u0631\u0637\u0644",
+            "unitPattern-count-two": "\u0631\u0637\u0644\u0627\u0646",
+            "unitPattern-count-few": "{0} \u0631\u0637\u0644",
+            "unitPattern-count-many": "{0} \u0631\u0637\u0644\u064B\u0627",
+            "unitPattern-count-other": "{0} \u0631\u0637\u0644",
+            "perUnitPattern": "{0}/\u0631\u0637\u0644"
+          },
+          "mass-ounce": {
+            "displayName": "\u0623\u0648\u0646\u0635\u0629",
+            "unitPattern-count-zero": "{0} \u0623\u0648\u0646\u0635\u0629",
+            "unitPattern-count-one": "{0} \u0623\u0648\u0646\u0635\u0629",
+            "unitPattern-count-two": "{0} \u0623\u0648\u0646\u0635\u0629",
+            "unitPattern-count-few": "{0} \u0623\u0648\u0646\u0635\u0629",
+            "unitPattern-count-many": "{0} \u0623\u0648\u0646\u0635\u0629",
+            "unitPattern-count-other": "{0} \u0623\u0648\u0646\u0635\u0629",
+            "perUnitPattern": "{0}/\u0623\u0648\u0646\u0635\u0629"
+          },
+          "temperature-celsius": {
+            "gender": "feminine",
+            "displayName": "\u062F\u0631\u062C\u0629 \u0645\u0626\u0648\u064A\u0629",
+            "unitPattern-count-zero": "{0} \u062F\u0631\u062C\u0629 \u0645\u0626\u0648\u064A\u0629",
+            "unitPattern-count-one": "{0} \u062F\u0631\u062C\u0629 \u0645\u0626\u0648\u064A\u0629",
+            "unitPattern-count-two": "{0} \u062F\u0631\u062C\u0629 \u0645\u0626\u0648\u064A\u0629",
+            "unitPattern-count-few": "{0} \u062F\u0631\u062C\u0629 \u0645\u0626\u0648\u064A\u0629",
+            "unitPattern-count-many": "{0} \u062F\u0631\u062C\u0629 \u0645\u0626\u0648\u064A\u0629",
+            "unitPattern-count-other": "{0} \u062F\u0631\u062C\u0629 \u0645\u0626\u0648\u064A\u0629"
+          },
+          "temperature-fahrenheit": {
+            "displayName": "\u062F\u0631\u062C\u0629 \u0641\u0647\u0631\u0646\u0647\u0627\u064A\u062A",
+            "unitPattern-count-zero": "{0} \u062F\u0631\u062C\u0629 \u0641\u0647\u0631\u0646\u0647\u0627\u064A\u062A",
+            "unitPattern-count-one": "{0} \u062F\u0631\u062C\u0629 \u0641\u0647\u0631\u0646\u0647\u0627\u064A\u062A",
+            "unitPattern-count-two": "{0} \u062F\u0631\u062C\u0629 \u0641\u0647\u0631\u0646\u0647\u0627\u064A\u062A",
+            "unitPattern-count-few": "{0} \u062F\u0631\u062C\u0629 \u0641\u0647\u0631\u0646\u0647\u0627\u064A\u062A",
+            "unitPattern-count-many": "{0} \u062F\u0631\u062C\u0629 \u0641\u0647\u0631\u0646\u0647\u0627\u064A\u062A",
+            "unitPattern-count-other": "{0} \u062F\u0631\u062C\u0629 \u0641\u0647\u0631\u0646\u0647\u0627\u064A\u062A"
+          },
+          "volume-liter": {
+            "gender": "masculine",
+            "displayName": "\u0644\u062A\u0631",
+            "unitPattern-count-zero": "{0} \u0644\u062A\u0631",
+            "unitPattern-count-one": "\u0644\u062A\u0631",
+            "unitPattern-count-two": "{0} \u0644\u062A\u0631",
+            "unitPattern-count-few": "{0} \u0644\u062A\u0631",
+            "unitPattern-count-many": "{0} \u0644\u062A\u0631",
+            "unitPattern-count-other": "{0} \u0644\u062A\u0631",
+            "perUnitPattern": "{0} \u0644\u0643\u0644 \u0644\u062A\u0631"
+          },
+          "volume-milliliter": {
+            "gender": "masculine",
+            "displayName": "\u0645\u0644\u064A\u0644\u062A\u0631",
+            "unitPattern-count-zero": "{0} \u0645\u0644\u064A\u0644\u062A\u0631",
+            "unitPattern-count-one": "{0} \u0645\u0644\u064A\u0644\u062A\u0631",
+            "unitPattern-count-two": "{0} \u0645\u0644\u064A\u0644\u062A\u0631",
+            "unitPattern-count-few": "{0} \u0645\u0644\u064A\u0644\u062A\u0631",
+            "unitPattern-count-many": "{0} \u0645\u0644\u064A\u0644\u062A\u0631",
+            "unitPattern-count-other": "{0} \u0645\u0644\u064A\u0644\u062A\u0631"
+          },
+          "volume-gallon": {
+            "displayName": "\u063A\u0627\u0644\u0648\u0646",
+            "unitPattern-count-zero": "{0} \u063A\u0627\u0644\u0648\u0646",
+            "unitPattern-count-one": "\u063A\u0627\u0644\u0648\u0646",
+            "unitPattern-count-two": "{0} \u063A\u0627\u0644\u0648\u0646",
+            "unitPattern-count-few": "{0} \u063A\u0627\u0644\u0648\u0646",
+            "unitPattern-count-many": "{0} \u063A\u0627\u0644\u0648\u0646",
+            "unitPattern-count-other": "{0} \u063A\u0627\u0644\u0648\u0646",
+            "perUnitPattern": "{0} \u0644\u0643\u0644 \u063A\u0627\u0644\u0648\u0646"
+          },
+          "volume-fluid-ounce": {
+            "displayName": "\u0623\u0648\u0646\u0635\u0629 \u0633\u0627\u0626\u0644\u0629",
+            "unitPattern-count-zero": "{0} \u0623\u0648\u0646\u0635\u0629 \u0633\u0627\u0626\u0644\u0629",
+            "unitPattern-count-one": "\u0623\u0648\u0646\u0635\u0629 \u0633\u0627\u0626\u0644\u0629",
+            "unitPattern-count-two": "\u0623\u0648\u0646\u0635\u062A\u0627\u0646 \u0633\u0627\u0626\u0644\u062A\u0627\u0646",
+            "unitPattern-count-few": "{0} \u0623\u0648\u0646\u0635\u0629 \u0633\u0627\u0626\u0644\u0629",
+            "unitPattern-count-many": "{0} \u0623\u0648\u0646\u0635\u0629 \u0633\u0627\u0626\u0644\u0629",
+            "unitPattern-count-other": "{0} \u0623\u0648\u0646\u0635\u0629 \u0633\u0627\u0626\u0644\u0629"
+          }
+        },
+        "short": {
+          "angle-degree": {
+            "displayName": "\u062F\u0631\u062C\u0629",
+            "unitPattern-count-zero": "{0} \u062F\u0631\u062C\u0629",
+            "unitPattern-count-one": "\u062F\u0631\u062C\u0629",
+            "unitPattern-count-two": "\u062F\u0631\u062C\u062A\u0627\u0646",
+            "unitPattern-count-few": "{0} \u062F\u0631\u062C\u0627\u062A",
+            "unitPattern-count-many": "{0} \u062F\u0631\u062C\u0629",
+            "unitPattern-count-other": "{0} \u062F\u0631\u062C\u0629"
+          },
+          "area-hectare": {
+            "displayName": "\u0647\u0643\u062A\u0627\u0631",
+            "unitPattern-count-zero": "{0} \u0647\u0643\u062A\u0627\u0631",
+            "unitPattern-count-one": "{0} \u0647\u0643\u062A\u0627\u0631",
+            "unitPattern-count-two": "{0} \u0647\u0643\u062A\u0627\u0631",
+            "unitPattern-count-few": "{0} \u0647\u0643\u062A\u0627\u0631",
+            "unitPattern-count-many": "{0} \u0647\u0643\u062A\u0627\u0631",
+            "unitPattern-count-other": "{0} \u0647\u0643\u062A\u0627\u0631"
+          },
+          "area-acre": {
+            "displayName": "\u0641\u062F\u0627\u0646",
+            "unitPattern-count-zero": "{0} \u0641\u062F\u0627\u0646",
+            "unitPattern-count-one": "\u0641\u062F\u0627\u0646",
+            "unitPattern-count-two": "{0} \u0641\u062F\u0627\u0646",
+            "unitPattern-count-few": "{0} \u0641\u062F\u0627\u0646",
+            "unitPattern-count-many": "{0} \u0641\u062F\u0627\u0646",
+            "unitPattern-count-other": "{0} \u0641\u062F\u0627\u0646"
+          },
+          "concentr-percent": {
+            "displayName": "\u0628\u0627\u0644\u0645\u0627\u0626\u0629",
+            "unitPattern-count-zero": "{0}\u066A",
+            "unitPattern-count-one": "{0}\u066A",
+            "unitPattern-count-two": "{0}\u066A",
+            "unitPattern-count-few": "{0}\u066A",
+            "unitPattern-count-many": "{0}\u066A",
+            "unitPattern-count-other": "{0}\u066A"
+          },
+          "digital-petabyte": {
+            "displayName": "\u0628\u064A\u062A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-zero": "{0} \u0628\u064A\u062A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-one": "{0} \u0628\u064A\u062A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-two": "{0} \u0628\u064A\u062A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-few": "{0} \u0628\u064A\u062A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-many": "{0} \u0628\u064A\u062A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-other": "{0} \u0628\u064A\u062A\u0627\u0628\u0627\u064A\u062A"
+          },
+          "digital-terabyte": {
+            "displayName": "\u062A\u064A\u0631\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-zero": "{0} \u062A\u064A\u0631\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-one": "{0} \u062A\u064A\u0631\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-two": "{0} \u062A\u064A\u0631\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-few": "{0} \u062A\u064A\u0631\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-many": "{0} \u062A\u064A\u0631\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-other": "{0} \u062A\u064A\u0631\u0627\u0628\u0627\u064A\u062A"
+          },
+          "digital-terabit": {
+            "displayName": "\u062A\u064A\u0631\u0627\u0628\u062A",
+            "unitPattern-count-zero": "{0} \u062A\u064A\u0631\u0627\u0628\u062A",
+            "unitPattern-count-one": "{0} \u062A\u064A\u0631\u0627\u0628\u062A",
+            "unitPattern-count-two": "{0} \u062A\u064A\u0631\u0627\u0628\u062A",
+            "unitPattern-count-few": "{0} \u062A\u064A\u0631\u0627\u0628\u062A",
+            "unitPattern-count-many": "{0} \u062A\u064A\u0631\u0627\u0628\u062A",
+            "unitPattern-count-other": "{0} \u062A\u064A\u0631\u0627\u0628\u062A"
+          },
+          "digital-gigabyte": {
+            "displayName": "\u063A.\u0628",
+            "unitPattern-count-zero": "{0} \u063A.\u0628",
+            "unitPattern-count-one": "{0} \u063A.\u0628",
+            "unitPattern-count-two": "{0} \u063A.\u0628",
+            "unitPattern-count-few": "{0} \u063A.\u0628",
+            "unitPattern-count-many": "{0} \u063A.\u0628",
+            "unitPattern-count-other": "{0} \u063A.\u0628"
+          },
+          "digital-gigabit": {
+            "displayName": "\u063A\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-zero": "{0} \u063A\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-one": "{0} \u063A\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-two": "{0} \u063A\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-few": "{0} \u063A\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-many": "{0} \u063A\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-other": "{0} \u063A\u064A\u063A\u0627\u0628\u062A"
+          },
+          "digital-megabyte": {
+            "displayName": "\u0645\u064A\u063A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-zero": "{0} \u0645.\u0628",
+            "unitPattern-count-one": "{0} \u0645.\u0628",
+            "unitPattern-count-two": "{0} \u0645.\u0628",
+            "unitPattern-count-few": "{0} \u0645.\u0628",
+            "unitPattern-count-many": "{0} \u0645.\u0628",
+            "unitPattern-count-other": "{0} \u0645.\u0628"
+          },
+          "digital-megabit": {
+            "displayName": "\u0645\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-zero": "{0} \u0645\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-one": "{0} \u0645\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-two": "{0} \u0645\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-few": "{0} \u0645\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-many": "{0} \u0645\u064A\u063A\u0627\u0628\u062A",
+            "unitPattern-count-other": "{0} \u0645\u064A\u063A\u0627\u0628\u062A"
+          },
+          "digital-kilobyte": {
+            "displayName": "\u0643\u064A\u0644\u0648\u0628\u0627\u064A\u062A",
+            "unitPattern-count-zero": "{0} \u0643\u064A\u0644\u0648\u0628\u0627\u064A\u062A",
+            "unitPattern-count-one": "{0} \u0643\u064A\u0644\u0648\u0628\u0627\u064A\u062A",
+            "unitPattern-count-two": "{0} \u0643\u064A\u0644\u0648\u0628\u0627\u064A\u062A",
+            "unitPattern-count-few": "{0} \u0643\u064A\u0644\u0648\u0628\u0627\u064A\u062A",
+            "unitPattern-count-many": "{0} \u0643\u064A\u0644\u0648\u0628\u0627\u064A\u062A",
+            "unitPattern-count-other": "{0} \u0643\u064A\u0644\u0648\u0628\u0627\u064A\u062A"
+          },
+          "digital-kilobit": {
+            "displayName": "\u0643\u064A\u0644\u0648\u0628\u062A",
+            "unitPattern-count-zero": "{0} \u0643\u064A\u0644\u0648\u0628\u062A",
+            "unitPattern-count-one": "{0} \u0643\u064A\u0644\u0648\u0628\u062A",
+            "unitPattern-count-two": "{0} \u0643\u064A\u0644\u0648\u0628\u062A",
+            "unitPattern-count-few": "{0} \u0643\u064A\u0644\u0648\u0628\u062A",
+            "unitPattern-count-many": "{0} \u0643\u064A\u0644\u0648\u0628\u062A",
+            "unitPattern-count-other": "{0} \u0643\u064A\u0644\u0648\u0628\u062A"
+          },
+          "digital-byte": {
+            "displayName": "\u0628\u0627\u064A\u062A",
+            "unitPattern-count-zero": "{0} \u0628\u0627\u064A\u062A",
+            "unitPattern-count-one": "{0} \u0628\u0627\u064A\u062A",
+            "unitPattern-count-two": "{0} \u0628\u0627\u064A\u062A",
+            "unitPattern-count-few": "{0} \u0628\u0627\u064A\u062A",
+            "unitPattern-count-many": "{0} \u0628\u0627\u064A\u062A",
+            "unitPattern-count-other": "{0} \u0628\u0627\u064A\u062A"
+          },
+          "digital-bit": {
+            "displayName": "\u0628\u062A",
+            "unitPattern-count-zero": "{0} \u0628\u062A",
+            "unitPattern-count-one": "{0} \u0628\u062A",
+            "unitPattern-count-two": "{0} \u0628\u062A",
+            "unitPattern-count-few": "{0} \u0628\u062A",
+            "unitPattern-count-many": "{0} \u0628\u062A",
+            "unitPattern-count-other": "{0} \u0628\u062A"
+          },
+          "duration-year": {
+            "displayName": "\u0633\u0646\u0629",
+            "unitPattern-count-zero": "{0} \u0633\u0646\u0629",
+            "unitPattern-count-one": "\u0633\u0646\u0629 \u0648\u0627\u062D\u062F\u0629",
+            "unitPattern-count-two": "\u0633\u0646\u062A\u0627\u0646",
+            "unitPattern-count-few": "{0} \u0633\u0646\u0648\u0627\u062A",
+            "unitPattern-count-many": "{0} \u0633\u0646\u0629",
+            "unitPattern-count-other": "{0} \u0633\u0646\u0629",
+            "perUnitPattern": "{0}/\u0633\u0646\u0629"
+          },
+          "duration-month": {
+            "displayName": "\u0634\u0647\u0648\u0631",
+            "unitPattern-count-zero": "{0} \u0634\u0647\u0631",
+            "unitPattern-count-one": "\u0634\u0647\u0631",
+            "unitPattern-count-two": "\u0634\u0647\u0631\u0627\u0646",
+            "unitPattern-count-few": "{0} \u0623\u0634\u0647\u0631",
+            "unitPattern-count-many": "{0} \u0634\u0647\u0631\u064B\u0627",
+            "unitPattern-count-other": "{0} \u0634\u0647\u0631",
+            "perUnitPattern": "{0}/\u0634"
+          },
+          "duration-week": {
+            "displayName": "\u0623\u0633\u0628\u0648\u0639",
+            "unitPattern-count-zero": "{0} \u0623\u0633\u0628\u0648\u0639",
+            "unitPattern-count-one": "\u0623\u0633\u0628\u0648\u0639",
+            "unitPattern-count-two": "\u0623\u0633\u0628\u0648\u0639\u0627\u0646",
+            "unitPattern-count-few": "{0} \u0623\u0633\u0627\u0628\u064A\u0639",
+            "unitPattern-count-many": "{0} \u0623\u0633\u0628\u0648\u0639\u064B\u0627",
+            "unitPattern-count-other": "{0} \u0623\u0633\u0628\u0648\u0639",
+            "perUnitPattern": "{0}/\u0623"
+          },
+          "duration-day": {
+            "displayName": "\u0623\u064A\u0627\u0645",
+            "unitPattern-count-zero": "{0} \u064A\u0648\u0645",
+            "unitPattern-count-one": "\u064A\u0648\u0645",
+            "unitPattern-count-two": "\u064A\u0648\u0645\u0627\u0646",
+            "unitPattern-count-few": "{0} \u0623\u064A\u0627\u0645",
+            "unitPattern-count-many": "{0} \u064A\u0648\u0645\u064B\u0627",
+            "unitPattern-count-other": "{0} \u064A\u0648\u0645",
+            "perUnitPattern": "{0}/\u064A"
+          },
+          "duration-hour": {
+            "displayName": "\u0633\u0627\u0639\u0629",
+            "unitPattern-count-zero": "{0} \u0633",
+            "unitPattern-count-one": "{0} \u0633",
+            "unitPattern-count-two": "{0} \u0633",
+            "unitPattern-count-few": "{0} \u0633",
+            "unitPattern-count-many": "{0} \u0633",
+            "unitPattern-count-other": "{0} \u0633",
+            "perUnitPattern": "{0}/\u0633"
+          },
+          "duration-minute": {
+            "displayName": "\u062F",
+            "unitPattern-count-zero": "{0} \u062F",
+            "unitPattern-count-one": "{0} \u062F",
+            "unitPattern-count-two": "{0} \u062F",
+            "unitPattern-count-few": "{0} \u062F",
+            "unitPattern-count-many": "{0} \u062F",
+            "unitPattern-count-other": "{0} \u062F",
+            "perUnitPattern": "{0}/\u062F"
+          },
+          "duration-second": {
+            "displayName": "\u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-zero": "{0} \u062B",
+            "unitPattern-count-one": "{0} \u062B",
+            "unitPattern-count-two": "{0} \u062B",
+            "unitPattern-count-few": "{0} \u062B",
+            "unitPattern-count-many": "{0} \u062B",
+            "unitPattern-count-other": "{0} \u062B",
+            "perUnitPattern": "{0}/\u062B"
+          },
+          "duration-millisecond": {
+            "displayName": "\u0645\u0644\u064A \u062B\u0627\u0646\u064A\u0629",
+            "unitPattern-count-zero": "{0} \u0645\u0644\u064A \u062B",
+            "unitPattern-count-one": "{0} \u0645\u0644\u064A \u062B",
+            "unitPattern-count-two": "{0} \u0645\u0644\u064A \u062B",
+            "unitPattern-count-few": "{0} \u0645\u0644\u064A \u062B",
+            "unitPattern-count-many": "{0} \u0645\u0644\u064A \u062B",
+            "unitPattern-count-other": "{0} \u0645\u0644\u064A \u062B"
+          },
+          "duration-microsecond": {
+            "displayName": "\u0645.\u062B.",
+            "unitPattern-count-zero": "{0} \u0645.\u062B.",
+            "unitPattern-count-one": "{0} \u0645.\u062B.",
+            "unitPattern-count-two": "{0} \u0645.\u062B.",
+            "unitPattern-count-few": "{0} \u0645.\u062B.",
+            "unitPattern-count-many": "{0} \u0645.\u062B.",
+            "unitPattern-count-other": "{0} \u0645.\u062B."
+          },
+          "duration-nanosecond": {
+            "displayName": "\u0646.\u062B.",
+            "unitPattern-count-zero": "{0} \u0646.\u062B.",
+            "unitPattern-count-one": "{0} \u0646.\u062B.",
+            "unitPattern-count-two": "{0} \u0646.\u062B.",
+            "unitPattern-count-few": "{0} \u0646.\u062B.",
+            "unitPattern-count-many": "{0} \u0646.\u062B.",
+            "unitPattern-count-other": "{0} \u0646.\u062B."
+          },
+          "length-kilometer": {
+            "displayName": "\u0643\u0645",
+            "unitPattern-count-zero": "{0} \u0643\u0645",
+            "unitPattern-count-one": "{0} \u0643\u0645",
+            "unitPattern-count-two": "{0} \u0643\u0645",
+            "unitPattern-count-few": "{0} \u0643\u0645",
+            "unitPattern-count-many": "{0} \u0643\u0645",
+            "unitPattern-count-other": "{0} \u0643\u0645",
+            "perUnitPattern": "{0}/\u0643\u0645"
+          },
+          "length-meter": {
+            "displayName": "\u0645",
+            "unitPattern-count-zero": "{0} \u0645\u062A\u0631",
+            "unitPattern-count-one": "\u0645\u062A\u0631",
+            "unitPattern-count-two": "\u0645\u062A\u0631\u0627\u0646",
+            "unitPattern-count-few": "{0} \u0623\u0645\u062A\u0627\u0631",
+            "unitPattern-count-many": "{0} \u0645\u062A\u0631\u064B\u0627",
+            "unitPattern-count-other": "{0} \u0645\u062A\u0631",
+            "perUnitPattern": "{0}/\u0645"
+          },
+          "length-centimeter": {
+            "displayName": "\u0633\u0645",
+            "unitPattern-count-zero": "{0} \u0633\u0645",
+            "unitPattern-count-one": "{0} \u0633\u0645",
+            "unitPattern-count-two": "{0} \u0633\u0645",
+            "unitPattern-count-few": "{0} \u0633\u0645",
+            "unitPattern-count-many": "{0} \u0633\u0645",
+            "unitPattern-count-other": "{0} \u0633\u0645",
+            "perUnitPattern": "{0}/\u0633\u0645"
+          },
+          "length-millimeter": {
+            "displayName": "\u0645\u0644\u064A\u0645\u062A\u0631",
+            "unitPattern-count-zero": "{0} \u0645\u0645",
+            "unitPattern-count-one": "{0} \u0645\u0645",
+            "unitPattern-count-two": "{0} \u0645\u0645",
+            "unitPattern-count-few": "{0} \u0645\u0645",
+            "unitPattern-count-many": "{0} \u0645\u0645",
+            "unitPattern-count-other": "{0} \u0645\u0645"
+          },
+          "length-mile": {
+            "displayName": "\u0645\u064A\u0644",
+            "unitPattern-count-zero": "{0} \u0645\u064A\u0644",
+            "unitPattern-count-one": "\u0645\u064A\u0644",
+            "unitPattern-count-two": "{0} \u0645\u064A\u0644",
+            "unitPattern-count-few": "{0} \u0645\u064A\u0644",
+            "unitPattern-count-many": "{0} \u0645\u064A\u0644",
+            "unitPattern-count-other": "{0} \u0645\u064A\u0644"
+          },
+          "length-yard": {
+            "displayName": "\u064A\u0627\u0631\u062F\u0629",
+            "unitPattern-count-zero": "{0} \u064A\u0627\u0631\u062F\u0629",
+            "unitPattern-count-one": "\u064A\u0627\u0631\u062F\u0629",
+            "unitPattern-count-two": "{0} \u064A\u0627\u0631\u062F\u0629",
+            "unitPattern-count-few": "{0} \u064A\u0627\u0631\u062F\u0629",
+            "unitPattern-count-many": "{0} \u064A\u0627\u0631\u062F\u0629",
+            "unitPattern-count-other": "{0} \u064A\u0627\u0631\u062F\u0629"
+          },
+          "length-foot": {
+            "displayName": "\u0642\u062F\u0645",
+            "unitPattern-count-zero": "{0} \u0642\u062F\u0645",
+            "unitPattern-count-one": "\u0642\u062F\u0645",
+            "unitPattern-count-two": "{0} \u0642\u062F\u0645",
+            "unitPattern-count-few": "{0} \u0642\u062F\u0645",
+            "unitPattern-count-many": "{0} \u0642\u062F\u0645",
+            "unitPattern-count-other": "{0} \u0642\u062F\u0645",
+            "perUnitPattern": "{0}/\u0642\u062F\u0645"
+          },
+          "length-inch": {
+            "displayName": "\u0628\u0648\u0635\u0629",
+            "unitPattern-count-zero": "{0} \u0628\u0648\u0635\u0629",
+            "unitPattern-count-one": "{0} \u0628\u0648\u0635\u0629",
+            "unitPattern-count-two": "{0} \u0628\u0648\u0635\u0629",
+            "unitPattern-count-few": "{0} \u0628\u0648\u0635\u0629",
+            "unitPattern-count-many": "{0} \u0628\u0648\u0635\u0629",
+            "unitPattern-count-other": "{0} \u0628\u0648\u0635\u0629",
+            "perUnitPattern": "{0}/\u0628\u0648\u0635\u0629"
+          },
+          "length-mile-scandinavian": {
+            "displayName": "\u0645\u064A\u0644 \u0627\u0633\u0643\u0646\u062F\u0646\u0627\u0641\u064A",
+            "unitPattern-count-zero": "{0} \u0645\u064A\u0644 \u0627\u0633\u0643\u0646\u062F\u0646\u0627\u0641\u064A",
+            "unitPattern-count-one": "{0} \u0645\u064A\u0644 \u0627\u0633\u0643\u0646\u062F\u0646\u0627\u0641\u064A",
+            "unitPattern-count-two": "{0} \u0645\u064A\u0644 \u0627\u0633\u0643\u0646\u062F\u0646\u0627\u0641\u064A",
+            "unitPattern-count-few": "{0} \u0645\u064A\u0644 \u0627\u0633\u0643\u0646\u062F\u0646\u0627\u0641\u064A",
+            "unitPattern-count-many": "{0} \u0645\u064A\u0644 \u0627\u0633\u0643\u0646\u062F\u0646\u0627\u0641\u064A",
+            "unitPattern-count-other": "{0} \u0645\u064A\u0644 \u0627\u0633\u0643\u0646\u062F\u0646\u0627\u0641\u064A"
+          },
+          "mass-kilogram": {
+            "displayName": "\u0643\u063A\u0645",
+            "unitPattern-count-zero": "{0} \u0643\u063A\u0645",
+            "unitPattern-count-one": "{0} \u0643\u063A\u0645",
+            "unitPattern-count-two": "{0} \u0643\u063A\u0645",
+            "unitPattern-count-few": "{0} \u0643\u063A\u0645",
+            "unitPattern-count-many": "{0} \u0643\u063A\u0645",
+            "unitPattern-count-other": "{0} \u0643\u063A\u0645",
+            "perUnitPattern": "{0}/\u0643\u063A\u0645"
+          },
+          "mass-gram": {
+            "displayName": "\u063A\u0631\u0627\u0645",
+            "unitPattern-count-zero": "{0} \u063A\u0631\u0627\u0645",
+            "unitPattern-count-one": "\u063A\u0631\u0627\u0645",
+            "unitPattern-count-two": "{0} \u063A\u0631\u0627\u0645",
+            "unitPattern-count-few": "{0} \u063A\u0631\u0627\u0645",
+            "unitPattern-count-many": "{0} \u063A\u0631\u0627\u0645",
+            "unitPattern-count-other": "{0} \u063A\u0631\u0627\u0645",
+            "perUnitPattern": "{0}/\u063A\u0631\u0627\u0645"
+          },
+          "mass-stone": {
+            "displayName": "\u0633\u062A\u0648\u0646",
+            "unitPattern-count-zero": "{0} \u0633\u062A\u0648\u0646",
+            "unitPattern-count-one": "{0} \u0633\u062A\u0648\u0646",
+            "unitPattern-count-two": "{0} \u0633\u062A\u0648\u0646",
+            "unitPattern-count-few": "{0} \u0633\u062A\u0648\u0646",
+            "unitPattern-count-many": "{0} \u0633\u062A\u0648\u0646",
+            "unitPattern-count-other": "{0} \u0633\u062A\u0648\u0646"
+          },
+          "mass-pound": {
+            "displayName": "\u0631\u0637\u0644",
+            "unitPattern-count-zero": "{0} \u0631\u0637\u0644",
+            "unitPattern-count-one": "{0} \u0631\u0637\u0644",
+            "unitPattern-count-two": "{0} \u0631\u0637\u0644",
+            "unitPattern-count-few": "{0} \u0631\u0637\u0644",
+            "unitPattern-count-many": "{0} \u0631\u0637\u0644",
+            "unitPattern-count-other": "{0} \u0631\u0637\u0644",
+            "perUnitPattern": "{0}/\u0631\u0637\u0644"
+          },
+          "mass-ounce": {
+            "displayName": "\u0623\u0648\u0646\u0635\u0629",
+            "unitPattern-count-zero": "{0} \u0623\u0648\u0646\u0635\u0629",
+            "unitPattern-count-one": "\u0623\u0648\u0646\u0635\u0629",
+            "unitPattern-count-two": "{0} \u0623\u0648\u0646\u0635\u0629",
+            "unitPattern-count-few": "{0} \u0623\u0648\u0646\u0635\u0629",
+            "unitPattern-count-many": "{0} \u0623\u0648\u0646\u0635\u0629",
+            "unitPattern-count-other": "{0} \u0623\u0648\u0646\u0635\u0629",
+            "perUnitPattern": "{0}/\u0623\u0648\u0646\u0635\u0629"
+          },
+          "temperature-celsius": {
+            "displayName": "\u062F\u0631\u062C\u0629 \u0645\u0626\u0648\u064A\u0629",
+            "unitPattern-count-zero": "{0}\u00B0\u0645",
+            "unitPattern-count-one": "{0}\u00B0\u0645",
+            "unitPattern-count-two": "{0}\u00B0\u0645",
+            "unitPattern-count-few": "{0}\u00B0\u0645",
+            "unitPattern-count-many": "{0}\u00B0\u0645",
+            "unitPattern-count-other": "{0}\u00B0\u0645"
+          },
+          "temperature-fahrenheit": {
+            "displayName": "\u062F\u0631\u062C\u0629 \u0641\u0647\u0631\u0646\u0647\u0627\u064A\u062A",
+            "unitPattern-count-zero": "{0}\u00B0\u0641",
+            "unitPattern-count-one": "{0}\u00B0\u0641",
+            "unitPattern-count-two": "{0}\u00B0\u0641",
+            "unitPattern-count-few": "{0}\u00B0\u0641",
+            "unitPattern-count-many": "{0}\u00B0\u0641",
+            "unitPattern-count-other": "{0}\u00B0\u0641"
+          },
+          "volume-liter": {
+            "displayName": "\u0644\u062A\u0631",
+            "unitPattern-count-zero": "{0} \u0644\u062A\u0631",
+            "unitPattern-count-one": "\u0644\u062A\u0631",
+            "unitPattern-count-two": "{0} \u0644\u062A\u0631",
+            "unitPattern-count-few": "{0} \u0644\u062A\u0631",
+            "unitPattern-count-many": "{0} \u0644\u062A\u0631",
+            "unitPattern-count-other": "{0} \u0644\u062A\u0631",
+            "perUnitPattern": "{0}/\u0644"
+          },
+          "volume-milliliter": {
+            "displayName": "\u0645\u0644\u062A\u0631",
+            "unitPattern-count-zero": "{0} \u0645\u0644\u062A\u0631",
+            "unitPattern-count-one": "{0} \u0645\u0644\u062A\u0631",
+            "unitPattern-count-two": "{0} \u0645\u0644\u062A\u0631",
+            "unitPattern-count-few": "{0} \u0645\u0644\u062A\u0631",
+            "unitPattern-count-many": "{0} \u0645\u0644\u062A\u0631",
+            "unitPattern-count-other": "{0} \u0645\u0644\u062A\u0631"
+          },
+          "volume-gallon": {
+            "displayName": "\u063A\u0627\u0644\u0648\u0646",
+            "unitPattern-count-zero": "{0} \u063A\u0627\u0644\u0648\u0646",
+            "unitPattern-count-one": "\u063A\u0627\u0644\u0648\u0646",
+            "unitPattern-count-two": "{0} \u063A\u0627\u0644\u0648\u0646",
+            "unitPattern-count-few": "{0} \u063A\u0627\u0644\u0648\u0646",
+            "unitPattern-count-many": "{0} \u063A\u0627\u0644\u0648\u0646",
+            "unitPattern-count-other": "{0} \u063A\u0627\u0644\u0648\u0646",
+            "perUnitPattern": "{0}/\u063A\u0627\u0644\u0648\u0646"
+          },
+          "volume-fluid-ounce": {
+            "displayName": "\u0623\u0648\u0646\u0635\u0629 \u0633\u0627\u0626\u0644\u0629",
+            "unitPattern-count-zero": "{0} \u0623\u0648\u0646\u0635\u0629 \u0633\u0627\u0626\u0644\u0629",
+            "unitPattern-count-one": "\u0623\u0648\u0646\u0635\u0629 \u0633",
+            "unitPattern-count-two": "{0} \u0623\u0648\u0646\u0635\u0629 \u0633",
+            "unitPattern-count-few": "{0} \u0623\u0648\u0646\u0635\u0627\u062A \u0633\u0627\u0626\u0644\u0629",
+            "unitPattern-count-many": "{0} \u0623\u0648\u0646\u0635\u0629 \u0633",
+            "unitPattern-count-other": "{0} \u0623\u0648\u0646\u0635\u0629 \u0633\u0627\u0626\u0644\u0629"
+          }
+        },
+        "narrow": {
+          "angle-degree": {
+            "displayName": "\u062F\u0631\u062C\u0629",
+            "unitPattern-count-zero": "{0} \u062F\u0631\u062C\u0629",
+            "unitPattern-count-one": "{0} \u062F\u0631\u062C\u0629",
+            "unitPattern-count-two": "\u062F\u0631\u062C\u062A\u0627\u0646",
+            "unitPattern-count-few": "{0} \u062F\u0631\u062C\u0627\u062A",
+            "unitPattern-count-many": "{0} \u062F\u0631\u062C\u0629",
+            "unitPattern-count-other": "{0} \u062F\u0631\u062C\u0629"
+          },
+          "area-hectare": {
+            "displayName": "\u0647\u0643\u062A\u0627\u0631",
+            "unitPattern-count-zero": "{0} \u0647\u0643\u062A\u0627\u0631",
+            "unitPattern-count-one": "{0} \u0647\u0643\u062A\u0627\u0631",
+            "unitPattern-count-two": "{0} \u0647\u0643\u062A\u0627\u0631",
+            "unitPattern-count-few": "{0} \u0647\u0643\u062A\u0627\u0631",
+            "unitPattern-count-many": "{0} \u0647\u0643\u062A\u0627\u0631",
+            "unitPattern-count-other": "{0} \u0647\u0643\u062A\u0627\u0631"
+          },
+          "area-acre": {
+            "displayName": "\u0641\u062F\u0627\u0646",
+            "unitPattern-count-zero": "{0} \u0641\u062F\u0627\u0646",
+            "unitPattern-count-one": "\u0641\u062F\u0627\u0646",
+            "unitPattern-count-two": "{0} \u0641\u062F\u0627\u0646",
+            "unitPattern-count-few": "{0} \u0641\u062F\u0627\u0646",
+            "unitPattern-count-many": "{0} \u0641\u062F\u0627\u0646",
+            "unitPattern-count-other": "{0} \u0641\u062F\u0627\u0646"
+          },
+          "concentr-percent": {
+            "displayName": "\u066A",
+            "unitPattern-count-zero": "{0}\u066A",
+            "unitPattern-count-one": "{0}\u066A",
+            "unitPattern-count-two": "{0}\u066A",
+            "unitPattern-count-few": "{0}\u066A",
+            "unitPattern-count-many": "{0}\u066A",
+            "unitPattern-count-other": "{0}\u066A"
+          },
+          "digital-petabyte": {
+            "displayName": "\u0628\u064A\u062A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-zero": "{0} \u0628\u064A\u062A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-one": "{0} \u0628\u064A\u062A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-two": "{0} \u0628\u064A\u062A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-few": "{0} \u0628\u064A\u062A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-many": "{0} \u0628\u064A\u062A\u0627\u0628\u0627\u064A\u062A",
+            "unitPattern-count-other": "{0} \u0628\u064A\u062A\u0627\u0628\u0627\u064A\u062A"
+          },
+          "digital-terabyte": {
+            "displayName": "\u062A.\u0628",
+            "unitPattern-count-zero": "{0} \u062A.\u0628",
+            "unitPattern-count-one": "{0} \u062A.\u0628",
+            "unitPattern-count-two": "{0} \u062A.\u0628",
+            "unitPattern-count-few": "{0} \u062A.\u0628",
+            "unitPattern-count-many": "{0} \u062A.\u0628",
+            "unitPattern-count-other": "{0} \u062A.\u0628"
+          },
+          "digital-terabit": {
+            "displayName": "\u062A.\u0628\u062A",
+            "unitPattern-count-zero": "{0} \u062A.\u0628\u062A",
+            "unitPattern-count-one": "{0} \u062A.\u0628\u062A",
+            "unitPattern-count-two": "{0} \u062A.\u0628\u062A",
+            "unitPattern-count-few": "{0} \u062A.\u0628\u062A",
+            "unitPattern-count-many": "{0} \u062A.\u0628\u062A",
+            "unitPattern-count-other": "{0} \u062A.\u0628\u062A"
+          },
+          "digital-gigabyte": {
+            "displayName": "\u063A.\u0628",
+            "unitPattern-count-zero": "{0} \u063A.\u0628",
+            "unitPattern-count-one": "{0} \u063A.\u0628",
+            "unitPattern-count-two": "{0} \u063A.\u0628",
+            "unitPattern-count-few": "{0} \u063A.\u0628",
+            "unitPattern-count-many": "{0} \u063A.\u0628",
+            "unitPattern-count-other": "{0} \u063A.\u0628"
+          },
+          "digital-gigabit": {
+            "displayName": "\u063A.\u0628\u062A",
+            "unitPattern-count-zero": "{0} \u063A.\u0628\u062A",
+            "unitPattern-count-one": "{0} \u063A.\u0628\u062A",
+            "unitPattern-count-two": "{0} \u063A.\u0628\u062A",
+            "unitPattern-count-few": "{0} \u063A.\u0628\u062A",
+            "unitPattern-count-many": "{0} \u063A.\u0628\u062A",
+            "unitPattern-count-other": "{0} \u063A.\u0628\u062A"
+          },
+          "digital-megabyte": {
+            "displayName": "\u0645.\u0628",
+            "unitPattern-count-zero": "{0} \u0645.\u0628",
+            "unitPattern-count-one": "{0} \u0645.\u0628",
+            "unitPattern-count-two": "{0} \u0645.\u0628",
+            "unitPattern-count-few": "{0} \u0645.\u0628",
+            "unitPattern-count-many": "{0} \u0645.\u0628",
+            "unitPattern-count-other": "{0} \u0645.\u0628"
+          },
+          "digital-megabit": {
+            "displayName": "\u0645.\u0628\u062A",
+            "unitPattern-count-zero": "{0} \u0645.\u0628\u062A",
+            "unitPattern-count-one": "{0} \u0645.\u0628\u062A",
+            "unitPattern-count-two": "{0} \u0645.\u0628\u062A",
+            "unitPattern-count-few": "{0} \u0645.\u0628\u062A",
+            "unitPattern-count-many": "{0} \u0645.\u0628\u062A",
+            "unitPattern-count-other": "{0} \u0645.\u0628\u062A"
+          },
+          "digital-kilobyte": {
+            "displayName": "\u0643.\u0628",
+            "unitPattern-count-zero": "{0} \u0643.\u0628",
+            "unitPattern-count-one": "{0} \u0643.\u0628",
+            "unitPattern-count-two": "{0} \u0643.\u0628",
+            "unitPattern-count-few": "{0} \u0643.\u0628",
+            "unitPattern-count-many": "{0} \u0643.\u0628",
+            "unitPattern-count-other": "{0} \u0643.\u0628"
+          },
+          "digital-kilobit": {
+            "displayName": "\u0643.\u0628\u062A",
+            "unitPattern-count-zero": "{0} \u0643.\u0628\u062A",
+            "unitPattern-count-one": "{0} \u0643.\u0628\u062A",
+            "unitPattern-count-two": "{0} \u0643.\u0628\u062A",
+            "unitPattern-count-few": "{0} \u0643.\u0628\u062A",
+            "unitPattern-count-many": "{0} \u0643.\u0628\u062A",
+            "unitPattern-count-other": "{0} \u0643.\u0628\u062A"
+          },
+          "digital-byte": {
+            "displayName": "\u0628",
+            "unitPattern-count-zero": "{0} \u0628",
+            "unitPattern-count-one": "{0} \u0628",
+            "unitPattern-count-two": "{0} \u0628",
+            "unitPattern-count-few": "{0} \u0628",
+            "unitPattern-count-many": "{0} \u0628",
+            "unitPattern-count-other": "{0} \u0628"
+          },
+          "digital-bit": {
+            "displayName": "\u0628\u062A",
+            "unitPattern-count-zero": "{0} \u0628\u062A",
+            "unitPattern-count-one": "{0} \u0628\u062A",
+            "unitPattern-count-two": "{0} \u0628\u062A",
+            "unitPattern-count-few": "{0} \u0628\u062A",
+            "unitPattern-count-many": "{0} \u0628\u062A",
+            "unitPattern-count-other": "{0} \u0628\u062A"
+          },
+          "duration-year": {
+            "displayName": "\u0633\u0646\u0629",
+            "unitPattern-count-zero": "{0} \u0633\u0646\u0629",
+            "unitPattern-count-one": "{0} \u0633\u0646\u0629",
+            "unitPattern-count-two": "{0} \u0633\u0646\u0629",
+            "unitPattern-count-few": "{0} \u0633\u0646\u0629",
+            "unitPattern-count-many": "{0} \u0633\u0646\u0629",
+            "unitPattern-count-other": "{0} \u0633\u0646\u0629",
+            "perUnitPattern": "{0}/\u0633\u0646\u0629"
+          },
+          "duration-month": {
+            "displayName": "\u0634\u0647\u0631",
+            "unitPattern-count-zero": "{0} \u0634\u0647\u0631",
+            "unitPattern-count-one": "\u0634\u0647\u0631",
+            "unitPattern-count-two": "\u0634\u0647\u0631\u0627\u0646",
+            "unitPattern-count-few": "{0} \u0623\u0634\u0647\u0631",
+            "unitPattern-count-many": "{0} \u0634\u0647\u0631\u064B\u0627",
+            "unitPattern-count-other": "{0} \u0634\u0647\u0631",
+            "perUnitPattern": "{0}/\u0634"
+          },
+          "duration-week": {
+            "displayName": "\u0623\u0633\u0628\u0648\u0639",
+            "unitPattern-count-zero": "{0} \u0623",
+            "unitPattern-count-one": "{0} \u0623",
+            "unitPattern-count-two": "{0} \u0623",
+            "unitPattern-count-few": "{0} \u0623",
+            "unitPattern-count-many": "{0} \u0623",
+            "unitPattern-count-other": "{0} \u0623",
+            "perUnitPattern": "{0}/\u0623"
+          },
+          "duration-day": {
+            "displayName": "\u064A\u0648\u0645",
+            "unitPattern-count-zero": "{0} \u064A",
+            "unitPattern-count-one": "{0} \u064A",
+            "unitPattern-count-two": "{0} \u064A",
+            "unitPattern-count-few": "{0} \u064A",
+            "unitPattern-count-many": "{0} \u064A",
+            "unitPattern-count-other": "{0} \u064A",
+            "perUnitPattern": "{0}/\u064A"
+          },
+          "duration-hour": {
+            "displayName": "\u0633\u0627\u0639\u0629",
+            "unitPattern-count-zero": "{0} \u0633",
+            "unitPattern-count-one": "{0} \u0633",
+            "unitPattern-count-two": "{0} \u0633",
+            "unitPattern-count-few": "{0} \u0633",
+            "unitPattern-count-many": "{0} \u0633",
+            "unitPattern-count-other": "{0} \u0633",
+            "perUnitPattern": "{0}/\u0633"
+          },
+          "duration-minute": {
+            "displayName": "\u062F",
+            "unitPattern-count-zero": "{0} \u062F",
+            "unitPattern-count-one": "{0} \u062F",
+            "unitPattern-count-two": "{0} \u062F",
+            "unitPattern-count-few": "{0} \u062F",
+            "unitPattern-count-many": "{0} \u062F",
+            "unitPattern-count-other": "{0} \u062F",
+            "perUnitPattern": "{0}/\u062F"
+          },
+          "duration-second": {
+            "displayName": "\u062B",
+            "unitPattern-count-zero": "{0} \u062B",
+            "unitPattern-count-one": "{0} \u062B",
+            "unitPattern-count-two": "{0} \u062B",
+            "unitPattern-count-few": "{0} \u062B",
+            "unitPattern-count-many": "{0} \u062B",
+            "unitPattern-count-other": "{0} \u062B",
+            "perUnitPattern": "{0}/\u062B"
+          },
+          "duration-millisecond": {
+            "displayName": "\u0645\u0644\u064A \u062B.",
+            "unitPattern-count-zero": "{0} \u0645\u0644\u064A \u062B",
+            "unitPattern-count-one": "{0} \u0645\u0644\u064A \u062B",
+            "unitPattern-count-two": "{0} \u0645\u0644\u064A \u062B",
+            "unitPattern-count-few": "{0} \u0645\u0644\u064A \u062B",
+            "unitPattern-count-many": "{0} \u0645\u0644\u064A \u062B",
+            "unitPattern-count-other": "{0} \u0645\u0644\u064A \u062B"
+          },
+          "duration-microsecond": {
+            "displayName": "\u0645.\u062B.",
+            "unitPattern-count-zero": "{0} \u0645.\u062B.",
+            "unitPattern-count-one": "{0} \u0645.\u062B.",
+            "unitPattern-count-two": "{0} \u0645.\u062B.",
+            "unitPattern-count-few": "{0} \u0645.\u062B.",
+            "unitPattern-count-many": "{0} \u0645.\u062B.",
+            "unitPattern-count-other": "{0} \u0645.\u062B."
+          },
+          "duration-nanosecond": {
+            "displayName": "\u0646.\u062B.",
+            "unitPattern-count-zero": "{0} \u0646.\u062B.",
+            "unitPattern-count-one": "{0} \u0646.\u062B.",
+            "unitPattern-count-two": "{0} \u0646.\u062B.",
+            "unitPattern-count-few": "{0} \u0646.\u062B.",
+            "unitPattern-count-many": "{0} \u0646.\u062B.",
+            "unitPattern-count-other": "{0} \u0646.\u062B."
+          },
+          "length-kilometer": {
+            "displayName": "\u0643\u0645",
+            "unitPattern-count-zero": "{0} \u0643\u0645",
+            "unitPattern-count-one": "{0} \u0643\u0645",
+            "unitPattern-count-two": "{0} \u0643\u0645",
+            "unitPattern-count-few": "{0} \u0643\u0645",
+            "unitPattern-count-many": "{0} \u0643\u0645",
+            "unitPattern-count-other": "{0} \u0643\u0645",
+            "perUnitPattern": "{0}/\u0643\u0645"
+          },
+          "length-meter": {
+            "displayName": "\u0645",
+            "unitPattern-count-zero": "{0} \u0645",
+            "unitPattern-count-one": "{0} \u0645",
+            "unitPattern-count-two": "{0} \u0645",
+            "unitPattern-count-few": "{0} \u0645",
+            "unitPattern-count-many": "{0} \u0645",
+            "unitPattern-count-other": "{0} \u0645",
+            "perUnitPattern": "{0}/\u0645"
+          },
+          "length-centimeter": {
+            "displayName": "\u0633\u0645",
+            "unitPattern-count-zero": "{0} \u0633\u0645",
+            "unitPattern-count-one": "{0} \u0633\u0645",
+            "unitPattern-count-two": "{0} \u0633\u0645",
+            "unitPattern-count-few": "{0} \u0633\u0645",
+            "unitPattern-count-many": "{0} \u0633\u0645",
+            "unitPattern-count-other": "{0} \u0633\u0645",
+            "perUnitPattern": "{0}/\u0633\u0645"
+          },
+          "length-millimeter": {
+            "displayName": "\u0645\u0645",
+            "unitPattern-count-zero": "{0} \u0645\u0645",
+            "unitPattern-count-one": "{0} \u0645\u0645",
+            "unitPattern-count-two": "{0} \u0645\u0645",
+            "unitPattern-count-few": "{0} \u0645\u0645",
+            "unitPattern-count-many": "{0} \u0645\u0645",
+            "unitPattern-count-other": "{0} \u0645\u0645"
+          },
+          "length-mile": {
+            "displayName": "\u0645\u064A\u0644",
+            "unitPattern-count-zero": "{0} \u0645\u064A\u0644",
+            "unitPattern-count-one": "{0} \u0645\u064A\u0644",
+            "unitPattern-count-two": "{0} \u0645\u064A\u0644",
+            "unitPattern-count-few": "{0} \u0623\u0645\u064A\u0627\u0644",
+            "unitPattern-count-many": "{0} \u0645\u064A\u0644\u0627\u064B",
+            "unitPattern-count-other": "{0} \u0645\u064A\u0644"
+          },
+          "length-yard": {
+            "displayName": "\u064A\u0627\u0631\u062F\u0629",
+            "unitPattern-count-zero": "{0} \u064A\u0627\u0631\u062F\u0629",
+            "unitPattern-count-one": "{0} \u064A\u0627\u0631\u062F\u0629",
+            "unitPattern-count-two": "{0} \u064A\u0627\u0631\u062F\u0629",
+            "unitPattern-count-few": "{0} \u064A\u0627\u0631\u062F\u0629",
+            "unitPattern-count-many": "{0} \u064A\u0627\u0631\u062F\u0629",
+            "unitPattern-count-other": "{0} \u064A\u0627\u0631\u062F\u0629"
+          },
+          "length-foot": {
+            "displayName": "\u0642\u062F\u0645",
+            "unitPattern-count-zero": "{0} \u0642\u062F\u0645",
+            "unitPattern-count-one": "\u0642\u062F\u0645",
+            "unitPattern-count-two": "{0} \u0642\u062F\u0645",
+            "unitPattern-count-few": "{0} \u0642\u062F\u0645",
+            "unitPattern-count-many": "{0} \u0642\u062F\u0645\u064B\u0627",
+            "unitPattern-count-other": "{0} \u0642\u062F\u0645",
+            "perUnitPattern": "{0}/\u0642\u062F\u0645"
+          },
+          "length-inch": {
+            "displayName": "\u0628\u0648\u0635\u0629",
+            "unitPattern-count-zero": "{0} \u0628\u0648\u0635\u0629",
+            "unitPattern-count-one": "{0} \u0628\u0648\u0635\u0629",
+            "unitPattern-count-two": "{0} \u0628\u0648\u0635\u0629",
+            "unitPattern-count-few": "{0} \u0628\u0648\u0635\u0629",
+            "unitPattern-count-many": "{0} \u0628\u0648\u0635\u0629",
+            "unitPattern-count-other": "{0} \u0628\u0648\u0635\u0629",
+            "perUnitPattern": "{0}/\u0628\u0648\u0635\u0629"
+          },
+          "length-mile-scandinavian": {
+            "displayName": "\u0645\u064A\u0644 \u0627\u0633\u0643\u0646\u062F\u0646\u0627\u0641\u064A",
+            "unitPattern-count-zero": "{0} \u0645\u064A\u0644 \u0627\u0633\u0643\u0646\u062F\u0646\u0627\u0641\u064A",
+            "unitPattern-count-one": "{0} \u0645\u064A\u0644 \u0627\u0633\u0643\u0646\u062F\u0646\u0627\u0641\u064A",
+            "unitPattern-count-two": "{0} \u0645\u064A\u0644 \u0627\u0633\u0643\u0646\u062F\u0646\u0627\u0641\u064A",
+            "unitPattern-count-few": "{0} \u0645\u064A\u0644 \u0627\u0633\u0643\u0646\u062F\u0646\u0627\u0641\u064A",
+            "unitPattern-count-many": "{0} \u0645\u064A\u0644 \u0627\u0633\u0643\u0646\u062F\u0646\u0627\u0641\u064A",
+            "unitPattern-count-other": "{0} \u0645\u064A\u0644 \u0627\u0633\u0643\u0646\u062F\u0646\u0627\u0641\u064A"
+          },
+          "mass-kilogram": {
+            "displayName": "\u0643\u063A",
+            "unitPattern-count-zero": "{0} \u0643\u063A",
+            "unitPattern-count-one": "{0} \u0643\u063A",
+            "unitPattern-count-two": "{0} \u0643\u063A",
+            "unitPattern-count-few": "{0} \u0643\u063A",
+            "unitPattern-count-many": "{0} \u0643\u063A",
+            "unitPattern-count-other": "{0} \u0643\u063A",
+            "perUnitPattern": "{0}/\u0643\u063A"
+          },
+          "mass-gram": {
+            "displayName": "\u063A",
+            "unitPattern-count-zero": "{0} \u063A",
+            "unitPattern-count-one": "{0} \u063A",
+            "unitPattern-count-two": "{0} \u063A",
+            "unitPattern-count-few": "{0} \u063A",
+            "unitPattern-count-many": "{0} \u063A",
+            "unitPattern-count-other": "{0} \u063A",
+            "perUnitPattern": "{0} \u063A"
+          },
+          "mass-stone": {
+            "displayName": "\u0633\u062A\u0648\u0646",
+            "unitPattern-count-zero": "{0} \u0633\u062A\u0648\u0646",
+            "unitPattern-count-one": "{0} \u0633\u062A\u0648\u0646",
+            "unitPattern-count-two": "{0} \u0633\u062A\u0648\u0646",
+            "unitPattern-count-few": "{0} \u0633\u062A\u0648\u0646",
+            "unitPattern-count-many": "{0} \u0633\u062A\u0648\u0646",
+            "unitPattern-count-other": "{0} \u0633\u062A\u0648\u0646"
+          },
+          "mass-pound": {
+            "displayName": "\u0631\u0637\u0644",
+            "unitPattern-count-zero": "{0} \u0631\u0637\u0644",
+            "unitPattern-count-one": "{0} \u0631\u0637\u0644",
+            "unitPattern-count-two": "{0} \u0631\u0637\u0644",
+            "unitPattern-count-few": "{0} \u0631\u0637\u0644",
+            "unitPattern-count-many": "{0} \u0631\u0637\u0644",
+            "unitPattern-count-other": "{0} \u0631\u0637\u0644",
+            "perUnitPattern": "{0}/\u0631\u0637\u0644"
+          },
+          "mass-ounce": {
+            "displayName": "\u0623\u0648\u0646\u0635\u0629",
+            "unitPattern-count-zero": "{0} \u0623\u0648\u0646\u0635\u0629",
+            "unitPattern-count-one": "\u0623\u0648\u0646\u0635\u0629",
+            "unitPattern-count-two": "{0} \u0623\u0648\u0646\u0635\u0629",
+            "unitPattern-count-few": "{0} \u0623\u0648\u0646\u0635\u0629",
+            "unitPattern-count-many": "{0} \u0623\u0648\u0646\u0635\u0629",
+            "unitPattern-count-other": "{0} \u0623\u0648\u0646\u0635\u0629",
+            "perUnitPattern": "{0}/\u0623\u0648\u0646\u0635\u0629"
+          },
+          "temperature-celsius": {
+            "displayName": "\u00B0\u0645",
+            "unitPattern-count-zero": "{0}\u00B0\u0645",
+            "unitPattern-count-one": "{0}\u00B0\u0645",
+            "unitPattern-count-two": "{0}\u00B0\u0645",
+            "unitPattern-count-few": "{0}\u00B0\u0645",
+            "unitPattern-count-many": "{0}\u00B0\u0645",
+            "unitPattern-count-other": "{0}\u00B0\u0645"
+          },
+          "temperature-fahrenheit": {
+            "displayName": "\u00B0\u0641",
+            "unitPattern-count-zero": "{0}\u00B0\u0641",
+            "unitPattern-count-one": "{0}\u00B0\u0641",
+            "unitPattern-count-two": "{0}\u00B0\u0641",
+            "unitPattern-count-few": "{0}\u00B0\u0641",
+            "unitPattern-count-many": "{0}\u00B0\u0641",
+            "unitPattern-count-other": "{0}\u00B0\u0641"
+          },
+          "volume-liter": {
+            "displayName": "\u0644\u062A\u0631",
+            "unitPattern-count-zero": "{0} \u0644",
+            "unitPattern-count-one": "{0} \u0644",
+            "unitPattern-count-two": "{0} \u0644",
+            "unitPattern-count-few": "{0} \u0644",
+            "unitPattern-count-many": "{0} \u0644",
+            "unitPattern-count-other": "{0} \u0644",
+            "perUnitPattern": "{0}/\u0644"
+          },
+          "volume-milliliter": {
+            "displayName": "\u0645\u0644\u062A\u0631",
+            "unitPattern-count-zero": "{0} \u0645\u0644\u062A\u0631",
+            "unitPattern-count-one": "{0} \u0645\u0644\u062A\u0631",
+            "unitPattern-count-two": "{0} \u0645\u0644\u062A\u0631",
+            "unitPattern-count-few": "{0} \u0645\u0644\u062A\u0631",
+            "unitPattern-count-many": "{0} \u0645\u0644\u062A\u0631",
+            "unitPattern-count-other": "{0} \u0645\u0644\u062A\u0631"
+          },
+          "volume-gallon": {
+            "displayName": "\u063A\u0627\u0644\u0648\u0646",
+            "unitPattern-count-zero": "{0} \u063A\u0627\u0644\u0648\u0646",
+            "unitPattern-count-one": "\u063A\u0627\u0644\u0648\u0646",
+            "unitPattern-count-two": "{0} \u063A\u0627\u0644\u0648\u0646",
+            "unitPattern-count-few": "{0} \u063A\u0627\u0644\u0648\u0646",
+            "unitPattern-count-many": "{0} \u063A\u0627\u0644\u0648\u0646",
+            "unitPattern-count-other": "{0} \u063A\u0627\u0644\u0648\u0646",
+            "perUnitPattern": "{0}/\u063A\u0627\u0644\u0648\u0646"
+          },
+          "volume-fluid-ounce": {
+            "displayName": "\u0623\u0648\u0646\u0635\u0629 \u0633",
+            "unitPattern-count-zero": "{0} \u0623\u0648\u0646\u0635\u0629 \u0633",
+            "unitPattern-count-one": "\u0623\u0648\u0646\u0635\u0629 \u0633",
+            "unitPattern-count-two": "{0} \u0623\u0648\u0646\u0635\u0629 \u0633",
+            "unitPattern-count-few": "{0} \u0623\u0648\u0646\u0635\u0629 \u0633",
+            "unitPattern-count-many": "{0} \u0623\u0648\u0646\u0635\u0629 \u0633",
+            "unitPattern-count-other": "{0} \u0623\u0648\u0646\u0635\u0629 \u0633"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "main": {
+    "zh": {
+      "numbers": {
+        "currencies": {
+          "USD": {
+            "displayName": "\u7F8E\u5143",
+            "displayName-count-other": "\u7F8E\u5143",
+            "symbol": "US$",
+            "symbol-alt-narrow": "$"
+          },
+          "EUR": {
+            "displayName": "\u6B27\u5143",
+            "displayName-count-other": "\u6B27\u5143",
+            "symbol": "\u20AC",
+            "symbol-alt-narrow": "\u20AC"
+          },
+          "GBP": {
+            "displayName": "\u82F1\u9551",
+            "displayName-count-other": "\u82F1\u9551",
+            "symbol": "\u00A3",
+            "symbol-alt-narrow": "\u00A3"
+          },
+          "JPY": {
+            "displayName": "\u65E5\u5143",
+            "displayName-count-other": "\u65E5\u5143",
+            "symbol": "JP\u00A5",
+            "symbol-alt-narrow": "\u00A5"
+          },
+          "CNY": {
+            "displayName": "\u4EBA\u6C11\u5E01",
+            "displayName-count-other": "\u4EBA\u6C11\u5E01",
+            "symbol": "\u00A5",
+            "symbol-alt-narrow": "\u00A5"
+          },
+          "KRW": {
+            "displayName": "\u97E9\u5143",
+            "displayName-count-other": "\u97E9\u5143",
+            "symbol": "\u20A9",
+            "symbol-alt-narrow": "\u20A9"
+          },
+          "INR": {
+            "displayName": "\u5370\u5EA6\u5362\u6BD4",
+            "displayName-count-other": "\u5370\u5EA6\u5362\u6BD4",
+            "symbol": "\u20B9",
+            "symbol-alt-narrow": "\u20B9"
+          },
+          "RUB": {
+            "displayName": "\u4FC4\u7F57\u65AF\u5362\u5E03",
+            "displayName-count-other": "\u4FC4\u7F57\u65AF\u5362\u5E03",
+            "symbol-alt-narrow": "\u20BD"
+          },
+          "BRL": {
+            "displayName": "\u5DF4\u897F\u96F7\u4E9A\u5C14",
+            "displayName-count-other": "\u5DF4\u897F\u96F7\u4E9A\u5C14",
+            "symbol": "R$",
+            "symbol-alt-narrow": "R$"
+          },
+          "CAD": {
+            "displayName": "\u52A0\u62FF\u5927\u5143",
+            "displayName-count-other": "\u52A0\u62FF\u5927\u5143",
+            "symbol": "CA$",
+            "symbol-alt-narrow": "$"
+          },
+          "AUD": {
+            "displayName": "\u6FB3\u5927\u5229\u4E9A\u5143",
+            "displayName-count-other": "\u6FB3\u5927\u5229\u4E9A\u5143",
+            "symbol": "AU$",
+            "symbol-alt-narrow": "$"
+          },
+          "CHF": {
+            "displayName": "\u745E\u58EB\u6CD5\u90CE",
+            "displayName-count-other": "\u745E\u58EB\u6CD5\u90CE"
+          },
+          "HKD": {
+            "displayName": "\u6E2F\u5143",
+            "displayName-count-other": "\u6E2F\u5143",
+            "symbol": "HK$",
+            "symbol-alt-narrow": "$"
+          },
+          "MXN": {
+            "displayName": "\u58A8\u897F\u54E5\u6BD4\u7D22",
+            "displayName-count-other": "\u58A8\u897F\u54E5\u6BD4\u7D22",
+            "symbol": "MX$",
+            "symbol-alt-narrow": "$"
+          },
+          "SEK": {
+            "displayName": "\u745E\u5178\u514B\u6717",
+            "displayName-count-other": "\u745E\u5178\u514B\u6717",
+            "symbol-alt-narrow": "kr"
+          },
+          "NOK": {
+            "displayName": "\u632A\u5A01\u514B\u6717",
+            "displayName-count-other": "\u632A\u5A01\u514B\u6717",
+            "symbol-alt-narrow": "kr"
+          },
+          "DKK": {
+            "displayName": "\u4E39\u9EA6\u514B\u6717",
+            "displayName-count-other": "\u4E39\u9EA6\u514B\u6717",
+            "symbol-alt-narrow": "kr"
+          },
+          "PLN": {
+            "displayName": "\u6CE2\u5170\u5179\u7F57\u63D0",
+            "displayName-count-other": "\u6CE2\u5170\u5179\u7F57\u63D0",
+            "symbol-alt-narrow": "z\u0142"
+          },
+          "TRY": {
+            "displayName": "\u571F\u8033\u5176\u91CC\u62C9",
+            "displayName-count-other": "\u571F\u8033\u5176\u91CC\u62C9",
+            "symbol-alt-narrow": "\u20BA",
+            "symbol-alt-variant": "TL"
+          },
+          "NZD": {
+            "displayName": "\u65B0\u897F\u5170\u5143",
+            "displayName-count-other": "\u65B0\u897F\u5170\u5143",
+            "symbol": "NZ$",
+            "symbol-alt-narrow": "$"
+          },
+          "ZAR": {
+            "displayName": "\u5357\u975E\u5170\u7279",
+            "displayName-count-other": "\u5357\u975E\u5170\u7279",
+            "symbol-alt-narrow": "R"
+          },
+          "SGD": {
+            "displayName": "\u65B0\u52A0\u5761\u5143",
+            "displayName-count-other": "\u65B0\u52A0\u5761\u5143",
+            "symbol-alt-narrow": "$"
+          },
+          "THB": {
+            "displayName": "\u6CF0\u94E2",
+            "displayName-count-other": "\u6CF0\u94E2",
+            "symbol-alt-narrow": "\u0E3F"
+          },
+          "TWD": {
+            "displayName": "\u65B0\u53F0\u5E01",
+            "displayName-count-other": "\u65B0\u53F0\u5E01",
+            "symbol": "NT$",
+            "symbol-alt-narrow": "NT$"
+          }
+        }
+      }
+    }
+  }
+}

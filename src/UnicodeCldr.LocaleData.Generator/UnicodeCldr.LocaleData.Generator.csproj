@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
+    <RootNamespace>UnicodeCldr.LocaleData.Generator</RootNamespace>
+    <IsPackable>false</IsPackable>
+    <!-- Referenced by the DataTool (and potentially tests) to reuse the parser. -->
+  </PropertyGroup>
+
+</Project>

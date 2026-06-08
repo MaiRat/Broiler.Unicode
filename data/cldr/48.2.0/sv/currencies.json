@@ -1,0 +1,169 @@
+{
+  "main": {
+    "sv": {
+      "numbers": {
+        "currencies": {
+          "USD": {
+            "displayName": "amerikansk dollar",
+            "displayName-count-one": "amerikansk dollar",
+            "displayName-count-other": "amerikanska dollar",
+            "symbol": "US$",
+            "symbol-alt-narrow": "$"
+          },
+          "EUR": {
+            "displayName": "euro",
+            "displayName-count-other": "euro",
+            "symbol": "\u20AC",
+            "symbol-alt-narrow": "\u20AC"
+          },
+          "GBP": {
+            "displayName": "brittiskt pund",
+            "displayName-count-one": "brittiskt pund",
+            "displayName-count-other": "brittiska pund",
+            "symbol": "GBP",
+            "symbol-alt-narrow": "\u00A3"
+          },
+          "JPY": {
+            "displayName": "japansk yen",
+            "displayName-count-one": "japansk yen",
+            "displayName-count-other": "japanska yen",
+            "symbol": "JPY",
+            "symbol-alt-narrow": "\u00A5"
+          },
+          "CNY": {
+            "displayName": "kinesisk yuan",
+            "displayName-count-one": "kinesisk yuan",
+            "displayName-count-other": "kinesiska yuan",
+            "symbol": "CNY",
+            "symbol-alt-narrow": "\u00A5"
+          },
+          "KRW": {
+            "displayName": "sydkoreansk won",
+            "displayName-count-one": "sydkoreansk won",
+            "displayName-count-other": "sydkoreanska won",
+            "symbol": "KRW",
+            "symbol-alt-narrow": "\u20A9"
+          },
+          "INR": {
+            "displayName": "indisk rupie",
+            "displayName-count-one": "indisk rupie",
+            "displayName-count-other": "indiska rupier",
+            "symbol": "INR",
+            "symbol-alt-narrow": "\u20B9"
+          },
+          "RUB": {
+            "displayName": "rysk rubel",
+            "displayName-count-one": "rysk rubel",
+            "displayName-count-other": "ryska rubel",
+            "symbol-alt-narrow": "\u20BD"
+          },
+          "BRL": {
+            "displayName": "brasiliansk real",
+            "displayName-count-one": "brasiliansk real",
+            "displayName-count-other": "brasilianska real",
+            "symbol": "BR$",
+            "symbol-alt-narrow": "R$"
+          },
+          "CAD": {
+            "displayName": "kanadensisk dollar",
+            "displayName-count-one": "kanadensisk dollar",
+            "displayName-count-other": "kanadensiska dollar",
+            "symbol": "CA$",
+            "symbol-alt-narrow": "$"
+          },
+          "AUD": {
+            "displayName": "australisk dollar",
+            "displayName-count-one": "australisk dollar",
+            "displayName-count-other": "australiska dollar",
+            "symbol": "AUD",
+            "symbol-alt-narrow": "$"
+          },
+          "CHF": {
+            "displayName": "schweizisk franc",
+            "displayName-count-one": "schweizisk franc",
+            "displayName-count-other": "schweiziska franc"
+          },
+          "HKD": {
+            "displayName": "Hongkongdollar",
+            "displayName-count-other": "Hongkongdollar",
+            "symbol": "HKD",
+            "symbol-alt-narrow": "$"
+          },
+          "MXN": {
+            "displayName": "mexikansk peso",
+            "displayName-count-one": "mexikansk peso",
+            "displayName-count-other": "mexikanska pesos",
+            "symbol": "MX$",
+            "symbol-alt-narrow": "$"
+          },
+          "SEK": {
+            "displayName": "svensk krona",
+            "displayName-count-one": "svensk krona",
+            "displayName-count-other": "svenska kronor",
+            "symbol": "kr",
+            "symbol-alt-narrow": "kr"
+          },
+          "NOK": {
+            "displayName": "norsk krona",
+            "displayName-count-one": "norsk krona",
+            "displayName-count-other": "norska kronor",
+            "symbol": "Nkr",
+            "symbol-alt-narrow": "kr"
+          },
+          "DKK": {
+            "displayName": "dansk krona",
+            "displayName-count-one": "dansk krona",
+            "displayName-count-other": "danska kronor",
+            "symbol": "Dkr",
+            "symbol-alt-narrow": "kr"
+          },
+          "PLN": {
+            "displayName": "polsk zloty",
+            "displayName-count-one": "polsk zloty",
+            "displayName-count-other": "polska zloty",
+            "symbol-alt-narrow": "z\u0142"
+          },
+          "TRY": {
+            "displayName": "turkisk lira",
+            "displayName-count-one": "turkisk lira",
+            "displayName-count-other": "turkiska lira",
+            "symbol-alt-narrow": "\u20BA",
+            "symbol-alt-variant": "TL"
+          },
+          "NZD": {
+            "displayName": "nyzeel\u00E4ndsk dollar",
+            "displayName-count-one": "nyzeel\u00E4ndsk dollar",
+            "displayName-count-other": "nyzeel\u00E4ndska dollar",
+            "symbol": "NZD",
+            "symbol-alt-narrow": "$"
+          },
+          "ZAR": {
+            "displayName": "sydafrikansk rand",
+            "displayName-count-one": "sydafrikansk rand",
+            "displayName-count-other": "sydafrikanska rand",
+            "symbol-alt-narrow": "R"
+          },
+          "SGD": {
+            "displayName": "singaporiansk dollar",
+            "displayName-count-one": "singaporiansk dollar",
+            "displayName-count-other": "singaporianska dollar",
+            "symbol-alt-narrow": "$"
+          },
+          "THB": {
+            "displayName": "thail\u00E4ndsk baht",
+            "displayName-count-one": "thail\u00E4ndsk baht",
+            "displayName-count-other": "thail\u00E4ndska baht",
+            "symbol-alt-narrow": "\u0E3F"
+          },
+          "TWD": {
+            "displayName": "taiwanesisk dollar",
+            "displayName-count-one": "taiwanesisk dollar",
+            "displayName-count-other": "taiwanesiska dollar",
+            "symbol": "TWD",
+            "symbol-alt-narrow": "NT$"
+          }
+        }
+      }
+    }
+  }
+}

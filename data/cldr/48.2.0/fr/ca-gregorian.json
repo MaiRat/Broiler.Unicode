@@ -1,0 +1,78 @@
+{
+  "main": {
+    "fr": {
+      "dates": {
+        "calendars": {
+          "gregorian": {
+            "dayPeriods": {
+              "format": {
+                "abbreviated": {
+                  "midnight": "minuit",
+                  "am": "AM",
+                  "noon": "midi",
+                  "pm": "PM",
+                  "morning1": "matin",
+                  "afternoon1": "apr\u00E8s-midi",
+                  "evening1": "soir",
+                  "night1": "matin"
+                },
+                "narrow": {
+                  "midnight": "minuit",
+                  "am": "AM",
+                  "noon": "midi",
+                  "pm": "PM",
+                  "morning1": "mat.",
+                  "afternoon1": "ap.m.",
+                  "evening1": "soir",
+                  "night1": "matin"
+                },
+                "wide": {
+                  "midnight": "minuit",
+                  "am": "AM",
+                  "noon": "midi",
+                  "pm": "PM",
+                  "morning1": "du matin",
+                  "afternoon1": "de l\u2019apr\u00E8s-midi",
+                  "evening1": "du soir",
+                  "night1": "du matin"
+                }
+              },
+              "stand-alone": {
+                "abbreviated": {
+                  "midnight": "minuit",
+                  "am": "AM",
+                  "noon": "midi",
+                  "pm": "PM",
+                  "morning1": "mat.",
+                  "afternoon1": "ap.m.",
+                  "evening1": "soir",
+                  "night1": "matin"
+                },
+                "narrow": {
+                  "midnight": "minuit",
+                  "am": "AM",
+                  "noon": "midi",
+                  "pm": "PM",
+                  "morning1": "mat.",
+                  "afternoon1": "ap.m.",
+                  "evening1": "soir",
+                  "night1": "matin"
+                },
+                "wide": {
+                  "midnight": "minuit",
+                  "am": "AM",
+                  "noon": "midi",
+                  "pm": "PM",
+                  "morning1": "matin",
+                  "afternoon1": "apr\u00E8s-midi",
+                  "evening1": "soir",
+                  "night1": "matin"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

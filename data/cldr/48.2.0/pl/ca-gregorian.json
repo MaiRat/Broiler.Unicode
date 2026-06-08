@@ -1,0 +1,84 @@
+{
+  "main": {
+    "pl": {
+      "dates": {
+        "calendars": {
+          "gregorian": {
+            "dayPeriods": {
+              "format": {
+                "abbreviated": {
+                  "midnight": "o p\u00F3\u0142nocy",
+                  "am": "AM",
+                  "noon": "w po\u0142udnie",
+                  "pm": "PM",
+                  "morning1": "rano",
+                  "morning2": "przed po\u0142udniem",
+                  "afternoon1": "po po\u0142udniu",
+                  "evening1": "wieczorem",
+                  "night1": "w nocy"
+                },
+                "narrow": {
+                  "midnight": "o p\u00F3\u0142n.",
+                  "am": "a",
+                  "noon": "w po\u0142.",
+                  "pm": "p",
+                  "morning1": "rano",
+                  "morning2": "przed po\u0142.",
+                  "afternoon1": "po po\u0142.",
+                  "evening1": "wiecz.",
+                  "night1": "w nocy"
+                },
+                "wide": {
+                  "midnight": "o p\u00F3\u0142nocy",
+                  "am": "AM",
+                  "noon": "w po\u0142udnie",
+                  "pm": "PM",
+                  "morning1": "rano",
+                  "morning2": "przed po\u0142udniem",
+                  "afternoon1": "po po\u0142udniu",
+                  "evening1": "wieczorem",
+                  "night1": "w nocy"
+                }
+              },
+              "stand-alone": {
+                "abbreviated": {
+                  "midnight": "p\u00F3\u0142noc",
+                  "am": "AM",
+                  "noon": "po\u0142udnie",
+                  "pm": "PM",
+                  "morning1": "rano",
+                  "morning2": "przedpo\u0142udnie",
+                  "afternoon1": "popo\u0142udnie",
+                  "evening1": "wiecz\u00F3r",
+                  "night1": "noc"
+                },
+                "narrow": {
+                  "midnight": "p\u00F3\u0142n.",
+                  "am": "a",
+                  "noon": "po\u0142.",
+                  "pm": "p",
+                  "morning1": "rano",
+                  "morning2": "przedpo\u0142.",
+                  "afternoon1": "popo\u0142.",
+                  "evening1": "wiecz.",
+                  "night1": "noc"
+                },
+                "wide": {
+                  "midnight": "p\u00F3\u0142noc",
+                  "am": "AM",
+                  "noon": "po\u0142udnie",
+                  "pm": "PM",
+                  "morning1": "rano",
+                  "morning2": "przedpo\u0142udnie",
+                  "afternoon1": "popo\u0142udnie",
+                  "evening1": "wiecz\u00F3r",
+                  "night1": "noc"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

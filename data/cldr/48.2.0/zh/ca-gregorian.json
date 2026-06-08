@@ -1,0 +1,84 @@
+{
+  "main": {
+    "zh": {
+      "dates": {
+        "calendars": {
+          "gregorian": {
+            "dayPeriods": {
+              "format": {
+                "abbreviated": {
+                  "midnight": "\u5348\u591C",
+                  "am": "\u4E0A\u5348",
+                  "pm": "\u4E0B\u5348",
+                  "morning1": "\u65E9\u4E0A",
+                  "morning2": "\u4E0A\u5348",
+                  "afternoon1": "\u4E2D\u5348",
+                  "afternoon2": "\u4E0B\u5348",
+                  "evening1": "\u665A\u4E0A",
+                  "night1": "\u51CC\u6668"
+                },
+                "narrow": {
+                  "midnight": "\u5348\u591C",
+                  "am": "\u4E0A\u5348",
+                  "pm": "\u4E0B\u5348",
+                  "morning1": "\u65E9\u4E0A",
+                  "morning2": "\u4E0A\u5348",
+                  "afternoon1": "\u4E2D\u5348",
+                  "afternoon2": "\u4E0B\u5348",
+                  "evening1": "\u665A\u4E0A",
+                  "night1": "\u51CC\u6668"
+                },
+                "wide": {
+                  "midnight": "\u5348\u591C",
+                  "am": "\u4E0A\u5348",
+                  "pm": "\u4E0B\u5348",
+                  "morning1": "\u6E05\u6668",
+                  "morning2": "\u4E0A\u5348",
+                  "afternoon1": "\u4E2D\u5348",
+                  "afternoon2": "\u4E0B\u5348",
+                  "evening1": "\u665A\u4E0A",
+                  "night1": "\u51CC\u6668"
+                }
+              },
+              "stand-alone": {
+                "abbreviated": {
+                  "midnight": "\u5348\u591C",
+                  "am": "\u4E0A\u5348",
+                  "pm": "\u4E0B\u5348",
+                  "morning1": "\u65E9\u4E0A",
+                  "morning2": "\u4E0A\u5348",
+                  "afternoon1": "\u4E2D\u5348",
+                  "afternoon2": "\u4E0B\u5348",
+                  "evening1": "\u665A\u4E0A",
+                  "night1": "\u51CC\u6668"
+                },
+                "narrow": {
+                  "midnight": "\u5348\u591C",
+                  "am": "\u4E0A\u5348",
+                  "pm": "\u4E0B\u5348",
+                  "morning1": "\u65E9\u4E0A",
+                  "morning2": "\u4E0A\u5348",
+                  "afternoon1": "\u4E2D\u5348",
+                  "afternoon2": "\u4E0B\u5348",
+                  "evening1": "\u665A\u4E0A",
+                  "night1": "\u51CC\u6668"
+                },
+                "wide": {
+                  "midnight": "\u5348\u591C",
+                  "am": "\u4E0A\u5348",
+                  "pm": "\u4E0B\u5348",
+                  "morning1": "\u65E9\u4E0A",
+                  "morning2": "\u4E0A\u5348",
+                  "afternoon1": "\u4E2D\u5348",
+                  "afternoon2": "\u4E0B\u5348",
+                  "evening1": "\u665A\u4E0A",
+                  "night1": "\u51CC\u6668"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

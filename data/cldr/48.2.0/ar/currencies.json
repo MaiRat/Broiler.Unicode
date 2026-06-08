@@ -1,0 +1,145 @@
+{
+  "main": {
+    "ar": {
+      "numbers": {
+        "currencies": {
+          "USD": {
+            "displayName": "\u062F\u0648\u0644\u0627\u0631 \u0623\u0645\u0631\u064A\u0643\u064A",
+            "displayName-count-other": "\u062F\u0648\u0644\u0627\u0631 \u0623\u0645\u0631\u064A\u0643\u064A",
+            "symbol": "US$",
+            "symbol-alt-narrow": "US$"
+          },
+          "EUR": {
+            "displayName": "\u064A\u0648\u0631\u0648",
+            "displayName-count-other": "\u064A\u0648\u0631\u0648",
+            "symbol": "\u20AC",
+            "symbol-alt-narrow": "\u20AC"
+          },
+          "GBP": {
+            "displayName": "\u062C\u0646\u064A\u0647 \u0625\u0633\u062A\u0631\u0644\u064A\u0646\u064A",
+            "displayName-count-other": "\u062C\u0646\u064A\u0647 \u0625\u0633\u062A\u0631\u0644\u064A\u0646\u064A",
+            "symbol": "UK\u00A3",
+            "symbol-alt-narrow": "UK\u00A3"
+          },
+          "JPY": {
+            "displayName": "\u064A\u0646 \u064A\u0627\u0628\u0627\u0646\u064A",
+            "displayName-count-other": "\u064A\u0646 \u064A\u0627\u0628\u0627\u0646\u064A",
+            "symbol": "JP\u00A5",
+            "symbol-alt-narrow": "JP\u00A5"
+          },
+          "CNY": {
+            "displayName": "\u064A\u0648\u0627\u0646 \u0635\u064A\u0646\u064A",
+            "displayName-count-other": "\u064A\u0648\u0627\u0646 \u0635\u064A\u0646\u064A",
+            "symbol": "CN\u00A5",
+            "symbol-alt-narrow": "CN\u00A5"
+          },
+          "KRW": {
+            "displayName": "\u0648\u0648\u0646 \u0643\u0648\u0631\u064A\u0627 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629",
+            "displayName-count-other": "\u0648\u0648\u0646 \u0643\u0648\u0631\u064A\u0627 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629",
+            "symbol": "\u20A9",
+            "symbol-alt-narrow": "\u20A9"
+          },
+          "INR": {
+            "displayName": "\u0631\u0648\u0628\u064A\u0629 \u0647\u0646\u062F\u064A",
+            "displayName-count-other": "\u0631\u0648\u0628\u064A\u0629 \u0647\u0646\u062F\u064A",
+            "symbol": "\u20B9",
+            "symbol-alt-narrow": "\u20B9"
+          },
+          "RUB": {
+            "displayName": "\u0631\u0648\u0628\u0644 \u0631\u0648\u0633\u064A",
+            "displayName-count-other": "\u0631\u0648\u0628\u0644 \u0631\u0648\u0633\u064A",
+            "symbol-alt-narrow": "\u20BD"
+          },
+          "BRL": {
+            "displayName": "\u0631\u064A\u0627\u0644 \u0628\u0631\u0627\u0632\u064A\u0644\u064A",
+            "displayName-count-other": "\u0631\u064A\u0627\u0644 \u0628\u0631\u0627\u0632\u064A\u0644\u064A",
+            "symbol": "R$",
+            "symbol-alt-narrow": "R$"
+          },
+          "CAD": {
+            "displayName": "\u062F\u0648\u0644\u0627\u0631 \u0643\u0646\u062F\u064A",
+            "displayName-count-other": "\u062F\u0648\u0644\u0627\u0631 \u0643\u0646\u062F\u064A",
+            "symbol": "CA$",
+            "symbol-alt-narrow": "CA$"
+          },
+          "AUD": {
+            "displayName": "\u062F\u0648\u0644\u0627\u0631 \u0623\u0633\u062A\u0631\u0627\u0644\u064A",
+            "displayName-count-other": "\u062F\u0648\u0644\u0627\u0631 \u0623\u0633\u062A\u0631\u0627\u0644\u064A",
+            "symbol": "AU$",
+            "symbol-alt-narrow": "AU$"
+          },
+          "CHF": {
+            "displayName": "\u0641\u0631\u0646\u0643 \u0633\u0648\u064A\u0633\u0631\u064A",
+            "displayName-count-other": "\u0641\u0631\u0646\u0643 \u0633\u0648\u064A\u0633\u0631\u064A"
+          },
+          "HKD": {
+            "displayName": "\u062F\u0648\u0644\u0627\u0631 \u0647\u0648\u0646\u063A \u0643\u0648\u0646\u063A",
+            "displayName-count-other": "\u062F\u0648\u0644\u0627\u0631 \u0647\u0648\u0646\u063A \u0643\u0648\u0646\u063A",
+            "symbol": "HK$",
+            "symbol-alt-narrow": "HK$"
+          },
+          "MXN": {
+            "displayName": "\u0628\u064A\u0632\u0648 \u0645\u0643\u0633\u064A\u0643\u064A",
+            "displayName-count-other": "\u0628\u064A\u0632\u0648 \u0645\u0643\u0633\u064A\u0643\u064A",
+            "symbol": "MX$",
+            "symbol-alt-narrow": "MX$"
+          },
+          "SEK": {
+            "displayName": "\u0643\u0631\u0648\u0646\u0629 \u0633\u0648\u064A\u062F\u064A\u0629",
+            "displayName-count-other": "\u0643\u0631\u0648\u0646\u0629 \u0633\u0648\u064A\u062F\u064A\u0629",
+            "symbol-alt-narrow": "kr"
+          },
+          "NOK": {
+            "displayName": "\u0643\u0631\u0648\u0646\u0629 \u0646\u0631\u0648\u064A\u062C\u064A\u0629",
+            "displayName-count-other": "\u0643\u0631\u0648\u0646\u0629 \u0646\u0631\u0648\u064A\u062C\u064A\u0629",
+            "symbol-alt-narrow": "kr"
+          },
+          "DKK": {
+            "displayName": "\u0643\u0631\u0648\u0646\u0629 \u062F\u0646\u0645\u0627\u0631\u0643\u064A\u0629",
+            "displayName-count-other": "\u0643\u0631\u0648\u0646\u0629 \u062F\u0646\u0645\u0627\u0631\u0643\u064A\u0629",
+            "symbol-alt-narrow": "kr"
+          },
+          "PLN": {
+            "displayName": "\u0632\u0644\u0648\u062A\u064A \u0628\u0648\u0644\u0646\u062F\u064A",
+            "displayName-count-other": "\u0632\u0644\u0648\u062A\u064A \u0628\u0648\u0644\u0646\u062F\u064A",
+            "symbol-alt-narrow": "z\u0142"
+          },
+          "TRY": {
+            "displayName": "\u0644\u064A\u0631\u0629 \u062A\u0631\u0643\u064A\u0629",
+            "displayName-count-other": "\u0644\u064A\u0631\u0629 \u062A\u0631\u0643\u064A\u0629",
+            "symbol-alt-narrow": "\u20BA",
+            "symbol-alt-variant": "TL"
+          },
+          "NZD": {
+            "displayName": "\u062F\u0648\u0644\u0627\u0631 \u0646\u064A\u0648\u0632\u064A\u0644\u0646\u062F\u064A",
+            "displayName-count-other": "\u062F\u0648\u0644\u0627\u0631 \u0646\u064A\u0648\u0632\u064A\u0644\u0646\u062F\u064A",
+            "symbol": "NZ$",
+            "symbol-alt-narrow": "NZ$"
+          },
+          "ZAR": {
+            "displayName": "\u0631\u0627\u0646\u062F \u062C\u0646\u0648\u0628 \u0623\u0641\u0631\u064A\u0642\u064A\u0627",
+            "displayName-count-other": "\u0631\u0627\u0646\u062F \u062C\u0646\u0648\u0628 \u0623\u0641\u0631\u064A\u0642\u064A\u0627",
+            "symbol-alt-narrow": "R"
+          },
+          "SGD": {
+            "displayName": "\u062F\u0648\u0644\u0627\u0631 \u0633\u0646\u063A\u0627\u0641\u0648\u0631\u064A",
+            "displayName-count-other": "\u062F\u0648\u0644\u0627\u0631 \u0633\u0646\u063A\u0627\u0641\u0648\u0631\u064A",
+            "symbol-alt-narrow": "$"
+          },
+          "THB": {
+            "displayName": "\u0628\u0627\u062E\u062A \u062A\u0627\u064A\u0644\u0627\u0646\u062F\u064A",
+            "displayName-count-other": "\u0628\u0627\u062E\u062A \u062A\u0627\u064A\u0644\u0627\u0646\u062F\u064A",
+            "symbol": "\u0E3F",
+            "symbol-alt-narrow": "\u0E3F"
+          },
+          "TWD": {
+            "displayName": "\u062F\u0648\u0644\u0627\u0631 \u062A\u0627\u064A\u0648\u0627\u0646\u064A",
+            "displayName-count-other": "\u062F\u0648\u0644\u0627\u0631 \u062A\u0627\u064A\u0648\u0627\u0646\u064A",
+            "symbol": "NT$",
+            "symbol-alt-narrow": "NT$"
+          }
+        }
+      }
+    }
+  }
+}

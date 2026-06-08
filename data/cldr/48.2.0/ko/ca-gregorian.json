@@ -1,0 +1,84 @@
+{
+  "main": {
+    "ko": {
+      "dates": {
+        "calendars": {
+          "gregorian": {
+            "dayPeriods": {
+              "format": {
+                "abbreviated": {
+                  "midnight": "\uC790\uC815",
+                  "am": "\uC624\uC804",
+                  "noon": "\uC815\uC624",
+                  "pm": "\uC624\uD6C4",
+                  "morning1": "\uC544\uCE68",
+                  "morning2": "\uC624\uC804",
+                  "afternoon1": "\uC624\uD6C4",
+                  "evening1": "\uC800\uB141",
+                  "night1": "\uBC24"
+                },
+                "narrow": {
+                  "midnight": "\uC790\uC815",
+                  "am": "\uC624\uC804",
+                  "noon": "\uC815\uC624",
+                  "pm": "\uC624\uD6C4",
+                  "morning1": "\uC544\uCE68",
+                  "morning2": "\uC624\uC804",
+                  "afternoon1": "\uC624\uD6C4",
+                  "evening1": "\uC800\uB141",
+                  "night1": "\uBC24"
+                },
+                "wide": {
+                  "midnight": "\uC790\uC815",
+                  "am": "\uC624\uC804",
+                  "noon": "\uC815\uC624",
+                  "pm": "\uC624\uD6C4",
+                  "morning1": "\uC544\uCE68",
+                  "morning2": "\uC624\uC804",
+                  "afternoon1": "\uC624\uD6C4",
+                  "evening1": "\uC800\uB141",
+                  "night1": "\uBC24"
+                }
+              },
+              "stand-alone": {
+                "abbreviated": {
+                  "midnight": "\uC790\uC815",
+                  "am": "\uC624\uC804",
+                  "noon": "\uC815\uC624",
+                  "pm": "\uC624\uD6C4",
+                  "morning1": "\uC544\uCE68",
+                  "morning2": "\uC624\uC804",
+                  "afternoon1": "\uC624\uD6C4",
+                  "evening1": "\uC800\uB141",
+                  "night1": "\uBC24"
+                },
+                "narrow": {
+                  "midnight": "\uC790\uC815",
+                  "am": "\uC624\uC804",
+                  "noon": "\uC815\uC624",
+                  "pm": "\uC624\uD6C4",
+                  "morning1": "\uC544\uCE68",
+                  "morning2": "\uC624\uC804",
+                  "afternoon1": "\uC624\uD6C4",
+                  "evening1": "\uC800\uB141",
+                  "night1": "\uBC24"
+                },
+                "wide": {
+                  "midnight": "\uC790\uC815",
+                  "am": "\uC624\uC804",
+                  "noon": "\uC815\uC624",
+                  "pm": "\uC624\uD6C4",
+                  "morning1": "\uC544\uCE68",
+                  "morning2": "\uC624\uC804",
+                  "afternoon1": "\uC624\uD6C4",
+                  "evening1": "\uC800\uB141",
+                  "night1": "\uBC24"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "main": {
+    "de": {
+      "numbers": {
+        "currencies": {
+          "USD": {
+            "displayName": "US-Dollar",
+            "displayName-count-other": "US-Dollar",
+            "symbol": "$",
+            "symbol-alt-narrow": "$"
+          },
+          "EUR": {
+            "displayName": "Euro",
+            "displayName-count-other": "Euro",
+            "symbol": "\u20AC",
+            "symbol-alt-narrow": "\u20AC"
+          },
+          "GBP": {
+            "displayName": "Britisches Pfund",
+            "displayName-count-one": "Britisches Pfund",
+            "displayName-count-other": "Britische Pfund",
+            "symbol": "\u00A3",
+            "symbol-alt-narrow": "\u00A3"
+          },
+          "JPY": {
+            "displayName": "Japanischer Yen",
+            "displayName-count-one": "Japanischer Yen",
+            "displayName-count-other": "Japanische Yen",
+            "symbol": "\u00A5",
+            "symbol-alt-narrow": "\u00A5"
+          },
+          "CNY": {
+            "displayName": "Renminbi Yuan",
+            "displayName-count-one": "Chinesischer Yuan",
+            "displayName-count-other": "Renminbi Yuan",
+            "symbol": "CN\u00A5",
+            "symbol-alt-narrow": "\u00A5"
+          },
+          "KRW": {
+            "displayName": "S\u00FCdkoreanischer Won",
+            "displayName-count-one": "S\u00FCdkoreanischer Won",
+            "displayName-count-other": "S\u00FCdkoreanische Won",
+            "symbol": "\u20A9",
+            "symbol-alt-narrow": "\u20A9"
+          },
+          "INR": {
+            "displayName": "Indische Rupie",
+            "displayName-count-one": "Indische Rupie",
+            "displayName-count-other": "Indische Rupien",
+            "symbol": "\u20B9",
+            "symbol-alt-narrow": "\u20B9"
+          },
+          "RUB": {
+            "displayName": "Russischer Rubel",
+            "displayName-count-one": "Russischer Rubel",
+            "displayName-count-other": "Russische Rubel",
+            "symbol-alt-narrow": "\u20BD"
+          },
+          "BRL": {
+            "displayName": "Brasilianischer Real",
+            "displayName-count-one": "Brasilianischer Real",
+            "displayName-count-other": "Brasilianische Real",
+            "symbol": "R$",
+            "symbol-alt-narrow": "R$"
+          },
+          "CAD": {
+            "displayName": "Kanadischer Dollar",
+            "displayName-count-one": "Kanadischer Dollar",
+            "displayName-count-other": "Kanadische Dollar",
+            "symbol": "CA$",
+            "symbol-alt-narrow": "$"
+          },
+          "AUD": {
+            "displayName": "Australischer Dollar",
+            "displayName-count-one": "Australischer Dollar",
+            "displayName-count-other": "Australische Dollar",
+            "symbol": "AU$",
+            "symbol-alt-narrow": "$"
+          },
+          "CHF": {
+            "displayName": "Schweizer Franken",
+            "displayName-count-other": "Schweizer Franken"
+          },
+          "HKD": {
+            "displayName": "Hongkong-Dollar",
+            "displayName-count-other": "Hongkong-Dollar",
+            "symbol": "HK$",
+            "symbol-alt-narrow": "$"
+          },
+          "MXN": {
+            "displayName": "Mexikanischer Peso",
+            "displayName-count-one": "Mexikanischer Peso",
+            "displayName-count-other": "Mexikanische Pesos",
+            "symbol": "MX$",
+            "symbol-alt-narrow": "$"
+          },
+          "SEK": {
+            "displayName": "Schwedische Krone",
+            "displayName-count-one": "Schwedische Krone",
+            "displayName-count-other": "Schwedische Kronen",
+            "symbol-alt-narrow": "kr"
+          },
+          "NOK": {
+            "displayName": "Norwegische Krone",
+            "displayName-count-one": "Norwegische Krone",
+            "displayName-count-other": "Norwegische Kronen",
+            "symbol-alt-narrow": "kr"
+          },
+          "DKK": {
+            "displayName": "D\u00E4nische Krone",
+            "displayName-count-one": "D\u00E4nische Krone",
+            "displayName-count-other": "D\u00E4nische Kronen",
+            "symbol-alt-narrow": "kr"
+          },
+          "PLN": {
+            "displayName": "Polnischer Z\u0142oty",
+            "displayName-count-one": "Polnischer Z\u0142oty",
+            "displayName-count-other": "Polnische Z\u0142oty",
+            "symbol-alt-narrow": "z\u0142"
+          },
+          "TRY": {
+            "displayName": "T\u00FCrkische Lira",
+            "displayName-count-other": "T\u00FCrkische Lira",
+            "symbol-alt-narrow": "\u20BA",
+            "symbol-alt-variant": "TL"
+          },
+          "NZD": {
+            "displayName": "Neuseeland-Dollar",
+            "displayName-count-other": "Neuseeland-Dollar",
+            "symbol": "NZ$",
+            "symbol-alt-narrow": "$"
+          },
+          "ZAR": {
+            "displayName": "S\u00FCdafrikanischer Rand",
+            "displayName-count-one": "S\u00FCdafrikanischer Rand",
+            "displayName-count-other": "S\u00FCdafrikanische Rand",
+            "symbol-alt-narrow": "R"
+          },
+          "SGD": {
+            "displayName": "Singapur-Dollar",
+            "displayName-count-other": "Singapur-Dollar",
+            "symbol-alt-narrow": "$"
+          },
+          "THB": {
+            "displayName": "Thail\u00E4ndischer Baht",
+            "displayName-count-one": "Thail\u00E4ndischer Baht",
+            "displayName-count-other": "Thail\u00E4ndische Baht",
+            "symbol": "\u0E3F",
+            "symbol-alt-narrow": "\u0E3F"
+          },
+          "TWD": {
+            "displayName": "Neuer Taiwan-Dollar",
+            "displayName-count-one": "Neuer Taiwan-Dollar",
+            "displayName-count-other": "Neue Taiwan-Dollar",
+            "symbol": "NT$",
+            "symbol-alt-narrow": "NT$"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "main": {
+    "pl": {
+      "numbers": {
+        "currencies": {
+          "USD": {
+            "displayName": "dolar ameryka\u0144ski",
+            "displayName-count-one": "dolar ameryka\u0144ski",
+            "displayName-count-few": "dolary ameryka\u0144skie",
+            "displayName-count-many": "dolar\u00F3w ameryka\u0144skich",
+            "displayName-count-other": "dolara ameryka\u0144skiego",
+            "symbol": "USD",
+            "symbol-alt-narrow": "$"
+          },
+          "EUR": {
+            "displayName": "euro",
+            "displayName-count-other": "euro",
+            "symbol": "\u20AC",
+            "symbol-alt-narrow": "\u20AC"
+          },
+          "GBP": {
+            "displayName": "funt szterling",
+            "displayName-count-one": "funt szterling",
+            "displayName-count-few": "funty szterlingi",
+            "displayName-count-many": "funt\u00F3w szterling\u00F3w",
+            "displayName-count-other": "funta szterlinga",
+            "symbol": "GBP",
+            "symbol-alt-narrow": "\u00A3"
+          },
+          "JPY": {
+            "displayName": "jen japo\u0144ski",
+            "displayName-count-one": "jen japo\u0144ski",
+            "displayName-count-few": "jeny japo\u0144skie",
+            "displayName-count-many": "jen\u00F3w japo\u0144skich",
+            "displayName-count-other": "jena japo\u0144skiego",
+            "symbol": "JPY",
+            "symbol-alt-narrow": "\u00A5"
+          },
+          "CNY": {
+            "displayName": "juan chi\u0144ski",
+            "displayName-count-one": "juan chi\u0144ski",
+            "displayName-count-few": "juany chi\u0144skie",
+            "displayName-count-many": "juan\u00F3w chi\u0144skich",
+            "displayName-count-other": "juana chi\u0144skiego",
+            "symbol": "CNY",
+            "symbol-alt-narrow": "\u00A5"
+          },
+          "KRW": {
+            "displayName": "won po\u0142udniowokorea\u0144ski",
+            "displayName-count-one": "won po\u0142udniowokorea\u0144ski",
+            "displayName-count-few": "wony po\u0142udniowokorea\u0144skie",
+            "displayName-count-many": "won\u00F3w po\u0142udniowokorea\u0144skich",
+            "displayName-count-other": "wona po\u0142udniowokorea\u0144skiego",
+            "symbol": "KRW",
+            "symbol-alt-narrow": "\u20A9"
+          },
+          "INR": {
+            "displayName": "rupia indyjska",
+            "displayName-count-one": "rupia indyjska",
+            "displayName-count-few": "rupie indyjskie",
+            "displayName-count-many": "rupii indyjskich",
+            "displayName-count-other": "rupii indyjskiej",
+            "symbol": "INR",
+            "symbol-alt-narrow": "\u20B9"
+          },
+          "RUB": {
+            "displayName": "rubel rosyjski",
+            "displayName-count-one": "rubel rosyjski",
+            "displayName-count-few": "ruble rosyjskie",
+            "displayName-count-many": "rubli rosyjskich",
+            "displayName-count-other": "rubla rosyjskiego",
+            "symbol-alt-narrow": "\u20BD"
+          },
+          "BRL": {
+            "displayName": "real brazylijski",
+            "displayName-count-one": "real brazylijski",
+            "displayName-count-few": "reale brazylijskie",
+            "displayName-count-many": "reali brazylijskich",
+            "displayName-count-other": "reala brazylijskiego",
+            "symbol": "R$",
+            "symbol-alt-narrow": "R$"
+          },
+          "CAD": {
+            "displayName": "dolar kanadyjski",
+            "displayName-count-one": "dolar kanadyjski",
+            "displayName-count-few": "dolary kanadyjskie",
+            "displayName-count-many": "dolar\u00F3w kanadyjskich",
+            "displayName-count-other": "dolara kanadyjskiego",
+            "symbol": "CAD",
+            "symbol-alt-narrow": "$"
+          },
+          "AUD": {
+            "displayName": "dolar australijski",
+            "displayName-count-one": "dolar australijski",
+            "displayName-count-few": "dolary australijskie",
+            "displayName-count-many": "dolar\u00F3w australijskich",
+            "displayName-count-other": "dolara australijskiego",
+            "symbol": "AUD",
+            "symbol-alt-narrow": "$"
+          },
+          "CHF": {
+            "displayName": "frank szwajcarski",
+            "displayName-count-one": "frank szwajcarski",
+            "displayName-count-few": "franki szwajcarskie",
+            "displayName-count-many": "frank\u00F3w szwajcarskich",
+            "displayName-count-other": "franka szwajcarskiego"
+          },
+          "HKD": {
+            "displayName": "dolar hongko\u0144ski",
+            "displayName-count-one": "dolar hongko\u0144ski",
+            "displayName-count-few": "dolary hongko\u0144skie",
+            "displayName-count-many": "dolar\u00F3w hongko\u0144skich",
+            "displayName-count-other": "dolara hongko\u0144skiego",
+            "symbol": "HKD",
+            "symbol-alt-narrow": "$"
+          },
+          "MXN": {
+            "displayName": "peso meksyka\u0144skie",
+            "displayName-count-one": "peso meksyka\u0144skie",
+            "displayName-count-few": "pesos meksyka\u0144skie",
+            "displayName-count-many": "pesos meksyka\u0144skich",
+            "displayName-count-other": "peso meksyka\u0144skiego",
+            "symbol": "MXN",
+            "symbol-alt-narrow": "$"
+          },
+          "SEK": {
+            "displayName": "korona szwedzka",
+            "displayName-count-one": "korona szwedzka",
+            "displayName-count-few": "korony szwedzkie",
+            "displayName-count-many": "koron szwedzkich",
+            "displayName-count-other": "korony szwedzkiej",
+            "symbol-alt-narrow": "kr"
+          },
+          "NOK": {
+            "displayName": "korona norweska",
+            "displayName-count-one": "korona norweska",
+            "displayName-count-few": "korony norweskie",
+            "displayName-count-many": "koron norweskich",
+            "displayName-count-other": "korony norweskiej",
+            "symbol-alt-narrow": "kr"
+          },
+          "DKK": {
+            "displayName": "korona du\u0144ska",
+            "displayName-count-one": "korona du\u0144ska",
+            "displayName-count-few": "korony du\u0144skie",
+            "displayName-count-many": "koron du\u0144skich",
+            "displayName-count-other": "korony du\u0144skiej",
+            "symbol-alt-narrow": "kr"
+          },
+          "PLN": {
+            "displayName": "z\u0142oty polski",
+            "displayName-count-one": "z\u0142oty polski",
+            "displayName-count-few": "z\u0142ote polskie",
+            "displayName-count-many": "z\u0142otych polskich",
+            "displayName-count-other": "z\u0142otego polskiego",
+            "symbol": "z\u0142",
+            "symbol-alt-narrow": "z\u0142"
+          },
+          "TRY": {
+            "displayName": "lira turecka",
+            "displayName-count-one": "lira turecka",
+            "displayName-count-few": "liry tureckie",
+            "displayName-count-many": "lir tureckich",
+            "displayName-count-other": "liry tureckiej",
+            "symbol-alt-narrow": "\u20BA",
+            "symbol-alt-variant": "TL"
+          },
+          "NZD": {
+            "displayName": "dolar nowozelandzki",
+            "displayName-count-one": "dolar nowozelandzki",
+            "displayName-count-few": "dolary nowozelandzkie",
+            "displayName-count-many": "dolar\u00F3w nowozelandzkich",
+            "displayName-count-other": "dolara nowozelandzkiego",
+            "symbol": "NZD",
+            "symbol-alt-narrow": "$"
+          },
+          "ZAR": {
+            "displayName": "rand po\u0142udniowoafryka\u0144ski",
+            "displayName-count-one": "rand po\u0142udniowoafryka\u0144ski",
+            "displayName-count-few": "randy po\u0142udniowoafryka\u0144skie",
+            "displayName-count-many": "rand\u00F3w po\u0142udniowoafryka\u0144skich",
+            "displayName-count-other": "randa po\u0142udniowoafryka\u0144skiego",
+            "symbol-alt-narrow": "R"
+          },
+          "SGD": {
+            "displayName": "dolar singapurski",
+            "displayName-count-one": "dolar singapurski",
+            "displayName-count-few": "dolary singapurskie",
+            "displayName-count-many": "dolar\u00F3w singapurskich",
+            "displayName-count-other": "dolara singapurskiego",
+            "symbol-alt-narrow": "$"
+          },
+          "THB": {
+            "displayName": "baht tajski",
+            "displayName-count-one": "baht tajski",
+            "displayName-count-few": "bahty tajskie",
+            "displayName-count-many": "baht\u00F3w tajskich",
+            "displayName-count-other": "bahta tajskiego",
+            "symbol-alt-narrow": "\u0E3F"
+          },
+          "TWD": {
+            "displayName": "nowy dolar tajwa\u0144ski",
+            "displayName-count-one": "nowy dolar tajwa\u0144ski",
+            "displayName-count-few": "nowe dolary tajwa\u0144skie",
+            "displayName-count-many": "nowych dolar\u00F3w tajwa\u0144skich",
+            "displayName-count-other": "nowego dolara tajwa\u0144skiego",
+            "symbol": "TWD",
+            "symbol-alt-narrow": "NT$"
+          }
+        }
+      }
+    }
+  }
+}

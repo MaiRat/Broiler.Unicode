@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>UnicodeCldr.LocaleData.DataTool</RootNamespace>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../UnicodeCldr.LocaleData.Generator/UnicodeCldr.LocaleData.Generator.csproj" />
+  </ItemGroup>
+
+</Project>

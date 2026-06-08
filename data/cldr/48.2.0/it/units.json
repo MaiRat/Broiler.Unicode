@@ -1,0 +1,747 @@
+{
+  "main": {
+    "it": {
+      "units": {
+        "long": {
+          "angle-degree": {
+            "gender": "masculine",
+            "displayName": "gradi",
+            "unitPattern-count-one": "{0} grado",
+            "unitPattern-count-other": "{0} gradi"
+          },
+          "area-hectare": {
+            "gender": "masculine",
+            "displayName": "ettari",
+            "unitPattern-count-one": "{0} ettaro",
+            "unitPattern-count-other": "{0} ettari"
+          },
+          "area-acre": {
+            "gender": "masculine",
+            "displayName": "acri",
+            "unitPattern-count-one": "{0} acro",
+            "unitPattern-count-other": "{0} acri"
+          },
+          "concentr-percent": {
+            "gender": "masculine",
+            "displayName": "percentuale",
+            "unitPattern-count-one": "{0} percento",
+            "unitPattern-count-other": "{0} percento"
+          },
+          "digital-petabyte": {
+            "gender": "masculine",
+            "displayName": "petabyte",
+            "unitPattern-count-one": "{0} petabyte",
+            "unitPattern-count-other": "{0} petabyte"
+          },
+          "digital-terabyte": {
+            "gender": "masculine",
+            "displayName": "terabyte",
+            "unitPattern-count-one": "{0} terabyte",
+            "unitPattern-count-other": "{0} terabyte"
+          },
+          "digital-terabit": {
+            "gender": "masculine",
+            "displayName": "terabit",
+            "unitPattern-count-one": "{0} terabit",
+            "unitPattern-count-other": "{0} terabit"
+          },
+          "digital-gigabyte": {
+            "gender": "masculine",
+            "displayName": "gigabyte",
+            "unitPattern-count-one": "{0} gigabyte",
+            "unitPattern-count-other": "{0} gigabyte"
+          },
+          "digital-gigabit": {
+            "gender": "masculine",
+            "displayName": "gigabit",
+            "unitPattern-count-one": "{0} gigabit",
+            "unitPattern-count-other": "{0} gigabit"
+          },
+          "digital-megabyte": {
+            "gender": "masculine",
+            "displayName": "megabyte",
+            "unitPattern-count-one": "{0} megabyte",
+            "unitPattern-count-other": "{0} megabyte"
+          },
+          "digital-megabit": {
+            "gender": "masculine",
+            "displayName": "megabit",
+            "unitPattern-count-one": "{0} megabit",
+            "unitPattern-count-other": "{0} megabit"
+          },
+          "digital-kilobyte": {
+            "gender": "masculine",
+            "displayName": "kilobyte",
+            "unitPattern-count-one": "{0} kilobyte",
+            "unitPattern-count-other": "{0} kilobyte"
+          },
+          "digital-kilobit": {
+            "gender": "masculine",
+            "displayName": "kilobit",
+            "unitPattern-count-one": "{0} kilobit",
+            "unitPattern-count-other": "{0} kilobit"
+          },
+          "digital-byte": {
+            "gender": "masculine",
+            "displayName": "byte",
+            "unitPattern-count-other": "{0} byte"
+          },
+          "digital-bit": {
+            "gender": "masculine",
+            "displayName": "bit",
+            "unitPattern-count-other": "{0} bit"
+          },
+          "duration-year": {
+            "gender": "masculine",
+            "displayName": "anni",
+            "unitPattern-count-one": "{0} anno",
+            "unitPattern-count-other": "{0} anni",
+            "perUnitPattern": "{0} all\u2019anno"
+          },
+          "duration-month": {
+            "gender": "masculine",
+            "displayName": "mesi",
+            "unitPattern-count-one": "{0} mese",
+            "unitPattern-count-other": "{0} mesi",
+            "perUnitPattern": "{0} al mese"
+          },
+          "duration-week": {
+            "gender": "feminine",
+            "displayName": "settimane",
+            "unitPattern-count-one": "{0} settimana",
+            "unitPattern-count-other": "{0} settimane",
+            "perUnitPattern": "{0} alla settimana"
+          },
+          "duration-day": {
+            "gender": "masculine",
+            "displayName": "giorni",
+            "unitPattern-count-one": "{0} giorno",
+            "unitPattern-count-other": "{0} giorni",
+            "perUnitPattern": "{0} al giorno"
+          },
+          "duration-hour": {
+            "gender": "feminine",
+            "displayName": "ore",
+            "unitPattern-count-one": "{0} ora",
+            "unitPattern-count-other": "{0} ore",
+            "perUnitPattern": "{0} all\u2019ora"
+          },
+          "duration-minute": {
+            "gender": "masculine",
+            "displayName": "minuti",
+            "unitPattern-count-one": "{0} minuto",
+            "unitPattern-count-other": "{0} minuti",
+            "perUnitPattern": "{0} al minuto"
+          },
+          "duration-second": {
+            "gender": "masculine",
+            "displayName": "secondi",
+            "unitPattern-count-one": "{0} secondo",
+            "unitPattern-count-other": "{0} secondi",
+            "perUnitPattern": "{0} al secondo"
+          },
+          "duration-millisecond": {
+            "gender": "masculine",
+            "displayName": "millisecondi",
+            "unitPattern-count-one": "{0} millisecondo",
+            "unitPattern-count-other": "{0} millisecondi"
+          },
+          "duration-microsecond": {
+            "gender": "masculine",
+            "displayName": "microsecondi",
+            "unitPattern-count-one": "{0} microsecondo",
+            "unitPattern-count-other": "{0} microsecondi"
+          },
+          "duration-nanosecond": {
+            "gender": "masculine",
+            "displayName": "nanosecondi",
+            "unitPattern-count-one": "{0} nanosecondo",
+            "unitPattern-count-other": "{0} nanosecondi"
+          },
+          "length-kilometer": {
+            "gender": "masculine",
+            "displayName": "chilometri",
+            "unitPattern-count-one": "{0} chilometro",
+            "unitPattern-count-other": "{0} chilometri",
+            "perUnitPattern": "{0} per chilometro"
+          },
+          "length-meter": {
+            "gender": "masculine",
+            "displayName": "metri",
+            "unitPattern-count-one": "{0} metro",
+            "unitPattern-count-other": "{0} metri",
+            "perUnitPattern": "{0} per metro"
+          },
+          "length-centimeter": {
+            "gender": "masculine",
+            "displayName": "centimetri",
+            "unitPattern-count-one": "{0} centimetro",
+            "unitPattern-count-other": "{0} centimetri",
+            "perUnitPattern": "{0} per centimetro"
+          },
+          "length-millimeter": {
+            "gender": "masculine",
+            "displayName": "millimetri",
+            "unitPattern-count-one": "{0} millimetro",
+            "unitPattern-count-other": "{0} millimetri"
+          },
+          "length-mile": {
+            "gender": "feminine",
+            "displayName": "miglia",
+            "unitPattern-count-one": "{0} miglio",
+            "unitPattern-count-other": "{0} miglia"
+          },
+          "length-yard": {
+            "gender": "feminine",
+            "displayName": "iarde",
+            "unitPattern-count-one": "{0} iarda",
+            "unitPattern-count-other": "{0} iarde"
+          },
+          "length-foot": {
+            "gender": "masculine",
+            "displayName": "piedi",
+            "unitPattern-count-one": "{0} piede",
+            "unitPattern-count-other": "{0} piedi",
+            "perUnitPattern": "{0} per piede"
+          },
+          "length-inch": {
+            "gender": "masculine",
+            "displayName": "pollici",
+            "unitPattern-count-one": "{0} pollice",
+            "unitPattern-count-other": "{0} pollici",
+            "perUnitPattern": "{0} per pollice"
+          },
+          "length-mile-scandinavian": {
+            "gender": "feminine",
+            "displayName": "miglia scandinave",
+            "unitPattern-count-one": "{0} miglio scandinavo",
+            "unitPattern-count-other": "{0} miglia scandinave"
+          },
+          "mass-kilogram": {
+            "gender": "masculine",
+            "displayName": "chilogrammi",
+            "unitPattern-count-one": "{0} chilogrammo",
+            "unitPattern-count-other": "{0} chilogrammi",
+            "perUnitPattern": "{0} per chilogrammo"
+          },
+          "mass-gram": {
+            "gender": "masculine",
+            "displayName": "grammi",
+            "unitPattern-count-one": "{0} grammo",
+            "unitPattern-count-other": "{0} grammi",
+            "perUnitPattern": "{0} per grammo"
+          },
+          "mass-stone": {
+            "displayName": "stone",
+            "unitPattern-count-one": "{0} stone",
+            "unitPattern-count-other": "{0} stone"
+          },
+          "mass-pound": {
+            "gender": "feminine",
+            "displayName": "libbre",
+            "unitPattern-count-one": "{0} libbra",
+            "unitPattern-count-other": "{0} libbre",
+            "perUnitPattern": "{0} per libbra"
+          },
+          "mass-ounce": {
+            "gender": "feminine",
+            "displayName": "once",
+            "unitPattern-count-one": "{0} oncia",
+            "unitPattern-count-other": "{0} once",
+            "perUnitPattern": "{0} per oncia"
+          },
+          "temperature-celsius": {
+            "gender": "masculine",
+            "displayName": "gradi Celsius",
+            "unitPattern-count-one": "{0} grado Celsius",
+            "unitPattern-count-other": "{0} gradi Celsius"
+          },
+          "temperature-fahrenheit": {
+            "gender": "masculine",
+            "displayName": "gradi Fahrenheit",
+            "unitPattern-count-one": "{0} grado Fahrenheit",
+            "unitPattern-count-other": "{0} gradi Fahrenheit"
+          },
+          "volume-liter": {
+            "gender": "masculine",
+            "displayName": "litri",
+            "unitPattern-count-one": "{0} litro",
+            "unitPattern-count-other": "{0} litri",
+            "perUnitPattern": "{0} per litro"
+          },
+          "volume-milliliter": {
+            "gender": "masculine",
+            "displayName": "millilitri",
+            "unitPattern-count-one": "{0} millilitro",
+            "unitPattern-count-other": "{0} millilitri"
+          },
+          "volume-gallon": {
+            "gender": "masculine",
+            "displayName": "galloni",
+            "unitPattern-count-one": "{0} gallone",
+            "unitPattern-count-other": "{0} galloni",
+            "perUnitPattern": "{0} per gallone"
+          },
+          "volume-fluid-ounce": {
+            "gender": "feminine",
+            "displayName": "once liquide",
+            "unitPattern-count-one": "{0} oncia liquida",
+            "unitPattern-count-other": "{0} once liquide"
+          }
+        },
+        "short": {
+          "angle-degree": {
+            "displayName": "\u00B0",
+            "unitPattern-count-other": "{0}\u00B0"
+          },
+          "area-hectare": {
+            "displayName": "ettari",
+            "unitPattern-count-other": "{0} ha"
+          },
+          "area-acre": {
+            "displayName": "acri",
+            "unitPattern-count-other": "{0} ac"
+          },
+          "concentr-percent": {
+            "displayName": "percento",
+            "unitPattern-count-other": "{0}%"
+          },
+          "digital-petabyte": {
+            "displayName": "Pbyte",
+            "unitPattern-count-other": "{0} PB"
+          },
+          "digital-terabyte": {
+            "displayName": "Tbyte",
+            "unitPattern-count-other": "{0} TB"
+          },
+          "digital-terabit": {
+            "displayName": "Tbit",
+            "unitPattern-count-other": "{0} Tb"
+          },
+          "digital-gigabyte": {
+            "displayName": "Gbyte",
+            "unitPattern-count-other": "{0} GB"
+          },
+          "digital-gigabit": {
+            "displayName": "Gbit",
+            "unitPattern-count-other": "{0} Gb"
+          },
+          "digital-megabyte": {
+            "displayName": "Mbyte",
+            "unitPattern-count-other": "{0} MB"
+          },
+          "digital-megabit": {
+            "displayName": "Mbit",
+            "unitPattern-count-other": "{0} Mb"
+          },
+          "digital-kilobyte": {
+            "displayName": "kbyte",
+            "unitPattern-count-other": "{0} kB"
+          },
+          "digital-kilobit": {
+            "displayName": "kbit",
+            "unitPattern-count-other": "{0} kb"
+          },
+          "digital-byte": {
+            "displayName": "byte",
+            "unitPattern-count-other": "{0} byte"
+          },
+          "digital-bit": {
+            "displayName": "bit",
+            "unitPattern-count-other": "{0} bit"
+          },
+          "duration-year": {
+            "displayName": "anni",
+            "unitPattern-count-one": "{0} anno",
+            "unitPattern-count-other": "{0} anni",
+            "perUnitPattern": "{0}/anno"
+          },
+          "duration-month": {
+            "displayName": "mesi",
+            "unitPattern-count-one": "{0} mese",
+            "unitPattern-count-other": "{0} mesi",
+            "perUnitPattern": "{0}/mese"
+          },
+          "duration-week": {
+            "displayName": "settimane",
+            "unitPattern-count-one": "{0} sett.",
+            "unitPattern-count-other": "{0} sett.",
+            "perUnitPattern": "{0}/settimana"
+          },
+          "duration-day": {
+            "displayName": "giorni",
+            "unitPattern-count-one": "{0} giorno",
+            "unitPattern-count-other": "{0} giorni",
+            "perUnitPattern": "{0}/giorno"
+          },
+          "duration-hour": {
+            "displayName": "h",
+            "unitPattern-count-other": "{0} h",
+            "perUnitPattern": "{0}/h"
+          },
+          "duration-minute": {
+            "displayName": "min",
+            "unitPattern-count-other": "{0} min",
+            "perUnitPattern": "{0}/min"
+          },
+          "duration-second": {
+            "displayName": "s",
+            "unitPattern-count-other": "{0} s",
+            "perUnitPattern": "{0}/s"
+          },
+          "duration-millisecond": {
+            "displayName": "ms",
+            "unitPattern-count-other": "{0} ms"
+          },
+          "duration-microsecond": {
+            "displayName": "\u03BCs",
+            "unitPattern-count-other": "{0} \u03BCs"
+          },
+          "duration-nanosecond": {
+            "displayName": "ns",
+            "unitPattern-count-other": "{0} ns"
+          },
+          "length-kilometer": {
+            "displayName": "km",
+            "unitPattern-count-other": "{0} km",
+            "perUnitPattern": "{0}/km"
+          },
+          "length-meter": {
+            "displayName": "m",
+            "unitPattern-count-other": "{0} m",
+            "perUnitPattern": "{0}/m"
+          },
+          "length-centimeter": {
+            "displayName": "cm",
+            "unitPattern-count-other": "{0} cm",
+            "perUnitPattern": "{0}/cm"
+          },
+          "length-millimeter": {
+            "displayName": "mm",
+            "unitPattern-count-other": "{0} mm"
+          },
+          "length-mile": {
+            "displayName": "miglia",
+            "unitPattern-count-other": "{0} mi"
+          },
+          "length-yard": {
+            "displayName": "iarde",
+            "unitPattern-count-other": "{0} yd"
+          },
+          "length-foot": {
+            "displayName": "ft",
+            "unitPattern-count-other": "{0} ft",
+            "perUnitPattern": "{0}/ft"
+          },
+          "length-inch": {
+            "displayName": "in",
+            "unitPattern-count-other": "{0} in",
+            "perUnitPattern": "{0}/in"
+          },
+          "length-mile-scandinavian": {
+            "displayName": "smi",
+            "unitPattern-count-other": "{0} smi"
+          },
+          "mass-kilogram": {
+            "displayName": "kg",
+            "unitPattern-count-other": "{0} kg",
+            "perUnitPattern": "{0}/kg"
+          },
+          "mass-gram": {
+            "displayName": "grammi",
+            "unitPattern-count-other": "{0} g",
+            "perUnitPattern": "{0}/g"
+          },
+          "mass-stone": {
+            "displayName": "st",
+            "unitPattern-count-other": "{0} st"
+          },
+          "mass-pound": {
+            "displayName": "lb",
+            "unitPattern-count-other": "{0} lb",
+            "perUnitPattern": "{0}/lb"
+          },
+          "mass-ounce": {
+            "displayName": "oz",
+            "unitPattern-count-other": "{0} oz",
+            "perUnitPattern": "{0}/oz"
+          },
+          "temperature-celsius": {
+            "displayName": "\u00B0C",
+            "unitPattern-count-one": "{0} \u00B0C",
+            "unitPattern-count-other": "{0} \u00B0C"
+          },
+          "temperature-fahrenheit": {
+            "displayName": "\u00B0F",
+            "unitPattern-count-one": "{0} \u00B0F",
+            "unitPattern-count-other": "{0} \u00B0F"
+          },
+          "volume-liter": {
+            "displayName": "l",
+            "unitPattern-count-other": "{0} l",
+            "perUnitPattern": "{0}/l"
+          },
+          "volume-milliliter": {
+            "displayName": "ml",
+            "unitPattern-count-one": "{0} ml",
+            "unitPattern-count-other": "{0} ml"
+          },
+          "volume-gallon": {
+            "displayName": "gal",
+            "unitPattern-count-one": "{0} gal",
+            "unitPattern-count-other": "{0} gal",
+            "perUnitPattern": "{0}/gal"
+          },
+          "volume-fluid-ounce": {
+            "displayName": "fl oz",
+            "unitPattern-count-one": "{0} fl oz",
+            "unitPattern-count-other": "{0} fl oz"
+          }
+        },
+        "narrow": {
+          "angle-degree": {
+            "displayName": "\u00B0",
+            "unitPattern-count-other": "{0}\u00B0"
+          },
+          "area-hectare": {
+            "displayName": "ha",
+            "unitPattern-count-one": "{0}ha",
+            "unitPattern-count-other": "{0}ha"
+          },
+          "area-acre": {
+            "displayName": "ac",
+            "unitPattern-count-one": "{0}ac",
+            "unitPattern-count-other": "{0}ac"
+          },
+          "concentr-percent": {
+            "displayName": "%",
+            "unitPattern-count-other": "{0}%"
+          },
+          "digital-petabyte": {
+            "displayName": "PB",
+            "unitPattern-count-one": "{0}PB",
+            "unitPattern-count-other": "{0}PB"
+          },
+          "digital-terabyte": {
+            "displayName": "TB",
+            "unitPattern-count-one": "{0}TB",
+            "unitPattern-count-other": "{0}TB"
+          },
+          "digital-terabit": {
+            "displayName": "Tb",
+            "unitPattern-count-one": "{0}Tb",
+            "unitPattern-count-other": "{0}Tb"
+          },
+          "digital-gigabyte": {
+            "displayName": "GB",
+            "unitPattern-count-one": "{0}GB",
+            "unitPattern-count-other": "{0}GB"
+          },
+          "digital-gigabit": {
+            "displayName": "Gb",
+            "unitPattern-count-one": "{0}Gb",
+            "unitPattern-count-other": "{0}Gb"
+          },
+          "digital-megabyte": {
+            "displayName": "MB",
+            "unitPattern-count-one": "{0}MB",
+            "unitPattern-count-other": "{0}MB"
+          },
+          "digital-megabit": {
+            "displayName": "Mb",
+            "unitPattern-count-one": "{0}Mb",
+            "unitPattern-count-other": "{0}Mb"
+          },
+          "digital-kilobyte": {
+            "displayName": "kB",
+            "unitPattern-count-one": "{0}kB",
+            "unitPattern-count-other": "{0}kB"
+          },
+          "digital-kilobit": {
+            "displayName": "kb",
+            "unitPattern-count-one": "{0}kb",
+            "unitPattern-count-other": "{0}kb"
+          },
+          "digital-byte": {
+            "displayName": "B",
+            "unitPattern-count-one": "{0}B",
+            "unitPattern-count-other": "{0}B"
+          },
+          "digital-bit": {
+            "displayName": "bit",
+            "unitPattern-count-one": "{0}bit",
+            "unitPattern-count-other": "{0}bit"
+          },
+          "duration-year": {
+            "displayName": "anno",
+            "unitPattern-count-one": "{0}anno",
+            "unitPattern-count-other": "{0}anni",
+            "perUnitPattern": "{0}/anno"
+          },
+          "duration-month": {
+            "displayName": "mese",
+            "unitPattern-count-one": "{0} mese",
+            "unitPattern-count-other": "{0} mesi",
+            "perUnitPattern": "{0}/mese"
+          },
+          "duration-week": {
+            "displayName": "sett.",
+            "unitPattern-count-one": "{0}sett.",
+            "unitPattern-count-other": "{0}sett.",
+            "perUnitPattern": "{0}/sett."
+          },
+          "duration-day": {
+            "displayName": "giorno",
+            "unitPattern-count-one": "{0}g",
+            "unitPattern-count-other": "{0}gg",
+            "perUnitPattern": "{0}/g"
+          },
+          "duration-hour": {
+            "displayName": "ora",
+            "unitPattern-count-one": "{0}h",
+            "unitPattern-count-other": "{0}h",
+            "perUnitPattern": "{0}/h"
+          },
+          "duration-minute": {
+            "displayName": "min",
+            "unitPattern-count-one": "{0}min",
+            "unitPattern-count-other": "{0}min",
+            "perUnitPattern": "{0}/min"
+          },
+          "duration-second": {
+            "displayName": "s",
+            "unitPattern-count-one": "{0}s",
+            "unitPattern-count-other": "{0}s",
+            "perUnitPattern": "{0}/s"
+          },
+          "duration-millisecond": {
+            "displayName": "ms",
+            "unitPattern-count-one": "{0}ms",
+            "unitPattern-count-other": "{0}ms"
+          },
+          "duration-microsecond": {
+            "displayName": "\u03BCs",
+            "unitPattern-count-one": "{0}\u03BCs",
+            "unitPattern-count-other": "{0}\u03BCs"
+          },
+          "duration-nanosecond": {
+            "displayName": "ns",
+            "unitPattern-count-one": "{0}ns",
+            "unitPattern-count-other": "{0}ns"
+          },
+          "length-kilometer": {
+            "displayName": "km",
+            "unitPattern-count-one": "{0}km",
+            "unitPattern-count-other": "{0}km",
+            "perUnitPattern": "{0}/km"
+          },
+          "length-meter": {
+            "displayName": "m",
+            "unitPattern-count-one": "{0}m",
+            "unitPattern-count-other": "{0}m",
+            "perUnitPattern": "{0}/m"
+          },
+          "length-centimeter": {
+            "displayName": "cm",
+            "unitPattern-count-one": "{0}cm",
+            "unitPattern-count-other": "{0}cm",
+            "perUnitPattern": "{0}/cm"
+          },
+          "length-millimeter": {
+            "displayName": "mm",
+            "unitPattern-count-one": "{0}mm",
+            "unitPattern-count-other": "{0}mm"
+          },
+          "length-mile": {
+            "displayName": "mi",
+            "unitPattern-count-one": "{0}mi",
+            "unitPattern-count-other": "{0}mi"
+          },
+          "length-yard": {
+            "displayName": "yd",
+            "unitPattern-count-one": "{0}yd",
+            "unitPattern-count-other": "{0}yd"
+          },
+          "length-foot": {
+            "displayName": "ft",
+            "unitPattern-count-one": "{0}ft",
+            "unitPattern-count-other": "{0}ft",
+            "perUnitPattern": "{0}/ft"
+          },
+          "length-inch": {
+            "displayName": "in",
+            "unitPattern-count-one": "{0}\u2033",
+            "unitPattern-count-other": "{0}\u2033",
+            "perUnitPattern": "{0}/in"
+          },
+          "length-mile-scandinavian": {
+            "displayName": "smi",
+            "unitPattern-count-one": "{0}smi",
+            "unitPattern-count-other": "{0}smi"
+          },
+          "mass-kilogram": {
+            "displayName": "kg",
+            "unitPattern-count-one": "{0}kg",
+            "unitPattern-count-other": "{0}kg",
+            "perUnitPattern": "{0}/kg"
+          },
+          "mass-gram": {
+            "displayName": "g",
+            "unitPattern-count-one": "{0}g",
+            "unitPattern-count-other": "{0}g",
+            "perUnitPattern": "{0}/g"
+          },
+          "mass-stone": {
+            "displayName": "st",
+            "unitPattern-count-one": "{0}st",
+            "unitPattern-count-other": "{0}st"
+          },
+          "mass-pound": {
+            "displayName": "lb",
+            "unitPattern-count-one": "{0}lb",
+            "unitPattern-count-other": "{0}lb",
+            "perUnitPattern": "{0}/lb"
+          },
+          "mass-ounce": {
+            "displayName": "oz",
+            "unitPattern-count-one": "{0}oz",
+            "unitPattern-count-other": "{0}oz",
+            "perUnitPattern": "{0}/oz"
+          },
+          "temperature-celsius": {
+            "displayName": "\u00B0C",
+            "unitPattern-count-one": "{0}\u00B0C",
+            "unitPattern-count-other": "{0}\u00B0C"
+          },
+          "temperature-fahrenheit": {
+            "displayName": "\u00B0F",
+            "unitPattern-count-one": "{0}\u00B0F",
+            "unitPattern-count-other": "{0}\u00B0F"
+          },
+          "volume-liter": {
+            "displayName": "l",
+            "unitPattern-count-one": "{0}l",
+            "unitPattern-count-other": "{0}l",
+            "perUnitPattern": "{0}/l"
+          },
+          "volume-milliliter": {
+            "displayName": "ml",
+            "unitPattern-count-one": "{0}ml",
+            "unitPattern-count-other": "{0}ml"
+          },
+          "volume-gallon": {
+            "displayName": "gal",
+            "unitPattern-count-one": "{0}gal",
+            "unitPattern-count-other": "{0}gal",
+            "perUnitPattern": "{0}/gal"
+          },
+          "volume-fluid-ounce": {
+            "displayName": "fl oz",
+            "unitPattern-count-one": "{0}fl oz",
+            "unitPattern-count-other": "{0}fl oz"
+          }
+        }
+      }
+    }
+  }
+}
