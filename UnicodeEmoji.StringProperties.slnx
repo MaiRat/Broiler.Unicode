@@ -6,8 +6,10 @@
     <Project Path="src/UnicodeEmoji.StringProperties.DataTool/UnicodeEmoji.StringProperties.DataTool.csproj" />
     <Project Path="src/UnicodeEmoji.StringProperties.Generator/UnicodeEmoji.StringProperties.Generator.csproj" />
     <Project Path="src/UnicodeEmoji.StringProperties/UnicodeEmoji.StringProperties.csproj" />
+    <Project Path="src/UnicodeCldr.LocaleData/UnicodeCldr.LocaleData.csproj" />
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/UnicodeEmoji.StringProperties.Tests/UnicodeEmoji.StringProperties.Tests.csproj" />
+    <Project Path="tests/UnicodeCldr.LocaleData.Tests/UnicodeCldr.LocaleData.Tests.csproj" />
   </Folder>
 </Solution>
