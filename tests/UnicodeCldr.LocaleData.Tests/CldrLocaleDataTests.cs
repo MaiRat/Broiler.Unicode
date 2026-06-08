@@ -81,4 +81,40 @@ public class CldrLocaleDataTests
     [Fact]
     public void Currency_UnknownCurrencyFallsBackToCode()
         => Assert.Equal("XTS", CldrLocaleData.ResolveCurrency("en-US", "XTS", "symbol").Symbol);
+
+    // ---- List patterns (generated from cldr-json) ----
+
+    [Fact]
+    public void ListPattern_EnglishConjunctionLong()
+    {
+        var (start, middle, end, pair) = CldrLocaleData.GetListPattern("en-US", "conjunction", "long");
+        Assert.Equal("{0}, {1}", start);
+        Assert.Equal("{0}, {1}", middle);
+        Assert.Equal("{0}, and {1}", end);
+        Assert.Equal("{0} and {1}", pair);
+    }
+
+    [Fact]
+    public void ListPattern_EnglishConjunctionShortUsesAmpersand()
+        => Assert.Equal("{0}, & {1}", CldrLocaleData.GetListPattern("en-US", "conjunction", "short").End);
+
+    [Fact]
+    public void ListPattern_SpanishUnitUsesY()
+        => Assert.Equal("{0} y {1}", CldrLocaleData.GetListPattern("es-ES", "unit", "long").End);
+
+    [Fact]
+    public void ListPattern_SpanishUnitNarrowIsSpaceSeparated()
+        => Assert.Equal("{0} {1}", CldrLocaleData.GetListPattern("es-ES", "unit", "narrow").Pair);
+
+    // zh uses the ideographic comma; coverage comes from the generated data.
+    [Fact]
+    public void ListPattern_ChineseUsesIdeographicComma()
+        => Assert.Equal("{0}、{1}", CldrLocaleData.GetListPattern("zh-TW", "conjunction", "long").Start);
+
+    // An unknown locale falls back to English patterns.
+    [Fact]
+    public void ListPattern_UnknownLocaleFallsBackToEnglish()
+        => Assert.Equal(
+            CldrLocaleData.GetListPattern("en", "conjunction", "long"),
+            CldrLocaleData.GetListPattern("xx-YY", "conjunction", "long"));
 }
