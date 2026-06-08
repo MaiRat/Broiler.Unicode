@@ -49,4 +49,8 @@ public static class RepoLayout
     /// <summary>The path of the committed generated CLDR plural-rules source file.</summary>
     public static string GeneratedPluralSourcePath(string repoRoot) =>
         Path.Combine(repoRoot, "src", "UnicodeCldr.LocaleData", "Generated", "CldrPluralData.g.cs");
+
+    /// <summary>The path of the committed generated CLDR currency-data source file.</summary>
+    public static string GeneratedCurrencySourcePath(string repoRoot) =>
+        Path.Combine(repoRoot, "src", "UnicodeCldr.LocaleData", "Generated", "CldrCurrencyData.g.cs");
 }

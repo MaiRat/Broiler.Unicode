@@ -42,6 +42,11 @@ if (Directory.Exists(supplementalDir))
         supplementalDir, version, RepoLayout.GeneratedPluralSourcePath(repoRoot));
     Console.WriteLine($"Generated {plural.OutputPath}");
     Console.WriteLine($"  Plural entries : {plural.EntryCount}");
+
+    CurrencyGenerationResult currency = CldrCurrencyCodeGenerator.Generate(
+        dataDir, supplementalDir, version, RepoLayout.GeneratedCurrencySourcePath(repoRoot));
+    Console.WriteLine($"Generated {currency.OutputPath}");
+    Console.WriteLine($"  Currency layouts : {currency.LayoutCount}, symbols : {currency.SymbolCount}");
 }
 
 return 0;

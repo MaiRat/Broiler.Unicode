@@ -1,4 +1,4 @@
-namespace UnicodeCldr.LocaleData;
+﻿namespace UnicodeCldr.LocaleData;
 
 /// <summary>
 /// Managed CLDR locale data for ECMA-402 <c>Intl</c> formatters, with no ICU or
@@ -12,9 +12,6 @@ public static class CldrLocaleData
 {
     /// <summary>The infinity symbol used by every CLDR locale's number system.</summary>
     public const string InfinitySymbol = "∞"; // ∞
-
-    private const string NoBreakSpace = " ";
-
     /// <summary>
     /// The primary language subtag of a BCP-47 locale tag, lower-cased
     /// (e.g. <c>"zh-Hant-TW"</c> → <c>"zh"</c>). Returns the empty string for a
@@ -93,39 +90,47 @@ public static class CldrLocaleData
         var code = (currencyCode ?? string.Empty).ToUpperInvariant();
         var language = LanguageOf(localeTag);
 
-        // de-DE places the symbol after the number, separated by a no-break space,
-        // and uses a leading minus for accounting negatives; the other covered
-        // locales place it before the number and wrap accounting negatives in
-        // parentheses.
-        var symbolAfter = language == "de";
+        var layout = CldrCurrencyData.Layout.TryGetValue(language, out var l)
+            || CldrCurrencyData.Layout.TryGetValue("en", out l)
+            ? l
+            : null;
 
         return new CldrCurrencyFormat
         {
-            Symbol = currencyDisplay == "code" ? code : CurrencySymbol(code, language, currencyDisplay),
-            SymbolAfterNumber = symbolAfter,
-            SpacingBetweenNumberAndSymbol = symbolAfter ? NoBreakSpace : string.Empty,
-            AccountingUsesParentheses = !symbolAfter,
-            FractionDigits = CurrencyDigits(code),
+            Symbol = ResolveCurrencySymbol(language, code, currencyDisplay),
+            SymbolAfterNumber = layout is not null && layout[0] == "1",
+            SpacingBetweenNumberAndSymbol = layout is null ? string.Empty : layout[1],
+            AccountingUsesParentheses = layout is null || layout[2] == "1",
+            FractionDigits = CldrCurrencyData.Digits.TryGetValue(code, out var digits) ? digits : 2,
         };
     }
 
-    private static string CurrencySymbol(string code, string language, string display)
+    private static string ResolveCurrencySymbol(string language, string code, string display)
     {
-        var wide = display != "narrowSymbol" && (language is "ko" or "zh");
-        return code switch
+        if (display == "code")
         {
-            "USD" => wide ? "US$" : "$",
-            "JPY" => wide ? "JP¥" : "¥",
-            "EUR" => "€",
-            "GBP" => "£",
-            _ => code,
-        };
+            return code;
+        }
+
+        var variant = display == "narrowSymbol" ? "narrow" : "symbol";
+        return LookupCurrencySymbol(language, code, variant)
+            ?? LookupCurrencySymbol("en", code, variant)
+            ?? code;
     }
 
-    private static int CurrencyDigits(string code) => code switch
+    private static string? LookupCurrencySymbol(string language, string code, string variant)
     {
-        "JPY" or "KRW" or "CLP" or "VND" => 0,
-        "BHD" or "KWD" or "OMR" or "TND" => 3,
-        _ => 2,
-    };
+        if (CldrCurrencyData.Symbols.TryGetValue($"{language}|{code}|{variant}", out var symbol))
+        {
+            return symbol;
+        }
+
+        // A missing narrow symbol falls back to the standard symbol.
+        if (variant == "narrow" && CldrCurrencyData.Symbols.TryGetValue($"{language}|{code}|symbol", out symbol))
+        {
+            return symbol;
+        }
+
+        return null;
+    }
 }

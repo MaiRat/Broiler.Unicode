@@ -1,3 +1,5 @@
+using System.Text.Json;
+using System.Text.Json.Nodes;
 using UnicodeCldr.LocaleData.Generator;
 
 // DataTool: downloads official CLDR JSON data slices and (re)generates the lookup tables.
@@ -65,21 +67,67 @@ async Task DownloadAsync(string version, string dataDir)
     using var http = new HttpClient();
     http.DefaultRequestHeaders.UserAgent.ParseAdd("UnicodeCldr.LocaleData.DataTool/1.0");
 
-    // Per-locale list patterns (cldr-misc).
     foreach (string locale in Locales)
     {
-        string url = $"https://raw.githubusercontent.com/unicode-org/cldr-json/{version}/cldr-json/cldr-misc-full/main/{locale}/listPatterns.json";
         string localeDir = Path.Combine(dataDir, locale);
-        await DownloadFileAsync(http, url, Path.Combine(localeDir, "listPatterns.json"));
+
+        // Per-locale list patterns (cldr-misc) and number formats (cldr-numbers).
+        await DownloadFileAsync(http,
+            $"https://raw.githubusercontent.com/unicode-org/cldr-json/{version}/cldr-json/cldr-misc-full/main/{locale}/listPatterns.json",
+            Path.Combine(localeDir, "listPatterns.json"));
+        await DownloadFileAsync(http,
+            $"https://raw.githubusercontent.com/unicode-org/cldr-json/{version}/cldr-json/cldr-numbers-full/main/{locale}/numbers.json",
+            Path.Combine(localeDir, "numbers.json"));
+
+        // Currency symbols are trimmed to the curated set so the committed slice
+        // stays small (the full file lists ~300 currencies).
+        await DownloadTrimmedCurrenciesAsync(http,
+            $"https://raw.githubusercontent.com/unicode-org/cldr-json/{version}/cldr-json/cldr-numbers-full/main/{locale}/currencies.json",
+            Path.Combine(localeDir, "currencies.json"), locale);
     }
 
-    // Supplemental plural rules (single file each, all locales).
+    // Supplemental data (single files, all locales).
     string supplementalDir = Path.Combine(dataDir, "supplemental");
-    foreach (string file in new[] { "plurals.json", "ordinals.json" })
+    foreach (string file in new[] { "plurals.json", "ordinals.json", "currencyData.json" })
     {
         string url = $"https://raw.githubusercontent.com/unicode-org/cldr-json/{version}/cldr-json/cldr-core/supplemental/{file}";
         await DownloadFileAsync(http, url, Path.Combine(supplementalDir, file));
     }
+}
+
+async Task DownloadTrimmedCurrenciesAsync(HttpClient http, string url, string destination, string locale)
+{
+    Console.WriteLine($"Downloading {url} (trimmed)");
+    string content = await http.GetStringAsync(url);
+    var root = JsonNode.Parse(content)!;
+    var currencies = root["main"]?[locale]?["numbers"]?["currencies"]?.AsObject();
+
+    var kept = new JsonObject();
+    if (currencies is not null)
+    {
+        foreach (string code in CldrCurrencyParser.CuratedCurrencies)
+        {
+            if (currencies.TryGetPropertyValue(code, out var entry) && entry is not null)
+            {
+                kept[code] = entry.DeepClone();
+            }
+        }
+    }
+
+    var trimmed = new JsonObject
+    {
+        ["main"] = new JsonObject
+        {
+            [locale] = new JsonObject
+            {
+                ["numbers"] = new JsonObject { ["currencies"] = kept },
+            },
+        },
+    };
+
+    Directory.CreateDirectory(Path.GetDirectoryName(destination)!);
+    await File.WriteAllTextAsync(destination, trimmed.ToJsonString(new JsonSerializerOptions { WriteIndented = true }));
+    Console.WriteLine($"  -> {destination}");
 }
 
 async Task DownloadFileAsync(HttpClient http, string url, string destination)
@@ -113,6 +161,11 @@ void Generate(string version, string dataDir, string repoRoot)
         RepoLayout.SupplementalDirectory(repoRoot, version), version, RepoLayout.GeneratedPluralSourcePath(repoRoot));
     Console.WriteLine($"Generated {plural.OutputPath}");
     Console.WriteLine($"  entries={plural.EntryCount}");
+
+    CurrencyGenerationResult currency = CldrCurrencyCodeGenerator.Generate(
+        dataDir, RepoLayout.SupplementalDirectory(repoRoot, version), version, RepoLayout.GeneratedCurrencySourcePath(repoRoot));
+    Console.WriteLine($"Generated {currency.OutputPath}");
+    Console.WriteLine($"  layouts={currency.LayoutCount} symbols={currency.SymbolCount} digits={currency.DigitsCount}");
 }
 
 void PrintUsage()
