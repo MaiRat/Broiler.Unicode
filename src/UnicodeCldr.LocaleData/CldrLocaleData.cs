@@ -76,6 +76,27 @@ public static class CldrLocaleData
         => CldrPluralRules.Categories(localeTag, type);
 
     /// <summary>
+    /// The CLDR unit pattern (with a <c>{0}</c> placeholder) for a locale, ECMA-402
+    /// simple unit, display width and plural category — used to drive an
+    /// <c>Intl.NumberFormat</c> <c>style: "unit"</c> formatter. Falls back to the
+    /// "other" category, then English, then a plain <c>"{0} &lt;unit&gt;"</c> layout.
+    /// The patterns are generated from the official cldr-json unit data.
+    /// </summary>
+    /// <param name="localeTag">A BCP-47 locale tag; only the language subtag is used.</param>
+    /// <param name="unit">An ECMA-402 simple unit identifier (e.g. <c>"meter"</c>).</param>
+    /// <param name="display"><c>"long"</c>, <c>"short"</c> or <c>"narrow"</c>.</param>
+    /// <param name="pluralCategory">The plural category of the number (e.g. <c>"one"</c>/<c>"other"</c>).</param>
+    public static string GetUnitPattern(string localeTag, string unit, string display, string pluralCategory)
+    {
+        var language = LanguageOf(localeTag);
+        return CldrUnitData.Patterns.GetValueOrDefault($"{language}|{unit}|{display}|{pluralCategory}")
+            ?? CldrUnitData.Patterns.GetValueOrDefault($"{language}|{unit}|{display}|other")
+            ?? CldrUnitData.Patterns.GetValueOrDefault($"en|{unit}|{display}|{pluralCategory}")
+            ?? CldrUnitData.Patterns.GetValueOrDefault($"en|{unit}|{display}|other")
+            ?? $"{{0}} {unit}";
+    }
+
+    /// <summary>
     /// Resolves the currency layout for a locale.
     /// </summary>
     /// <param name="localeTag">A BCP-47 locale tag (e.g. <c>"de-DE"</c>).</param>

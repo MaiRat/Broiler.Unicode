@@ -182,4 +182,33 @@ public class CldrLocaleDataTests
         Assert.Equal(new[] { "one", "few", "many", "other" }, CldrLocaleData.GetPluralCategories("ru", "cardinal"));
         Assert.Equal(new[] { "other" }, CldrLocaleData.GetPluralCategories("ja", "cardinal"));
     }
+
+    // ---- Unit patterns (generated from cldr-json) ----
+
+    [Theory]
+    [InlineData("long", "one", "{0} meter")]
+    [InlineData("long", "other", "{0} meters")]
+    [InlineData("short", "other", "{0} m")]
+    [InlineData("narrow", "other", "{0}m")]
+    public void Unit_EnglishMeter(string display, string count, string expected)
+        => Assert.Equal(expected, CldrLocaleData.GetUnitPattern("en-US", "meter", display, count));
+
+    // An unknown plural category falls back to "other".
+    [Fact]
+    public void Unit_FallsBackToOtherCount()
+        => Assert.Equal(
+            CldrLocaleData.GetUnitPattern("en", "meter", "short", "other"),
+            CldrLocaleData.GetUnitPattern("en", "meter", "short", "many"));
+
+    // An unknown locale falls back to English.
+    [Fact]
+    public void Unit_FallsBackToEnglishLocale()
+        => Assert.Equal(
+            CldrLocaleData.GetUnitPattern("en", "meter", "long", "other"),
+            CldrLocaleData.GetUnitPattern("xx-YY", "meter", "long", "other"));
+
+    // An unknown unit gets a plain "{0} <unit>" layout.
+    [Fact]
+    public void Unit_UnknownUnitGetsPlainLayout()
+        => Assert.Equal("{0} parsec", CldrLocaleData.GetUnitPattern("en", "parsec", "short", "other"));
 }

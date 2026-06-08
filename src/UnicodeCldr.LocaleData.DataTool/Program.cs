@@ -84,6 +84,11 @@ async Task DownloadAsync(string version, string dataDir)
         await DownloadTrimmedCurrenciesAsync(http,
             $"https://raw.githubusercontent.com/unicode-org/cldr-json/{version}/cldr-json/cldr-numbers-full/main/{locale}/currencies.json",
             Path.Combine(localeDir, "currencies.json"), locale);
+
+        // Unit patterns are trimmed to the ECMA-402 sanctioned simple units.
+        await DownloadTrimmedUnitsAsync(http,
+            $"https://raw.githubusercontent.com/unicode-org/cldr-json/{version}/cldr-json/cldr-units-full/main/{locale}/units.json",
+            Path.Combine(localeDir, "units.json"), locale);
     }
 
     // Supplemental data (single files, all locales).
@@ -130,6 +135,50 @@ async Task DownloadTrimmedCurrenciesAsync(HttpClient http, string url, string de
     Console.WriteLine($"  -> {destination}");
 }
 
+async Task DownloadTrimmedUnitsAsync(HttpClient http, string url, string destination, string locale)
+{
+    Console.WriteLine($"Downloading {url} (trimmed)");
+    string content = await http.GetStringAsync(url);
+    var root = JsonNode.Parse(content)!;
+    var units = root["main"]?[locale]?["units"]?.AsObject();
+
+    var keptUnits = new JsonObject();
+    if (units is not null)
+    {
+        foreach (string display in new[] { "long", "short", "narrow" })
+        {
+            if (units[display] is not JsonObject section)
+            {
+                continue;
+            }
+
+            var keptSection = new JsonObject();
+            foreach (var entry in section)
+            {
+                int dash = entry.Key.IndexOf('-');
+                if (dash >= 0 && CldrUnitsParser.CuratedUnits.Contains(entry.Key[(dash + 1)..]) && entry.Value is not null)
+                {
+                    keptSection[entry.Key] = entry.Value.DeepClone();
+                }
+            }
+
+            keptUnits[display] = keptSection;
+        }
+    }
+
+    var trimmed = new JsonObject
+    {
+        ["main"] = new JsonObject
+        {
+            [locale] = new JsonObject { ["units"] = keptUnits },
+        },
+    };
+
+    Directory.CreateDirectory(Path.GetDirectoryName(destination)!);
+    await File.WriteAllTextAsync(destination, trimmed.ToJsonString(new JsonSerializerOptions { WriteIndented = true }));
+    Console.WriteLine($"  -> {destination}");
+}
+
 async Task DownloadFileAsync(HttpClient http, string url, string destination)
 {
     Console.WriteLine($"Downloading {url}");
@@ -166,6 +215,10 @@ void Generate(string version, string dataDir, string repoRoot)
         dataDir, RepoLayout.SupplementalDirectory(repoRoot, version), version, RepoLayout.GeneratedCurrencySourcePath(repoRoot));
     Console.WriteLine($"Generated {currency.OutputPath}");
     Console.WriteLine($"  layouts={currency.LayoutCount} symbols={currency.SymbolCount} digits={currency.DigitsCount}");
+
+    UnitsGenerationResult units = CldrUnitsCodeGenerator.Generate(dataDir, version, RepoLayout.GeneratedUnitSourcePath(repoRoot));
+    Console.WriteLine($"Generated {units.OutputPath}");
+    Console.WriteLine($"  entries={units.EntryCount}");
 }
 
 void PrintUsage()

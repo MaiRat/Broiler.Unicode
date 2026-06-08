@@ -49,4 +49,8 @@ if (Directory.Exists(supplementalDir))
     Console.WriteLine($"  Currency layouts : {currency.LayoutCount}, symbols : {currency.SymbolCount}");
 }
 
+UnitsGenerationResult units = CldrUnitsCodeGenerator.Generate(dataDir, version, RepoLayout.GeneratedUnitSourcePath(repoRoot));
+Console.WriteLine($"Generated {units.OutputPath}");
+Console.WriteLine($"  Unit entries : {units.EntryCount}");
+
 return 0;
