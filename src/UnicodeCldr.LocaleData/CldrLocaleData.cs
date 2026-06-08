@@ -58,6 +58,27 @@ public static class CldrLocaleData
     }
 
     /// <summary>
+    /// Selects the CLDR plural category of a number for a locale, per ECMA-402
+    /// <c>Intl.PluralRules.prototype.select</c>. The rules are generated from the
+    /// official cldr-json plural data (see the generated <c>CldrPluralData</c>);
+    /// an unknown locale resolves to <c>"other"</c>.
+    /// </summary>
+    /// <param name="localeTag">A BCP-47 locale tag.</param>
+    /// <param name="type"><c>"cardinal"</c> or <c>"ordinal"</c>.</param>
+    /// <param name="number">The number to categorize.</param>
+    /// <param name="minimumFractionDigits">Minimum visible fraction digits (default 0).</param>
+    /// <param name="maximumFractionDigits">Maximum visible fraction digits (default 3).</param>
+    public static string SelectPlural(string localeTag, string type, double number, int minimumFractionDigits = 0, int maximumFractionDigits = 3)
+        => CldrPluralRules.Select(localeTag, type, number, minimumFractionDigits, maximumFractionDigits);
+
+    /// <summary>
+    /// The ordered plural categories a locale uses for a type (always ending in
+    /// <c>"other"</c>), for <c>resolvedOptions().pluralCategories</c>.
+    /// </summary>
+    public static string[] GetPluralCategories(string localeTag, string type)
+        => CldrPluralRules.Categories(localeTag, type);
+
+    /// <summary>
     /// Resolves the currency layout for a locale.
     /// </summary>
     /// <param name="localeTag">A BCP-47 locale tag (e.g. <c>"de-DE"</c>).</param>

@@ -38,7 +38,15 @@ public static class RepoLayout
     public static string DataDirectory(string repoRoot, string version) =>
         Path.Combine(repoRoot, "data", "cldr", version);
 
+    /// <summary>The directory holding downloaded CLDR supplemental data: <c>data/cldr/&lt;version&gt;/supplemental</c>.</summary>
+    public static string SupplementalDirectory(string repoRoot, string version) =>
+        Path.Combine(DataDirectory(repoRoot, version), "supplemental");
+
     /// <summary>The path of the committed generated CLDR list-patterns source file.</summary>
     public static string GeneratedListSourcePath(string repoRoot) =>
         Path.Combine(repoRoot, "src", "UnicodeCldr.LocaleData", "Generated", "CldrListData.g.cs");
+
+    /// <summary>The path of the committed generated CLDR plural-rules source file.</summary>
+    public static string GeneratedPluralSourcePath(string repoRoot) =>
+        Path.Combine(repoRoot, "src", "UnicodeCldr.LocaleData", "Generated", "CldrPluralData.g.cs");
 }

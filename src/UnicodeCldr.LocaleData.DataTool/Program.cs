@@ -65,24 +65,37 @@ async Task DownloadAsync(string version, string dataDir)
     using var http = new HttpClient();
     http.DefaultRequestHeaders.UserAgent.ParseAdd("UnicodeCldr.LocaleData.DataTool/1.0");
 
+    // Per-locale list patterns (cldr-misc).
     foreach (string locale in Locales)
     {
         string url = $"https://raw.githubusercontent.com/unicode-org/cldr-json/{version}/cldr-json/cldr-misc-full/main/{locale}/listPatterns.json";
-        Console.WriteLine($"Downloading {url}");
-        string content = await http.GetStringAsync(url);
-
-        if (content.StartsWith("<!DOCTYPE", StringComparison.OrdinalIgnoreCase) ||
-            content.Contains("404: Not Found", StringComparison.OrdinalIgnoreCase))
-        {
-            throw new InvalidOperationException($"Unexpected response for {url}; are version '{version}' and locale '{locale}' valid?");
-        }
-
         string localeDir = Path.Combine(dataDir, locale);
-        Directory.CreateDirectory(localeDir);
-        string destination = Path.Combine(localeDir, "listPatterns.json");
-        await File.WriteAllTextAsync(destination, content.Replace("\r\n", "\n"));
-        Console.WriteLine($"  -> {destination}");
+        await DownloadFileAsync(http, url, Path.Combine(localeDir, "listPatterns.json"));
     }
+
+    // Supplemental plural rules (single file each, all locales).
+    string supplementalDir = Path.Combine(dataDir, "supplemental");
+    foreach (string file in new[] { "plurals.json", "ordinals.json" })
+    {
+        string url = $"https://raw.githubusercontent.com/unicode-org/cldr-json/{version}/cldr-json/cldr-core/supplemental/{file}";
+        await DownloadFileAsync(http, url, Path.Combine(supplementalDir, file));
+    }
+}
+
+async Task DownloadFileAsync(HttpClient http, string url, string destination)
+{
+    Console.WriteLine($"Downloading {url}");
+    string content = await http.GetStringAsync(url);
+
+    if (content.StartsWith("<!DOCTYPE", StringComparison.OrdinalIgnoreCase) ||
+        content.Contains("404: Not Found", StringComparison.OrdinalIgnoreCase))
+    {
+        throw new InvalidOperationException($"Unexpected response for {url}; is version valid?");
+    }
+
+    Directory.CreateDirectory(Path.GetDirectoryName(destination)!);
+    await File.WriteAllTextAsync(destination, content.Replace("\r\n", "\n"));
+    Console.WriteLine($"  -> {destination}");
 }
 
 void Generate(string version, string dataDir, string repoRoot)
@@ -92,10 +105,14 @@ void Generate(string version, string dataDir, string repoRoot)
         throw new DirectoryNotFoundException($"Data directory not found: {dataDir}. Run 'download {version}' first.");
     }
 
-    string outputPath = RepoLayout.GeneratedListSourcePath(repoRoot);
-    ListGenerationResult result = CldrListCodeGenerator.Generate(dataDir, version, outputPath);
-    Console.WriteLine($"Generated {result.OutputPath}");
-    Console.WriteLine($"  locales={result.LocaleCount} entries={result.EntryCount}");
+    ListGenerationResult list = CldrListCodeGenerator.Generate(dataDir, version, RepoLayout.GeneratedListSourcePath(repoRoot));
+    Console.WriteLine($"Generated {list.OutputPath}");
+    Console.WriteLine($"  locales={list.LocaleCount} entries={list.EntryCount}");
+
+    PluralGenerationResult plural = CldrPluralCodeGenerator.Generate(
+        RepoLayout.SupplementalDirectory(repoRoot, version), version, RepoLayout.GeneratedPluralSourcePath(repoRoot));
+    Console.WriteLine($"Generated {plural.OutputPath}");
+    Console.WriteLine($"  entries={plural.EntryCount}");
 }
 
 void PrintUsage()

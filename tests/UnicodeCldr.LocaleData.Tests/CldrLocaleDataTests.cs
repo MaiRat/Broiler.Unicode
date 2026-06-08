@@ -117,4 +117,69 @@ public class CldrLocaleDataTests
         => Assert.Equal(
             CldrLocaleData.GetListPattern("en", "conjunction", "long"),
             CldrLocaleData.GetListPattern("xx-YY", "conjunction", "long"));
+
+    // ---- Plural rules (generated from cldr-json) ----
+
+    [Theory]
+    [InlineData(1, "one")]
+    [InlineData(0, "other")]
+    [InlineData(2, "other")]
+    [InlineData(100, "other")]
+    public void Plural_EnglishCardinal(double n, string expected)
+        => Assert.Equal(expected, CldrLocaleData.SelectPlural("en-US", "cardinal", n));
+
+    [Theory]
+    [InlineData(1, "one")]
+    [InlineData(2, "two")]
+    [InlineData(3, "few")]
+    [InlineData(4, "other")]
+    [InlineData(11, "other")]
+    [InlineData(21, "one")]
+    [InlineData(22, "two")]
+    public void Plural_EnglishOrdinal(double n, string expected)
+        => Assert.Equal(expected, CldrLocaleData.SelectPlural("en-US", "ordinal", n));
+
+    // 1.0 in JS is just 1 (no trailing zeros) -> "one"; a true fraction -> "other".
+    [Theory]
+    [InlineData(1.0, "one")]
+    [InlineData(1.5, "other")]
+    public void Plural_EnglishCardinalFractions(double n, string expected)
+        => Assert.Equal(expected, CldrLocaleData.SelectPlural("en-US", "cardinal", n));
+
+    // Russian exercises the v/i operands and few/many ranges.
+    [Theory]
+    [InlineData(1, "one")]
+    [InlineData(2, "few")]
+    [InlineData(5, "many")]
+    [InlineData(11, "many")]
+    [InlineData(21, "one")]
+    public void Plural_RussianCardinal(double n, string expected)
+        => Assert.Equal(expected, CldrLocaleData.SelectPlural("ru-RU", "cardinal", n));
+
+    // Welsh uses every category; checks single-value rules including "many" = 6.
+    [Theory]
+    [InlineData(0, "zero")]
+    [InlineData(1, "one")]
+    [InlineData(2, "two")]
+    [InlineData(3, "few")]
+    [InlineData(6, "many")]
+    [InlineData(4, "other")]
+    public void Plural_WelshCardinal(double n, string expected)
+        => Assert.Equal(expected, CldrLocaleData.SelectPlural("cy", "cardinal", n));
+
+    [Fact]
+    public void Plural_NonFiniteIsOther()
+    {
+        Assert.Equal("other", CldrLocaleData.SelectPlural("en", "cardinal", double.PositiveInfinity));
+        Assert.Equal("other", CldrLocaleData.SelectPlural("en", "cardinal", double.NaN));
+    }
+
+    [Fact]
+    public void Plural_CategoriesReflectLocale()
+    {
+        Assert.Equal(new[] { "one", "other" }, CldrLocaleData.GetPluralCategories("en", "cardinal"));
+        Assert.Equal(new[] { "one", "two", "few", "other" }, CldrLocaleData.GetPluralCategories("en", "ordinal"));
+        Assert.Equal(new[] { "one", "few", "many", "other" }, CldrLocaleData.GetPluralCategories("ru", "cardinal"));
+        Assert.Equal(new[] { "other" }, CldrLocaleData.GetPluralCategories("ja", "cardinal"));
+    }
 }

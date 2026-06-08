@@ -34,4 +34,14 @@ Console.WriteLine($"Generated {result.OutputPath}");
 Console.WriteLine($"  CLDR version : {version}");
 Console.WriteLine($"  Locales      : {result.LocaleCount}");
 Console.WriteLine($"  Entries      : {result.EntryCount}");
+
+string supplementalDir = RepoLayout.SupplementalDirectory(repoRoot, version);
+if (Directory.Exists(supplementalDir))
+{
+    PluralGenerationResult plural = CldrPluralCodeGenerator.Generate(
+        supplementalDir, version, RepoLayout.GeneratedPluralSourcePath(repoRoot));
+    Console.WriteLine($"Generated {plural.OutputPath}");
+    Console.WriteLine($"  Plural entries : {plural.EntryCount}");
+}
+
 return 0;
