@@ -1,0 +1,90 @@
+{
+  "main": {
+    "tr": {
+      "dates": {
+        "calendars": {
+          "gregorian": {
+            "dayPeriods": {
+              "format": {
+                "abbreviated": {
+                  "midnight": "gece yar\u0131s\u0131",
+                  "am": "\u00D6\u00D6",
+                  "noon": "\u00F6\u011Fle",
+                  "pm": "\u00D6S",
+                  "morning1": "sabah",
+                  "morning2": "\u00F6\u011Fleden \u00F6nce",
+                  "afternoon1": "\u00F6\u011Fleden sonra",
+                  "afternoon2": "ak\u015Fam\u00FCst\u00FC",
+                  "evening1": "ak\u015Fam",
+                  "night1": "gece"
+                },
+                "narrow": {
+                  "midnight": "gece",
+                  "am": "\u00F6\u00F6",
+                  "noon": "\u00F6",
+                  "pm": "\u00F6s",
+                  "morning1": "sabah",
+                  "morning2": "\u00F6\u011Fleden \u00F6nce",
+                  "afternoon1": "\u00F6\u011Fleden sonra",
+                  "afternoon2": "ak\u015Fam\u00FCst\u00FC",
+                  "evening1": "ak\u015Fam",
+                  "night1": "gece"
+                },
+                "wide": {
+                  "midnight": "gece yar\u0131s\u0131",
+                  "am": "\u00D6\u00D6",
+                  "noon": "\u00F6\u011Fle",
+                  "pm": "\u00D6S",
+                  "morning1": "sabah",
+                  "morning2": "\u00F6\u011Fleden \u00F6nce",
+                  "afternoon1": "\u00F6\u011Fleden sonra",
+                  "afternoon2": "ak\u015Fam\u00FCst\u00FC",
+                  "evening1": "ak\u015Fam",
+                  "night1": "gece"
+                }
+              },
+              "stand-alone": {
+                "abbreviated": {
+                  "midnight": "gece yar\u0131s\u0131",
+                  "am": "\u00D6\u00D6",
+                  "noon": "\u00F6\u011Fle",
+                  "pm": "\u00D6S",
+                  "morning1": "sabah",
+                  "morning2": "\u00F6\u011Fleden \u00F6nce",
+                  "afternoon1": "\u00F6\u011Fleden sonra",
+                  "afternoon2": "ak\u015Fam\u00FCst\u00FC",
+                  "evening1": "ak\u015Fam",
+                  "night1": "gece"
+                },
+                "narrow": {
+                  "midnight": "gece yar\u0131s\u0131",
+                  "am": "\u00D6\u00D6",
+                  "noon": "\u00F6\u011Fle",
+                  "pm": "\u00D6S",
+                  "morning1": "sabah",
+                  "morning2": "\u00F6\u011Fleden \u00F6nce",
+                  "afternoon1": "\u00F6\u011Fleden sonra",
+                  "afternoon2": "ak\u015Fam\u00FCst\u00FC",
+                  "evening1": "ak\u015Fam",
+                  "night1": "gece"
+                },
+                "wide": {
+                  "midnight": "gece yar\u0131s\u0131",
+                  "am": "\u00D6\u00D6",
+                  "noon": "\u00F6\u011Fle",
+                  "pm": "\u00D6S",
+                  "morning1": "sabah",
+                  "morning2": "\u00F6\u011Fleden \u00F6nce",
+                  "afternoon1": "\u00F6\u011Fleden sonra",
+                  "afternoon2": "ak\u015Fam\u00FCst\u00FC",
+                  "evening1": "ak\u015Fam",
+                  "night1": "gece"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "main": {
+    "es": {
+      "dates": {
+        "calendars": {
+          "gregorian": {
+            "dayPeriods": {
+              "format": {
+                "abbreviated": {
+                  "am": "a.\u202Fm.",
+                  "noon": "del mediod\u00EDa",
+                  "pm": "p.\u202Fm.",
+                  "morning1": "de la madrugada",
+                  "morning2": "de la ma\u00F1ana",
+                  "evening1": "de la tarde",
+                  "night1": "de la noche"
+                },
+                "narrow": {
+                  "am": "a.\u202Fm.",
+                  "noon": "del mediod\u00EDa",
+                  "pm": "p.\u202Fm.",
+                  "morning1": "de la madrugada",
+                  "morning2": "de la ma\u00F1ana",
+                  "evening1": "de la tarde",
+                  "night1": "de la noche"
+                },
+                "wide": {
+                  "am": "a.\u00A0m.",
+                  "noon": "del mediod\u00EDa",
+                  "pm": "p.\u00A0m.",
+                  "morning1": "de la madrugada",
+                  "morning2": "de la ma\u00F1ana",
+                  "evening1": "de la tarde",
+                  "night1": "de la noche"
+                }
+              },
+              "stand-alone": {
+                "abbreviated": {
+                  "am": "a.\u202Fm.",
+                  "noon": "mediod\u00EDa",
+                  "pm": "p.\u202Fm.",
+                  "morning1": "madrugada",
+                  "morning2": "ma\u00F1ana",
+                  "evening1": "tarde",
+                  "night1": "noche"
+                },
+                "narrow": {
+                  "am": "a.\u202Fm.",
+                  "noon": "mediod\u00EDa",
+                  "pm": "p.\u202Fm.",
+                  "morning1": "madrugada",
+                  "morning2": "ma\u00F1ana",
+                  "evening1": "tarde",
+                  "night1": "noche"
+                },
+                "wide": {
+                  "am": "a.\u00A0m.",
+                  "noon": "mediod\u00EDa",
+                  "pm": "p.\u00A0m.",
+                  "morning1": "madrugada",
+                  "morning2": "ma\u00F1ana",
+                  "evening1": "tarde",
+                  "night1": "noche"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

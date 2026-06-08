@@ -53,4 +53,11 @@ UnitsGenerationResult units = CldrUnitsCodeGenerator.Generate(dataDir, version, 
 Console.WriteLine($"Generated {units.OutputPath}");
 Console.WriteLine($"  Unit entries : {units.EntryCount}");
 
+if (Directory.Exists(supplementalDir))
+{
+    DatesGenerationResult dates = CldrDatesCodeGenerator.Generate(dataDir, supplementalDir, version, RepoLayout.GeneratedDateSourcePath(repoRoot));
+    Console.WriteLine($"Generated {dates.OutputPath}");
+    Console.WriteLine($"  Day-period names : {dates.NameCount}, rule sets : {dates.RuleCount}");
+}
+
 return 0;

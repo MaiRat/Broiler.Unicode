@@ -1,0 +1,78 @@
+{
+  "main": {
+    "pt": {
+      "dates": {
+        "calendars": {
+          "gregorian": {
+            "dayPeriods": {
+              "format": {
+                "abbreviated": {
+                  "midnight": "meia-noite",
+                  "am": "AM",
+                  "noon": "meio-dia",
+                  "pm": "PM",
+                  "morning1": "da manh\u00E3",
+                  "afternoon1": "da tarde",
+                  "evening1": "da noite",
+                  "night1": "da madrugada"
+                },
+                "narrow": {
+                  "midnight": "meia-noite",
+                  "am": "AM",
+                  "noon": "meio-dia",
+                  "pm": "PM",
+                  "morning1": "da manh\u00E3",
+                  "afternoon1": "da tarde",
+                  "evening1": "da noite",
+                  "night1": "da madrugada"
+                },
+                "wide": {
+                  "midnight": "meia-noite",
+                  "am": "AM",
+                  "noon": "meio-dia",
+                  "pm": "PM",
+                  "morning1": "da manh\u00E3",
+                  "afternoon1": "da tarde",
+                  "evening1": "da noite",
+                  "night1": "da madrugada"
+                }
+              },
+              "stand-alone": {
+                "abbreviated": {
+                  "midnight": "meia-noite",
+                  "am": "AM",
+                  "noon": "meio-dia",
+                  "pm": "PM",
+                  "morning1": "manh\u00E3",
+                  "afternoon1": "tarde",
+                  "evening1": "noite",
+                  "night1": "madrugada"
+                },
+                "narrow": {
+                  "midnight": "meia-noite",
+                  "am": "AM",
+                  "noon": "meio-dia",
+                  "pm": "PM",
+                  "morning1": "manh\u00E3",
+                  "afternoon1": "tarde",
+                  "evening1": "noite",
+                  "night1": "madrugada"
+                },
+                "wide": {
+                  "midnight": "meia-noite",
+                  "am": "AM",
+                  "noon": "meio-dia",
+                  "pm": "PM",
+                  "morning1": "manh\u00E3",
+                  "afternoon1": "tarde",
+                  "evening1": "noite",
+                  "night1": "madrugada"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -211,4 +211,33 @@ public class CldrLocaleDataTests
     [Fact]
     public void Unit_UnknownUnitGetsPlainLayout()
         => Assert.Equal("{0} parsec", CldrLocaleData.GetUnitPattern("en", "parsec", "short", "other"));
+
+    // ---- Day periods (generated from cldr-json) ----
+
+    [Theory]
+    [InlineData(0, 0, "midnight")]   // exact "at" rule wins over the morning range
+    [InlineData(9, 0, "morning1")]
+    [InlineData(12, 0, "noon")]      // exact "at" rule
+    [InlineData(15, 0, "afternoon1")]
+    [InlineData(19, 0, "evening1")]
+    [InlineData(23, 0, "night1")]
+    public void DayPeriod_EnglishResolution(int hour, int minute, string expected)
+        => Assert.Equal(expected, CldrLocaleData.GetDayPeriod("en-US", hour, minute));
+
+    [Theory]
+    [InlineData("morning1", "wide", "in the morning")]
+    [InlineData("night1", "wide", "at night")]
+    [InlineData("noon", "wide", "noon")]
+    [InlineData("noon", "narrow", "n")]
+    [InlineData("midnight", "wide", "midnight")]
+    public void DayPeriod_EnglishNames(string period, string width, string expected)
+        => Assert.Equal(expected, CldrLocaleData.GetDayPeriodName("en-US", period, width));
+
+    // An unknown locale falls back to English rules/names, and an unknown period to its key.
+    [Fact]
+    public void DayPeriod_Fallbacks()
+    {
+        Assert.Equal("noon", CldrLocaleData.GetDayPeriod("xx-YY", 12, 0));
+        Assert.Equal("zzz", CldrLocaleData.GetDayPeriodName("en", "zzz", "wide"));
+    }
 }

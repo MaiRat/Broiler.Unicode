@@ -1,0 +1,78 @@
+{
+  "main": {
+    "sv": {
+      "dates": {
+        "calendars": {
+          "gregorian": {
+            "dayPeriods": {
+              "format": {
+                "abbreviated": {
+                  "midnight": "midnatt",
+                  "am": "fm",
+                  "pm": "em",
+                  "morning1": "p\u00E5 morg.",
+                  "morning2": "p\u00E5 f\u00F6rm.",
+                  "afternoon1": "p\u00E5 efterm.",
+                  "evening1": "p\u00E5 kv\u00E4llen",
+                  "night1": "p\u00E5 natten"
+                },
+                "narrow": {
+                  "midnight": "midn.",
+                  "am": "fm",
+                  "pm": "em",
+                  "morning1": "p\u00E5 morg.",
+                  "morning2": "p\u00E5 f\u00F6rm.",
+                  "afternoon1": "p\u00E5 efterm.",
+                  "evening1": "p\u00E5 kv\u00E4llen",
+                  "night1": "p\u00E5 natten"
+                },
+                "wide": {
+                  "midnight": "midnatt",
+                  "am": "fm",
+                  "pm": "em",
+                  "morning1": "p\u00E5 morgonen",
+                  "morning2": "p\u00E5 f\u00F6rmiddagen",
+                  "afternoon1": "p\u00E5 eftermiddagen",
+                  "evening1": "p\u00E5 kv\u00E4llen",
+                  "night1": "p\u00E5 natten"
+                }
+              },
+              "stand-alone": {
+                "abbreviated": {
+                  "midnight": "midnatt",
+                  "am": "fm",
+                  "pm": "em",
+                  "morning1": "morgon",
+                  "morning2": "f\u00F6rm.",
+                  "afternoon1": "efterm.",
+                  "evening1": "kv\u00E4ll",
+                  "night1": "natt"
+                },
+                "narrow": {
+                  "midnight": "midn.",
+                  "am": "fm",
+                  "pm": "em",
+                  "morning1": "morg.",
+                  "morning2": "f\u00F6rm.",
+                  "afternoon1": "efterm.",
+                  "evening1": "kv\u00E4ll",
+                  "night1": "natt"
+                },
+                "wide": {
+                  "midnight": "midnatt",
+                  "am": "fm",
+                  "pm": "em",
+                  "morning1": "morgon",
+                  "morning2": "f\u00F6rmiddag",
+                  "afternoon1": "eftermiddag",
+                  "evening1": "kv\u00E4ll",
+                  "night1": "natt"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

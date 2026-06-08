@@ -97,6 +97,25 @@ public static class CldrLocaleData
     }
 
     /// <summary>
+    /// The day-period key (e.g. <c>"midnight"</c>, <c>"morning1"</c>, <c>"noon"</c>,
+    /// <c>"pm"</c>) for a local time, using the locale's CLDR day-period rules. Falls
+    /// back to English rules and then to plain am/pm.
+    /// </summary>
+    public static string GetDayPeriod(string localeTag, int hour, int minute)
+        => CldrDayPeriods.Resolve(localeTag, hour, minute);
+
+    /// <summary>
+    /// The localized day-period name for a width, used by
+    /// <c>Intl.DateTimeFormat</c>'s <c>dayPeriod</c> option. The ECMA-402 widths map
+    /// to CLDR widths long→wide, short→abbreviated, narrow→narrow.
+    /// </summary>
+    /// <param name="localeTag">A BCP-47 locale tag; only the language subtag is used.</param>
+    /// <param name="period">A day-period key from <see cref="GetDayPeriod"/>.</param>
+    /// <param name="width">A CLDR width: <c>"wide"</c>, <c>"abbreviated"</c> or <c>"narrow"</c>.</param>
+    public static string GetDayPeriodName(string localeTag, string period, string width)
+        => CldrDayPeriods.Name(localeTag, period, width);
+
+    /// <summary>
     /// Resolves the currency layout for a locale.
     /// </summary>
     /// <param name="localeTag">A BCP-47 locale tag (e.g. <c>"de-DE"</c>).</param>

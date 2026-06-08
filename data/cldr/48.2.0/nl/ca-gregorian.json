@@ -1,0 +1,72 @@
+{
+  "main": {
+    "nl": {
+      "dates": {
+        "calendars": {
+          "gregorian": {
+            "dayPeriods": {
+              "format": {
+                "abbreviated": {
+                  "midnight": "middernacht",
+                  "am": "a.m.",
+                  "pm": "p.m.",
+                  "morning1": "\u2019s ochtends",
+                  "afternoon1": "\u2019s middags",
+                  "evening1": "\u2019s avonds",
+                  "night1": "\u2019s nachts"
+                },
+                "narrow": {
+                  "midnight": "middernacht",
+                  "am": "a.m.",
+                  "pm": "p.m.",
+                  "morning1": "\u2019s ochtends",
+                  "afternoon1": "\u2019s middags",
+                  "evening1": "\u2019s avonds",
+                  "night1": "\u2019s nachts"
+                },
+                "wide": {
+                  "midnight": "middernacht",
+                  "am": "a.m.",
+                  "pm": "p.m.",
+                  "morning1": "\u2019s ochtends",
+                  "afternoon1": "\u2019s middags",
+                  "evening1": "\u2019s avonds",
+                  "night1": "\u2019s nachts"
+                }
+              },
+              "stand-alone": {
+                "abbreviated": {
+                  "midnight": "middernacht",
+                  "am": "a.m.",
+                  "pm": "p.m.",
+                  "morning1": "ochtend",
+                  "afternoon1": "middag",
+                  "evening1": "avond",
+                  "night1": "nacht"
+                },
+                "narrow": {
+                  "midnight": "middernacht",
+                  "am": "a.m.",
+                  "pm": "p.m.",
+                  "morning1": "ochtend",
+                  "afternoon1": "middag",
+                  "evening1": "avond",
+                  "night1": "nacht"
+                },
+                "wide": {
+                  "midnight": "middernacht",
+                  "am": "a.m.",
+                  "pm": "p.m.",
+                  "morning1": "ochtend",
+                  "afternoon1": "middag",
+                  "evening1": "avond",
+                  "night1": "nacht"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

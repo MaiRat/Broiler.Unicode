@@ -1,0 +1,78 @@
+{
+  "main": {
+    "it": {
+      "dates": {
+        "calendars": {
+          "gregorian": {
+            "dayPeriods": {
+              "format": {
+                "abbreviated": {
+                  "midnight": "mezzanotte",
+                  "am": "AM",
+                  "noon": "mezzogiorno",
+                  "pm": "PM",
+                  "morning1": "di mattina",
+                  "afternoon1": "di pomeriggio",
+                  "evening1": "di sera",
+                  "night1": "di notte"
+                },
+                "narrow": {
+                  "midnight": "mezzanotte",
+                  "am": "m.",
+                  "noon": "mezzogiorno",
+                  "pm": "p.",
+                  "morning1": "di mattina",
+                  "afternoon1": "di pomeriggio",
+                  "evening1": "di sera",
+                  "night1": "di notte"
+                },
+                "wide": {
+                  "midnight": "mezzanotte",
+                  "am": "AM",
+                  "noon": "mezzogiorno",
+                  "pm": "PM",
+                  "morning1": "di mattina",
+                  "afternoon1": "del pomeriggio",
+                  "evening1": "di sera",
+                  "night1": "di notte"
+                }
+              },
+              "stand-alone": {
+                "abbreviated": {
+                  "midnight": "mezzanotte",
+                  "am": "AM",
+                  "noon": "mezzogiorno",
+                  "pm": "PM",
+                  "morning1": "mattina",
+                  "afternoon1": "pomeriggio",
+                  "evening1": "sera",
+                  "night1": "notte"
+                },
+                "narrow": {
+                  "midnight": "mezzanotte",
+                  "am": "m.",
+                  "noon": "mezzogiorno",
+                  "pm": "p.",
+                  "morning1": "mattina",
+                  "afternoon1": "pomeriggio",
+                  "evening1": "sera",
+                  "night1": "notte"
+                },
+                "wide": {
+                  "midnight": "mezzanotte",
+                  "am": "AM",
+                  "noon": "mezzogiorno",
+                  "pm": "PM",
+                  "morning1": "mattina",
+                  "afternoon1": "pomeriggio",
+                  "evening1": "sera",
+                  "night1": "notte"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

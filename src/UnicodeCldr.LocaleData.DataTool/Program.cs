@@ -89,11 +89,16 @@ async Task DownloadAsync(string version, string dataDir)
         await DownloadTrimmedUnitsAsync(http,
             $"https://raw.githubusercontent.com/unicode-org/cldr-json/{version}/cldr-json/cldr-units-full/main/{locale}/units.json",
             Path.Combine(localeDir, "units.json"), locale);
+
+        // Gregorian calendar data, trimmed to the day-period names.
+        await DownloadTrimmedGregorianAsync(http,
+            $"https://raw.githubusercontent.com/unicode-org/cldr-json/{version}/cldr-json/cldr-dates-full/main/{locale}/ca-gregorian.json",
+            Path.Combine(localeDir, "ca-gregorian.json"), locale);
     }
 
     // Supplemental data (single files, all locales).
     string supplementalDir = Path.Combine(dataDir, "supplemental");
-    foreach (string file in new[] { "plurals.json", "ordinals.json", "currencyData.json" })
+    foreach (string file in new[] { "plurals.json", "ordinals.json", "currencyData.json", "dayPeriods.json" })
     {
         string url = $"https://raw.githubusercontent.com/unicode-org/cldr-json/{version}/cldr-json/cldr-core/supplemental/{file}";
         await DownloadFileAsync(http, url, Path.Combine(supplementalDir, file));
@@ -179,6 +184,38 @@ async Task DownloadTrimmedUnitsAsync(HttpClient http, string url, string destina
     Console.WriteLine($"  -> {destination}");
 }
 
+async Task DownloadTrimmedGregorianAsync(HttpClient http, string url, string destination, string locale)
+{
+    Console.WriteLine($"Downloading {url} (trimmed)");
+    string content = await http.GetStringAsync(url);
+    var root = JsonNode.Parse(content)!;
+    var dayPeriods = root["main"]?[locale]?["dates"]?["calendars"]?["gregorian"]?["dayPeriods"];
+
+    var trimmed = new JsonObject
+    {
+        ["main"] = new JsonObject
+        {
+            [locale] = new JsonObject
+            {
+                ["dates"] = new JsonObject
+                {
+                    ["calendars"] = new JsonObject
+                    {
+                        ["gregorian"] = new JsonObject
+                        {
+                            ["dayPeriods"] = dayPeriods?.DeepClone() ?? new JsonObject(),
+                        },
+                    },
+                },
+            },
+        },
+    };
+
+    Directory.CreateDirectory(Path.GetDirectoryName(destination)!);
+    await File.WriteAllTextAsync(destination, trimmed.ToJsonString(new JsonSerializerOptions { WriteIndented = true }));
+    Console.WriteLine($"  -> {destination}");
+}
+
 async Task DownloadFileAsync(HttpClient http, string url, string destination)
 {
     Console.WriteLine($"Downloading {url}");
@@ -219,6 +256,11 @@ void Generate(string version, string dataDir, string repoRoot)
     UnitsGenerationResult units = CldrUnitsCodeGenerator.Generate(dataDir, version, RepoLayout.GeneratedUnitSourcePath(repoRoot));
     Console.WriteLine($"Generated {units.OutputPath}");
     Console.WriteLine($"  entries={units.EntryCount}");
+
+    DatesGenerationResult dates = CldrDatesCodeGenerator.Generate(
+        dataDir, RepoLayout.SupplementalDirectory(repoRoot, version), version, RepoLayout.GeneratedDateSourcePath(repoRoot));
+    Console.WriteLine($"Generated {dates.OutputPath}");
+    Console.WriteLine($"  names={dates.NameCount} rules={dates.RuleCount}");
 }
 
 void PrintUsage()
