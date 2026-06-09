@@ -23,6 +23,11 @@
             "unitPattern-count-one": "y\u00FCzde {0}",
             "unitPattern-count-other": "y\u00FCzde {0}"
           },
+          "consumption-mile-per-gallon": {
+            "displayName": "mil/galon",
+            "unitPattern-count-one": "{0} mil/galon",
+            "unitPattern-count-other": "{0} mil/galon"
+          },
           "digital-petabyte": {
             "displayName": "petabayt",
             "unitPattern-count-one": "{0} petabayt",
@@ -212,6 +217,16 @@
             "unitPattern-count-other": "{0} ons",
             "perUnitPattern": "{0}/oz"
           },
+          "speed-kilometer-per-hour": {
+            "displayName": "kilometre/saat",
+            "unitPattern-count-one": "{0} kilometre/saat",
+            "unitPattern-count-other": "{0} kilometre/saat"
+          },
+          "speed-mile-per-hour": {
+            "displayName": "mil/saat",
+            "unitPattern-count-one": "{0} mil/saat",
+            "unitPattern-count-other": "{0} mil/saat"
+          },
           "temperature-celsius": {
             "displayName": "santigrat derece",
             "unitPattern-count-one": "{0} santigrat derece",
@@ -262,6 +277,11 @@
             "displayName": "%",
             "unitPattern-count-one": "%{0}",
             "unitPattern-count-other": "%{0}"
+          },
+          "consumption-mile-per-gallon": {
+            "displayName": "mil/gal",
+            "unitPattern-count-one": "{0} mpg",
+            "unitPattern-count-other": "{0} mpg"
           },
           "digital-petabyte": {
             "displayName": "PB",
@@ -433,6 +453,16 @@
             "unitPattern-count-other": "{0} oz",
             "perUnitPattern": "{0}/oz"
           },
+          "speed-kilometer-per-hour": {
+            "displayName": "km/sa",
+            "unitPattern-count-one": "{0} km/sa",
+            "unitPattern-count-other": "{0} km/sa"
+          },
+          "speed-mile-per-hour": {
+            "displayName": "mil/saat",
+            "unitPattern-count-one": "{0} mil/sa",
+            "unitPattern-count-other": "{0} mil/sa"
+          },
           "temperature-celsius": {
             "displayName": "\u00B0C",
             "unitPattern-count-one": "{0} \u00B0C",
@@ -482,6 +512,11 @@
             "displayName": "%",
             "unitPattern-count-one": "%{0}",
             "unitPattern-count-other": "%{0}"
+          },
+          "consumption-mile-per-gallon": {
+            "displayName": "mil/gal",
+            "unitPattern-count-one": "{0} mpg",
+            "unitPattern-count-other": "{0} mpg"
           },
           "digital-petabyte": {
             "displayName": "PB",
@@ -652,6 +687,16 @@
             "displayName": "oz",
             "unitPattern-count-other": "{0} oz",
             "perUnitPattern": "{0}/oz"
+          },
+          "speed-kilometer-per-hour": {
+            "displayName": "km/sa",
+            "unitPattern-count-one": "{0} km/sa",
+            "unitPattern-count-other": "{0} km/sa"
+          },
+          "speed-mile-per-hour": {
+            "displayName": "mil/sa",
+            "unitPattern-count-one": "{0} mil/sa",
+            "unitPattern-count-other": "{0} mil/sa"
           },
           "temperature-celsius": {
             "displayName": "\u00B0C",

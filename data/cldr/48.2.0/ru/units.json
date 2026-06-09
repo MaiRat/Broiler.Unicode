@@ -123,6 +123,36 @@
             "instrumental-count-other": "{0} \u043F\u0440\u043E\u0446\u0435\u043D\u0442\u0430",
             "prepositional-count-other": "{0} \u043F\u0440\u043E\u0446\u0435\u043D\u0442\u0430"
           },
+          "consumption-mile-per-gallon": {
+            "gender": "feminine",
+            "displayName": "\u043C\u0438\u043B\u0438 \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "unitPattern-count-one": "{0} \u043C\u0438\u043B\u044F \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "accusative-count-one": "{0} \u043C\u0438\u043B\u044E \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "dative-count-one": "{0} \u043C\u0438\u043B\u0435 \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "genitive-count-one": "{0} \u043C\u0438\u043B\u0438 \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "instrumental-count-one": "{0} \u043C\u0438\u043B\u0435\u0439 \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "locative-count-one": "{0} \u043C\u0438\u043B\u0435 \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "prepositional-count-one": "{0} \u043C\u0438\u043B\u0435 \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "unitPattern-count-few": "{0} \u043C\u0438\u043B\u0438 \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "accusative-count-few": "{0} \u043C\u0438\u043B\u0438 \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "dative-count-few": "{0} \u043C\u0438\u043B\u044F\u043C \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "genitive-count-few": "{0} \u043C\u0438\u043B\u044C \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "instrumental-count-few": "{0} \u043C\u0438\u043B\u044F\u043C\u0438 \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "locative-count-few": "{0} \u043C\u0438\u043B\u044F\u0445 \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "prepositional-count-few": "{0} \u043C\u0438\u043B\u044F\u0445 \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "unitPattern-count-many": "{0} \u043C\u0438\u043B\u044C \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "accusative-count-many": "{0} \u043C\u0438\u043B\u044C \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "dative-count-many": "{0} \u043C\u0438\u043B\u044F\u043C \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "genitive-count-many": "{0} \u043C\u0438\u043B\u044C \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "instrumental-count-many": "{0} \u043C\u0438\u043B\u044F\u043C\u0438 \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "locative-count-many": "{0} \u043C\u0438\u043B\u044F\u0445 \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "prepositional-count-many": "{0} \u043C\u0438\u043B\u044F\u0445 \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "unitPattern-count-other": "{0} \u043C\u0438\u043B\u0438 \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "accusative-count-other": "{0} \u043C\u0438\u043B\u0438 \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "dative-count-other": "{0} \u043C\u0438\u043B\u0438 \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "genitive-count-other": "{0} \u043C\u0438\u043B\u0438 \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D",
+            "instrumental-count-other": "{0} \u043C\u0438\u043B\u0438 \u043D\u0430 \u0430\u043C\u0435\u0440. \u0433\u0430\u043B\u043B\u043E\u043D"
+          },
           "digital-petabyte": {
             "gender": "masculine",
             "displayName": "\u043F\u0435\u0442\u0430\u0431\u0430\u0439\u0442\u044B",
@@ -1173,6 +1203,67 @@
             "instrumental-count-other": "{0} \u0443\u043D\u0446\u0438\u0438",
             "perUnitPattern": "{0} \u043D\u0430 \u0443\u043D\u0446\u0438\u044E"
           },
+          "speed-kilometer-per-hour": {
+            "gender": "masculine",
+            "displayName": "\u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u044B \u0432 \u0447\u0430\u0441",
+            "unitPattern-count-one": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440 \u0432 \u0447\u0430\u0441",
+            "accusative-count-one": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440 \u0432 \u0447\u0430\u0441",
+            "dative-count-one": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u0443 \u0432 \u0447\u0430\u0441",
+            "genitive-count-one": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u0430 \u0432 \u0447\u0430\u0441",
+            "instrumental-count-one": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u043E\u043C \u0432 \u0447\u0430\u0441",
+            "locative-count-one": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u0435 \u0432 \u0447\u0430\u0441",
+            "prepositional-count-one": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u0435 \u0432 \u0447\u0430\u0441",
+            "unitPattern-count-few": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u0430 \u0432 \u0447\u0430\u0441",
+            "accusative-count-few": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u0430 \u0432 \u0447\u0430\u0441",
+            "dative-count-few": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u0430\u043C \u0432 \u0447\u0430\u0441",
+            "genitive-count-few": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u043E\u0432 \u0432 \u0447\u0430\u0441",
+            "instrumental-count-few": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u0430\u043C\u0438 \u0432 \u0447\u0430\u0441",
+            "locative-count-few": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u0430\u0445 \u0432 \u0447\u0430\u0441",
+            "prepositional-count-few": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u0430\u0445 \u0432 \u0447\u0430\u0441",
+            "unitPattern-count-many": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u043E\u0432 \u0432 \u0447\u0430\u0441",
+            "accusative-count-many": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u043E\u0432 \u0432 \u0447\u0430\u0441",
+            "dative-count-many": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u0430\u043C \u0432 \u0447\u0430\u0441",
+            "genitive-count-many": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u043E\u0432 \u0432 \u0447\u0430\u0441",
+            "instrumental-count-many": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u0430\u043C\u0438 \u0432 \u0447\u0430\u0441",
+            "locative-count-many": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u0430\u0445 \u0432 \u0447\u0430\u0441",
+            "prepositional-count-many": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u0430\u0445 \u0432 \u0447\u0430\u0441",
+            "unitPattern-count-other": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u0430 \u0432 \u0447\u0430\u0441",
+            "accusative-count-other": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u0430 \u0432 \u0447\u0430\u0441",
+            "dative-count-other": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u0430 \u0432 \u0447\u0430\u0441",
+            "genitive-count-other": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u0430 \u0432 \u0447\u0430\u0441",
+            "instrumental-count-other": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u0430 \u0432 \u0447\u0430\u0441",
+            "prepositional-count-other": "{0} \u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440\u0430 \u0432 \u0447\u0430\u0441"
+          },
+          "speed-mile-per-hour": {
+            "gender": "feminine",
+            "displayName": "\u043C\u0438\u043B\u0438 \u0432 \u0447\u0430\u0441",
+            "unitPattern-count-one": "{0} \u043C\u0438\u043B\u044F \u0432 \u0447\u0430\u0441",
+            "accusative-count-one": "{0} \u043C\u0438\u043B\u044E \u0432 \u0447\u0430\u0441",
+            "dative-count-one": "{0} \u043C\u0438\u043B\u0435 \u0432 \u0447\u0430\u0441",
+            "genitive-count-one": "{0} \u043C\u0438\u043B\u0438 \u0432 \u0447\u0430\u0441",
+            "instrumental-count-one": "{0} \u043C\u0438\u043B\u0435\u0439 \u0432 \u0447\u0430\u0441",
+            "locative-count-one": "{0} \u043C\u0438\u043B\u0435 \u0432 \u0447\u0430\u0441",
+            "prepositional-count-one": "{0} \u043C\u0438\u043B\u0435 \u0432 \u0447\u0430\u0441",
+            "unitPattern-count-few": "{0} \u043C\u0438\u043B\u0438 \u0432 \u0447\u0430\u0441",
+            "accusative-count-few": "{0} \u043C\u0438\u043B\u0438 \u0432 \u0447\u0430\u0441",
+            "dative-count-few": "{0} \u043C\u0438\u043B\u044F\u043C \u0432 \u0447\u0430\u0441",
+            "genitive-count-few": "{0} \u043C\u0438\u043B\u044C \u0432 \u0447\u0430\u0441",
+            "instrumental-count-few": "{0} \u043C\u0438\u043B\u044F\u043C\u0438 \u0432 \u0447\u0430\u0441",
+            "locative-count-few": "{0} \u043C\u0438\u043B\u044F\u0445 \u0432 \u0447\u0430\u0441",
+            "prepositional-count-few": "{0} \u043C\u0438\u043B\u044F\u0445 \u0432 \u0447\u0430\u0441",
+            "unitPattern-count-many": "{0} \u043C\u0438\u043B\u044C \u0432 \u0447\u0430\u0441",
+            "accusative-count-many": "{0} \u043C\u0438\u043B\u044C \u0432 \u0447\u0430\u0441",
+            "dative-count-many": "{0} \u043C\u0438\u043B\u044F\u043C \u0432 \u0447\u0430\u0441",
+            "genitive-count-many": "{0} \u043C\u0438\u043B\u044C \u0432 \u0447\u0430\u0441",
+            "instrumental-count-many": "{0} \u043C\u0438\u043B\u044F\u043C\u0438 \u0432 \u0447\u0430\u0441",
+            "locative-count-many": "{0} \u043C\u0438\u043B\u044F\u0445 \u0432 \u0447\u0430\u0441",
+            "prepositional-count-many": "{0} \u043C\u0438\u043B\u044F\u0445 \u0432 \u0447\u0430\u0441",
+            "unitPattern-count-other": "{0} \u043C\u0438\u043B\u0438 \u0432 \u0447\u0430\u0441",
+            "accusative-count-other": "{0} \u043C\u0438\u043B\u0438 \u0432 \u0447\u0430\u0441",
+            "dative-count-other": "{0} \u043C\u0438\u043B\u0438 \u0432 \u0447\u0430\u0441",
+            "genitive-count-other": "{0} \u043C\u0438\u043B\u0438 \u0432 \u0447\u0430\u0441",
+            "instrumental-count-other": "{0} \u043C\u0438\u043B\u0438 \u0432 \u0447\u0430\u0441"
+          },
           "temperature-celsius": {
             "gender": "masculine",
             "displayName": "\u0433\u0440\u0430\u0434\u0443\u0441\u044B \u0426\u0435\u043B\u044C\u0441\u0438\u044F",
@@ -1384,6 +1475,13 @@
             "unitPattern-count-few": "{0} %",
             "unitPattern-count-many": "{0} %",
             "unitPattern-count-other": "{0} %"
+          },
+          "consumption-mile-per-gallon": {
+            "displayName": "\u043C\u0438/\u0430\u043C. \u0433\u0430\u043B",
+            "unitPattern-count-one": "{0} \u043C\u0438/\u0430\u043C. \u0433\u0430\u043B",
+            "unitPattern-count-few": "{0} \u043C\u0438/\u0430\u043C. \u0433\u0430\u043B",
+            "unitPattern-count-many": "{0} \u043C\u0438/\u0430\u043C. \u0433\u0430\u043B",
+            "unitPattern-count-other": "{0} \u043C\u0438/\u0430\u043C. \u0433\u0430\u043B"
           },
           "digital-petabyte": {
             "displayName": "\u041F\u0411",
@@ -1646,6 +1744,20 @@
             "unitPattern-count-other": "{0} \u0443\u043D\u0446.",
             "perUnitPattern": "{0}/\u0443\u043D\u0446"
           },
+          "speed-kilometer-per-hour": {
+            "displayName": "\u043A\u043C/\u0447",
+            "unitPattern-count-one": "{0} \u043A\u043C/\u0447",
+            "unitPattern-count-few": "{0} \u043A\u043C/\u0447",
+            "unitPattern-count-many": "{0} \u043A\u043C/\u0447",
+            "unitPattern-count-other": "{0} \u043A\u043C/\u0447"
+          },
+          "speed-mile-per-hour": {
+            "displayName": "\u043C\u0438/\u0447",
+            "unitPattern-count-one": "{0} \u043C\u0438/\u0447",
+            "unitPattern-count-few": "{0} \u043C\u0438/\u0447",
+            "unitPattern-count-many": "{0} \u043C\u0438/\u0447",
+            "unitPattern-count-other": "{0} \u043C\u0438/\u0447"
+          },
           "temperature-celsius": {
             "displayName": "\u00B0C",
             "unitPattern-count-one": "{0} \u00B0C",
@@ -1716,6 +1828,13 @@
             "unitPattern-count-few": "{0}%",
             "unitPattern-count-many": "{0}%",
             "unitPattern-count-other": "{0}%"
+          },
+          "consumption-mile-per-gallon": {
+            "displayName": "\u043C\u0438/\u0430\u043C. \u0433\u0430\u043B",
+            "unitPattern-count-one": "{0} \u043C\u0438/\u0430\u043C. \u0433\u0430\u043B",
+            "unitPattern-count-few": "{0} \u043C\u0438/\u0430\u043C. \u0433\u0430\u043B",
+            "unitPattern-count-many": "{0} \u043C\u0438/\u0430\u043C. \u0433\u0430\u043B",
+            "unitPattern-count-other": "{0} \u043C\u0438/\u0430\u043C. \u0433\u0430\u043B"
           },
           "digital-petabyte": {
             "displayName": "\u041F\u0411",
@@ -1977,6 +2096,20 @@
             "unitPattern-count-many": "{0} \u0443\u043D\u0446.",
             "unitPattern-count-other": "{0} \u0443\u043D\u0446.",
             "perUnitPattern": "{0}/\u0443\u043D\u0446"
+          },
+          "speed-kilometer-per-hour": {
+            "displayName": "\u043A\u043C/\u0447",
+            "unitPattern-count-one": "{0} \u043A\u043C/\u0447",
+            "unitPattern-count-few": "{0} \u043A\u043C/\u0447",
+            "unitPattern-count-many": "{0} \u043A\u043C/\u0447",
+            "unitPattern-count-other": "{0} \u043A\u043C/\u0447"
+          },
+          "speed-mile-per-hour": {
+            "displayName": "\u043C\u0438/\u0447",
+            "unitPattern-count-one": "{0} \u043C\u0438/\u0447",
+            "unitPattern-count-few": "{0} \u043C\u0438/\u0447",
+            "unitPattern-count-many": "{0} \u043C\u0438/\u0447",
+            "unitPattern-count-other": "{0} \u043C\u0438/\u0447"
           },
           "temperature-celsius": {
             "displayName": "\u00B0C",

@@ -26,6 +26,11 @@ public static class CldrUnitsParser
         "milliliter", "millimeter", "millisecond", "minute", "month", "nanosecond",
         "ounce", "percent", "petabyte", "pound", "second", "stone", "terabit",
         "terabyte", "week", "yard", "year",
+        // ECMA-402 sanctioned compound units that CLDR precomputes; kept as whole
+        // identifiers (the category prefix is stripped, so "speed-kilometer-per-hour"
+        // becomes "kilometer-per-hour") so the precomputed locale form (e.g. "km/h",
+        // "時速 {0} キロメートル") is used rather than a perUnitPattern composition.
+        "kilometer-per-hour", "mile-per-hour", "mile-per-gallon",
     };
 
     private static readonly string[] Displays = { "long", "short", "narrow" };

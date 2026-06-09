@@ -19,6 +19,10 @@
             "displayName": "%",
             "unitPattern-count-other": "{0}%"
           },
+          "consumption-mile-per-gallon": {
+            "displayName": "\u82F1\u91CC/\u52A0\u4ED1",
+            "unitPattern-count-other": "\u6BCF\u52A0\u4ED1{0}\u82F1\u91CC"
+          },
           "digital-petabyte": {
             "displayName": "\u62CD\u5B57\u8282",
             "unitPattern-count-other": "{0}\u62CD\u5B57\u8282"
@@ -175,6 +179,14 @@
             "unitPattern-count-other": "{0}\u76CE\u53F8",
             "perUnitPattern": "\u6BCF\u76CE\u53F8{0}"
           },
+          "speed-kilometer-per-hour": {
+            "displayName": "\u516C\u91CC/\u5C0F\u65F6",
+            "unitPattern-count-other": "\u6BCF\u5C0F\u65F6{0}\u516C\u91CC"
+          },
+          "speed-mile-per-hour": {
+            "displayName": "\u82F1\u91CC/\u5C0F\u65F6",
+            "unitPattern-count-other": "\u6BCF\u5C0F\u65F6{0}\u82F1\u91CC"
+          },
           "temperature-celsius": {
             "displayName": "\u6444\u6C0F\u5EA6",
             "unitPattern-count-other": "{0}\u6444\u6C0F\u5EA6"
@@ -218,6 +230,10 @@
           "concentr-percent": {
             "displayName": "%",
             "unitPattern-count-other": "{0}%"
+          },
+          "consumption-mile-per-gallon": {
+            "displayName": "mpg US",
+            "unitPattern-count-other": "{0} mpg US"
           },
           "digital-petabyte": {
             "displayName": "PB",
@@ -375,6 +391,14 @@
             "unitPattern-count-other": "{0} oz",
             "perUnitPattern": "{0}/oz"
           },
+          "speed-kilometer-per-hour": {
+            "displayName": "km/h",
+            "unitPattern-count-other": "{0} km/h"
+          },
+          "speed-mile-per-hour": {
+            "displayName": "mi/h",
+            "unitPattern-count-other": "{0} mi/h"
+          },
           "temperature-celsius": {
             "displayName": "\u00B0C",
             "unitPattern-count-other": "{0}\u00B0C"
@@ -418,6 +442,10 @@
           "concentr-percent": {
             "displayName": "%",
             "unitPattern-count-other": "{0}%"
+          },
+          "consumption-mile-per-gallon": {
+            "displayName": "mpg US",
+            "unitPattern-count-other": "{0}mpg"
           },
           "digital-petabyte": {
             "displayName": "PB",
@@ -574,6 +602,14 @@
             "displayName": "oz",
             "unitPattern-count-other": "{0}oz",
             "perUnitPattern": "{0}/oz"
+          },
+          "speed-kilometer-per-hour": {
+            "displayName": "km/h",
+            "unitPattern-count-other": "{0}km/h"
+          },
+          "speed-mile-per-hour": {
+            "displayName": "mi/hr",
+            "unitPattern-count-other": "{0}mph"
           },
           "temperature-celsius": {
             "displayName": "\u00B0C",

@@ -51,6 +51,18 @@
             "dative-count-other": "{0} Prozent",
             "genitive-count-other": "{0} Prozent"
           },
+          "consumption-mile-per-gallon": {
+            "gender": "feminine",
+            "displayName": "Meilen pro Gallone",
+            "unitPattern-count-one": "{0}\u00A0Meile pro Gallone",
+            "accusative-count-one": "{0}\u00A0Meile pro Gallone",
+            "dative-count-one": "{0}\u00A0Meile pro Gallone",
+            "genitive-count-one": "{0}\u00A0Meile pro Gallone",
+            "unitPattern-count-other": "{0}\u00A0Meilen pro Gallone",
+            "accusative-count-other": "{0}\u00A0Meilen pro Gallone",
+            "dative-count-other": "{0}\u00A0Meilen pro Gallone",
+            "genitive-count-other": "{0}\u00A0Meilen pro Gallone"
+          },
           "digital-petabyte": {
             "gender": "neuter",
             "displayName": "Petabytes",
@@ -480,6 +492,30 @@
             "genitive-count-other": "{0} Unzen",
             "perUnitPattern": "{0} pro Unze"
           },
+          "speed-kilometer-per-hour": {
+            "gender": "masculine",
+            "displayName": "Kilometer pro Stunde",
+            "unitPattern-count-one": "{0} Kilometer pro Stunde",
+            "accusative-count-one": "{0} Kilometer pro Stunde",
+            "dative-count-one": "{0} Kilometer pro Stunde",
+            "genitive-count-one": "{0} Kilometers pro Stunde",
+            "unitPattern-count-other": "{0} Kilometer pro Stunde",
+            "accusative-count-other": "{0} Kilometer pro Stunde",
+            "dative-count-other": "{0} Kilometern pro Stunde",
+            "genitive-count-other": "{0} Kilometer pro Stunde"
+          },
+          "speed-mile-per-hour": {
+            "gender": "feminine",
+            "displayName": "Meilen pro Stunde",
+            "unitPattern-count-one": "{0} Meile pro Stunde",
+            "accusative-count-one": "{0} Meile pro Stunde",
+            "dative-count-one": "{0} Meile pro Stunde",
+            "genitive-count-one": "{0} Meile pro Stunde",
+            "unitPattern-count-other": "{0} Meilen pro Stunde",
+            "accusative-count-other": "{0} Meilen pro Stunde",
+            "dative-count-other": "{0} Meilen pro Stunde",
+            "genitive-count-other": "{0} Meilen pro Stunde"
+          },
           "temperature-celsius": {
             "gender": "neuter",
             "displayName": "Grad Celsius",
@@ -572,6 +608,11 @@
             "displayName": "%",
             "unitPattern-count-one": "{0} %",
             "unitPattern-count-other": "{0} %"
+          },
+          "consumption-mile-per-gallon": {
+            "displayName": "mpg",
+            "unitPattern-count-one": "{0} mpg",
+            "unitPattern-count-other": "{0} mpg"
           },
           "digital-petabyte": {
             "displayName": "PB",
@@ -741,6 +782,14 @@
             "unitPattern-count-other": "{0} oz",
             "perUnitPattern": "{0}/oz"
           },
+          "speed-kilometer-per-hour": {
+            "displayName": "km/h",
+            "unitPattern-count-other": "{0} km/h"
+          },
+          "speed-mile-per-hour": {
+            "displayName": "mi/h",
+            "unitPattern-count-other": "{0} mi/h"
+          },
           "temperature-celsius": {
             "displayName": "\u00B0C",
             "unitPattern-count-one": "{0} \u00B0C",
@@ -790,6 +839,11 @@
             "displayName": "%",
             "unitPattern-count-one": "{0} %",
             "unitPattern-count-other": "{0} %"
+          },
+          "consumption-mile-per-gallon": {
+            "displayName": "mpg",
+            "unitPattern-count-one": "{0}mpg",
+            "unitPattern-count-other": "{0}mpg"
           },
           "digital-petabyte": {
             "displayName": "PB",
@@ -961,6 +1015,14 @@
             "displayName": "Unzen",
             "unitPattern-count-other": "{0} oz",
             "perUnitPattern": "{0}/oz"
+          },
+          "speed-kilometer-per-hour": {
+            "displayName": "km/h",
+            "unitPattern-count-other": "{0} km/h"
+          },
+          "speed-mile-per-hour": {
+            "displayName": "mi/h",
+            "unitPattern-count-other": "{0} mi/h"
           },
           "temperature-celsius": {
             "displayName": "\u00B0C",

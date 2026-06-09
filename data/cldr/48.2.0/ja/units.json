@@ -19,6 +19,10 @@
             "displayName": "\u30D1\u30FC\u30BB\u30F3\u30C8",
             "unitPattern-count-other": "{0} \u30D1\u30FC\u30BB\u30F3\u30C8"
           },
+          "consumption-mile-per-gallon": {
+            "displayName": "\u30DE\u30A4\u30EB\u6BCE\u30AC\u30ED\u30F3",
+            "unitPattern-count-other": "{0} \u30DE\u30A4\u30EB\u6BCE\u30AC\u30ED\u30F3"
+          },
           "digital-petabyte": {
             "displayName": "\u30DA\u30BF\u30D0\u30A4\u30C8",
             "unitPattern-count-other": "{0} \u30DA\u30BF\u30D0\u30A4\u30C8"
@@ -175,6 +179,14 @@
             "unitPattern-count-other": "{0} \u30AA\u30F3\u30B9",
             "perUnitPattern": "{0}/\u30AA\u30F3\u30B9"
           },
+          "speed-kilometer-per-hour": {
+            "displayName": "\u30AD\u30ED\u30E1\u30FC\u30C8\u30EB\u6BCE\u6642",
+            "unitPattern-count-other": "\u6642\u901F {0} \u30AD\u30ED\u30E1\u30FC\u30C8\u30EB"
+          },
+          "speed-mile-per-hour": {
+            "displayName": "\u30DE\u30A4\u30EB\u6BCE\u6642",
+            "unitPattern-count-other": "\u6642\u901F {0} \u30DE\u30A4\u30EB"
+          },
           "temperature-celsius": {
             "displayName": "\u6442\u6C0F",
             "unitPattern-count-other": "\u6442\u6C0F {0} \u5EA6"
@@ -218,6 +230,10 @@
           "concentr-percent": {
             "displayName": "\u30D1\u30FC\u30BB\u30F3\u30C8",
             "unitPattern-count-other": "{0}%"
+          },
+          "consumption-mile-per-gallon": {
+            "displayName": "\u30DE\u30A4\u30EB/\u30AC\u30ED\u30F3",
+            "unitPattern-count-other": "{0} mpg"
           },
           "digital-petabyte": {
             "displayName": "\u30DA\u30BF\u30D0\u30A4\u30C8",
@@ -375,6 +391,14 @@
             "unitPattern-count-other": "{0} oz",
             "perUnitPattern": "{0}/oz"
           },
+          "speed-kilometer-per-hour": {
+            "displayName": "km/h",
+            "unitPattern-count-other": "{0} km/h"
+          },
+          "speed-mile-per-hour": {
+            "displayName": "\u30DE\u30A4\u30EB\u6BCE\u6642",
+            "unitPattern-count-other": "{0} mph"
+          },
           "temperature-celsius": {
             "displayName": "\u00B0C",
             "unitPattern-count-other": "{0}\u00B0C"
@@ -418,6 +442,10 @@
           "concentr-percent": {
             "displayName": "%",
             "unitPattern-count-other": "{0}%"
+          },
+          "consumption-mile-per-gallon": {
+            "displayName": "mpg",
+            "unitPattern-count-other": "{0}mpg"
           },
           "digital-petabyte": {
             "displayName": "PB",
@@ -574,6 +602,14 @@
             "displayName": "\u30AA\u30F3\u30B9",
             "unitPattern-count-other": "{0}oz",
             "perUnitPattern": "{0}/oz"
+          },
+          "speed-kilometer-per-hour": {
+            "displayName": "km/h",
+            "unitPattern-count-other": "{0}km/h"
+          },
+          "speed-mile-per-hour": {
+            "displayName": "\u30DE\u30A4\u30EB\u6BCE\u6642",
+            "unitPattern-count-other": "{0}mi/h"
           },
           "temperature-celsius": {
             "displayName": "\u00B0C",

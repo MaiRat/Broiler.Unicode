@@ -97,6 +97,32 @@
             "accusative-count-other": "{0} procent",
             "genitive-count-other": "{0} procent"
           },
+          "consumption-mile-per-gallon": {
+            "gender": "feminine",
+            "displayName": "mile na galon",
+            "unitPattern-count-one": "{0} mila na galon",
+            "accusative-count-one": "{0} mil\u0119 na galon",
+            "dative-count-one": "{0} mili na galon",
+            "genitive-count-one": "{0} mili na galon",
+            "instrumental-count-one": "{0} mil\u0105 na galon",
+            "locative-count-one": "{0} mili na galon",
+            "vocative-count-one": "{0} milo na galon",
+            "unitPattern-count-few": "{0} mile na galon",
+            "accusative-count-few": "{0} mile na galon",
+            "dative-count-few": "{0} milom na galon",
+            "genitive-count-few": "{0} mil na galon",
+            "instrumental-count-few": "{0} milami na galon",
+            "locative-count-few": "{0} milach na galon",
+            "unitPattern-count-many": "{0} mil na galon",
+            "accusative-count-many": "{0} mil na galon",
+            "dative-count-many": "{0} milom na galon",
+            "genitive-count-many": "{0} mil na galon",
+            "instrumental-count-many": "{0} milami na galon",
+            "locative-count-many": "{0} milach na galon",
+            "unitPattern-count-other": "{0} mili na galon",
+            "accusative-count-other": "{0} mili na galon",
+            "genitive-count-other": "{0} mili na galon"
+          },
           "digital-petabyte": {
             "gender": "inanimate",
             "displayName": "petabajty",
@@ -854,6 +880,58 @@
             "genitive-count-other": "{0} uncji",
             "perUnitPattern": "{0} na uncj\u0119"
           },
+          "speed-kilometer-per-hour": {
+            "gender": "inanimate",
+            "displayName": "kilometry na godzin\u0119",
+            "unitPattern-count-one": "{0} kilometr na godzin\u0119",
+            "accusative-count-one": "{0} kilometr na godzin\u0119",
+            "dative-count-one": "{0} kilometrowi na godzin\u0119",
+            "genitive-count-one": "{0} kilometra na godzin\u0119",
+            "instrumental-count-one": "{0} kilometrem na godzin\u0119",
+            "locative-count-one": "{0} kilometrze na godzin\u0119",
+            "vocative-count-one": "{0} kilometrze na godzin\u0119",
+            "unitPattern-count-few": "{0} kilometry na godzin\u0119",
+            "accusative-count-few": "{0} kilometry na godzin\u0119",
+            "dative-count-few": "{0} kilometrom na godzin\u0119",
+            "genitive-count-few": "{0} kilometr\u00F3w na godzin\u0119",
+            "instrumental-count-few": "{0} kilometrami na godzin\u0119",
+            "locative-count-few": "{0} kilometrach na godzin\u0119",
+            "unitPattern-count-many": "{0} kilometr\u00F3w na godzin\u0119",
+            "accusative-count-many": "{0} kilometr\u00F3w na godzin\u0119",
+            "dative-count-many": "{0} kilometrom na godzin\u0119",
+            "genitive-count-many": "{0} kilometr\u00F3w na godzin\u0119",
+            "instrumental-count-many": "{0} kilometrami na godzin\u0119",
+            "locative-count-many": "{0} kilometrach na godzin\u0119",
+            "unitPattern-count-other": "{0} kilometra na godzin\u0119",
+            "accusative-count-other": "{0} kilometra na godzin\u0119",
+            "genitive-count-other": "{0} kilometra na godzin\u0119"
+          },
+          "speed-mile-per-hour": {
+            "gender": "feminine",
+            "displayName": "mile na godzin\u0119",
+            "unitPattern-count-one": "{0} mila na godzin\u0119",
+            "accusative-count-one": "{0} mil\u0119 na godzin\u0119",
+            "dative-count-one": "{0} mili na godzin\u0119",
+            "genitive-count-one": "{0} mili na godzin\u0119",
+            "instrumental-count-one": "{0} mil\u0105 na godzin\u0119",
+            "locative-count-one": "{0} mili na godzin\u0119",
+            "vocative-count-one": "{0} milo na godzin\u0119",
+            "unitPattern-count-few": "{0} mile na godzin\u0119",
+            "accusative-count-few": "{0} mile na godzin\u0119",
+            "dative-count-few": "{0} milom na godzin\u0119",
+            "genitive-count-few": "{0} mil na godzin\u0119",
+            "instrumental-count-few": "{0} milami na godzin\u0119",
+            "locative-count-few": "{0} milach na godzin\u0119",
+            "unitPattern-count-many": "{0} mil na godzin\u0119",
+            "accusative-count-many": "{0} mil na godzin\u0119",
+            "dative-count-many": "{0} milom na godzin\u0119",
+            "genitive-count-many": "{0} mil na godzin\u0119",
+            "instrumental-count-many": "{0} milami na godzin\u0119",
+            "locative-count-many": "{0} milach na godzin\u0119",
+            "unitPattern-count-other": "{0} mili na godzin\u0119",
+            "accusative-count-other": "{0} mili na godzin\u0119",
+            "genitive-count-other": "{0} mili na godzin\u0119"
+          },
           "temperature-celsius": {
             "gender": "inanimate",
             "displayName": "stopnie Celsjusza",
@@ -1032,6 +1110,13 @@
           "concentr-percent": {
             "displayName": "%",
             "unitPattern-count-other": "{0}%"
+          },
+          "consumption-mile-per-gallon": {
+            "displayName": "mpg",
+            "unitPattern-count-one": "{0} mpg",
+            "unitPattern-count-few": "{0} mpg",
+            "unitPattern-count-many": "{0} mpg",
+            "unitPattern-count-other": "{0} mpg"
           },
           "digital-petabyte": {
             "displayName": "PB",
@@ -1222,6 +1307,20 @@
             "unitPattern-count-other": "{0} oz",
             "perUnitPattern": "{0}/oz"
           },
+          "speed-kilometer-per-hour": {
+            "displayName": "km/godz.",
+            "unitPattern-count-one": "{0} km/godz.",
+            "unitPattern-count-few": "{0} km/godz.",
+            "unitPattern-count-many": "{0} km/godz.",
+            "unitPattern-count-other": "{0} km/godz."
+          },
+          "speed-mile-per-hour": {
+            "displayName": "mile/h",
+            "unitPattern-count-one": "{0} mila/h",
+            "unitPattern-count-few": "{0} mile/h",
+            "unitPattern-count-many": "{0} mil/h",
+            "unitPattern-count-other": "{0} mili/h"
+          },
           "temperature-celsius": {
             "displayName": "\u00B0C",
             "unitPattern-count-one": "{0} st. C",
@@ -1280,6 +1379,13 @@
           "concentr-percent": {
             "displayName": "%",
             "unitPattern-count-other": "{0}%"
+          },
+          "consumption-mile-per-gallon": {
+            "displayName": "mpg",
+            "unitPattern-count-one": "{0} mpg",
+            "unitPattern-count-few": "{0} mpg",
+            "unitPattern-count-many": "{0} mpg",
+            "unitPattern-count-other": "{0} mpg"
           },
           "digital-petabyte": {
             "displayName": "PB",
@@ -1469,6 +1575,20 @@
             "displayName": "oz",
             "unitPattern-count-other": "{0} oz",
             "perUnitPattern": "{0}/oz"
+          },
+          "speed-kilometer-per-hour": {
+            "displayName": "km/h",
+            "unitPattern-count-one": "{0} km/h",
+            "unitPattern-count-few": "{0} km/h",
+            "unitPattern-count-many": "{0} km/h",
+            "unitPattern-count-other": "{0}km/h"
+          },
+          "speed-mile-per-hour": {
+            "displayName": "mph",
+            "unitPattern-count-one": "{0} mph",
+            "unitPattern-count-few": "{0} mph",
+            "unitPattern-count-many": "{0} mph",
+            "unitPattern-count-other": "{0} mph"
           },
           "temperature-celsius": {
             "displayName": "\u00B0C",
