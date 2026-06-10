@@ -34,6 +34,21 @@ public static class CldrLocaleData
         => LanguageOf(localeTag) == "zh" ? "非數值" : "NaN";
 
     /// <summary>
+    /// The CLDR <c>minimumGroupingDigits</c> for a locale: the minimum number of
+    /// digits the most-significant (leading) integer group must contain before any
+    /// grouping separators are shown. Most locales use <c>1</c>; a few (Spanish,
+    /// Italian, Polish) use <c>2</c>, which suppresses grouping for four-digit
+    /// values such as <c>1000</c> (formatted as <c>"1000"</c>, not <c>"1 000"</c>).
+    /// Only the language subtag is consulted.
+    /// </summary>
+    public static int MinimumGroupingDigits(string localeTag)
+        => LanguageOf(localeTag) switch
+        {
+            "es" or "it" or "pl" => 2,
+            _ => 1,
+        };
+
+    /// <summary>
     /// The CLDR list-assembly patterns for a locale, type and style, used to drive
     /// an ECMA-402 <c>Intl.ListFormat</c> formatter. Falls back to English and then
     /// to a plain comma layout for an unknown locale. The data is generated from the
