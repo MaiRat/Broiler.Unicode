@@ -1,0 +1,433 @@
+{
+  "main": {
+    "ru": {
+      "dates": {
+        "fields": {
+          "second": {
+            "displayName": "\u0441\u0435\u043A\u0443\u043D\u0434\u0430",
+            "relative-type-0": "\u0441\u0435\u0439\u0447\u0430\u0441",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u0447\u0435\u0440\u0435\u0437 {0} \u0441\u0435\u043A\u0443\u043D\u0434\u0443",
+              "relativeTimePattern-count-few": "\u0447\u0435\u0440\u0435\u0437 {0} \u0441\u0435\u043A\u0443\u043D\u0434\u044B",
+              "relativeTimePattern-count-many": "\u0447\u0435\u0440\u0435\u0437 {0} \u0441\u0435\u043A\u0443\u043D\u0434",
+              "relativeTimePattern-count-other": "\u0447\u0435\u0440\u0435\u0437 {0} \u0441\u0435\u043A\u0443\u043D\u0434\u044B"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} \u0441\u0435\u043A\u0443\u043D\u0434\u0443 \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-few": "{0} \u0441\u0435\u043A\u0443\u043D\u0434\u044B \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-many": "{0} \u0441\u0435\u043A\u0443\u043D\u0434 \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-other": "{0} \u0441\u0435\u043A\u0443\u043D\u0434\u044B \u043D\u0430\u0437\u0430\u0434"
+            }
+          },
+          "second-short": {
+            "displayName": "\u0441\u0435\u043A.",
+            "relative-type-0": "\u0441\u0435\u0439\u0447\u0430\u0441",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u0447\u0435\u0440\u0435\u0437 {0}\u00A0\u0441\u0435\u043A.",
+              "relativeTimePattern-count-few": "\u0447\u0435\u0440\u0435\u0437 {0}\u00A0\u0441\u0435\u043A.",
+              "relativeTimePattern-count-many": "\u0447\u0435\u0440\u0435\u0437 {0}\u00A0\u0441\u0435\u043A.",
+              "relativeTimePattern-count-other": "\u0447\u0435\u0440\u0435\u0437 {0}\u00A0\u0441\u0435\u043A."
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} \u0441\u0435\u043A. \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-few": "{0} \u0441\u0435\u043A. \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-many": "{0} \u0441\u0435\u043A. \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-other": "{0} \u0441\u0435\u043A. \u043D\u0430\u0437\u0430\u0434"
+            }
+          },
+          "second-narrow": {
+            "displayName": "\u0441",
+            "relative-type-0": "\u0441\u0435\u0439\u0447\u0430\u0441",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u002B{0} \u0441",
+              "relativeTimePattern-count-few": "\u002B{0} \u0441",
+              "relativeTimePattern-count-many": "\u002B{0} \u0441",
+              "relativeTimePattern-count-other": "\u002B{0} \u0441"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "-{0} \u0441",
+              "relativeTimePattern-count-few": "-{0} \u0441",
+              "relativeTimePattern-count-many": "-{0} \u0441",
+              "relativeTimePattern-count-other": "-{0} \u0441"
+            }
+          },
+          "minute": {
+            "displayName": "\u043C\u0438\u043D\u0443\u0442\u0430",
+            "relative-type-0": "\u0432 \u044D\u0442\u0443 \u043C\u0438\u043D\u0443\u0442\u0443",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u0447\u0435\u0440\u0435\u0437 {0} \u043C\u0438\u043D\u0443\u0442\u0443",
+              "relativeTimePattern-count-few": "\u0447\u0435\u0440\u0435\u0437 {0} \u043C\u0438\u043D\u0443\u0442\u044B",
+              "relativeTimePattern-count-many": "\u0447\u0435\u0440\u0435\u0437 {0} \u043C\u0438\u043D\u0443\u0442",
+              "relativeTimePattern-count-other": "\u0447\u0435\u0440\u0435\u0437 {0} \u043C\u0438\u043D\u0443\u0442\u044B"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} \u043C\u0438\u043D\u0443\u0442\u0443 \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-few": "{0} \u043C\u0438\u043D\u0443\u0442\u044B \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-many": "{0} \u043C\u0438\u043D\u0443\u0442 \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-other": "{0} \u043C\u0438\u043D\u0443\u0442\u044B \u043D\u0430\u0437\u0430\u0434"
+            }
+          },
+          "minute-short": {
+            "displayName": "\u043C\u0438\u043D.",
+            "relative-type-0": "\u0432 \u044D\u0442\u0443 \u043C\u0438\u043D\u0443\u0442\u0443",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u0447\u0435\u0440\u0435\u0437 {0} \u043C\u0438\u043D.",
+              "relativeTimePattern-count-few": "\u0447\u0435\u0440\u0435\u0437 {0} \u043C\u0438\u043D.",
+              "relativeTimePattern-count-many": "\u0447\u0435\u0440\u0435\u0437 {0} \u043C\u0438\u043D.",
+              "relativeTimePattern-count-other": "\u0447\u0435\u0440\u0435\u0437 {0} \u043C\u0438\u043D."
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} \u043C\u0438\u043D. \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-few": "{0} \u043C\u0438\u043D. \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-many": "{0} \u043C\u0438\u043D. \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-other": "{0} \u043C\u0438\u043D. \u043D\u0430\u0437\u0430\u0434"
+            }
+          },
+          "minute-narrow": {
+            "displayName": "\u043C\u0438\u043D",
+            "relative-type-0": "\u0432 \u044D\u0442\u0443 \u043C\u0438\u043D\u0443\u0442\u0443",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u002B{0} \u043C\u0438\u043D",
+              "relativeTimePattern-count-few": "\u002B{0} \u043C\u0438\u043D",
+              "relativeTimePattern-count-many": "\u002B{0} \u043C\u0438\u043D",
+              "relativeTimePattern-count-other": "\u002B{0} \u043C\u0438\u043D"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "-{0} \u043C\u0438\u043D",
+              "relativeTimePattern-count-few": "-{0} \u043C\u0438\u043D",
+              "relativeTimePattern-count-many": "-{0} \u043C\u0438\u043D",
+              "relativeTimePattern-count-other": "-{0} \u043C\u0438\u043D"
+            }
+          },
+          "hour": {
+            "displayName": "\u0447\u0430\u0441",
+            "relative-type-0": "\u0432 \u044D\u0442\u043E\u0442 \u0447\u0430\u0441",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u0447\u0435\u0440\u0435\u0437 {0} \u0447\u0430\u0441",
+              "relativeTimePattern-count-few": "\u0447\u0435\u0440\u0435\u0437 {0} \u0447\u0430\u0441\u0430",
+              "relativeTimePattern-count-many": "\u0447\u0435\u0440\u0435\u0437 {0} \u0447\u0430\u0441\u043E\u0432",
+              "relativeTimePattern-count-other": "\u0447\u0435\u0440\u0435\u0437 {0} \u0447\u0430\u0441\u0430"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} \u0447\u0430\u0441 \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-few": "{0} \u0447\u0430\u0441\u0430 \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-many": "{0} \u0447\u0430\u0441\u043E\u0432 \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-other": "{0} \u0447\u0430\u0441\u0430 \u043D\u0430\u0437\u0430\u0434"
+            }
+          },
+          "hour-short": {
+            "displayName": "\u0447",
+            "relative-type-0": "\u0432 \u044D\u0442\u043E\u0442 \u0447\u0430\u0441",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u0447\u0435\u0440\u0435\u0437 {0} \u0447",
+              "relativeTimePattern-count-few": "\u0447\u0435\u0440\u0435\u0437 {0} \u0447",
+              "relativeTimePattern-count-many": "\u0447\u0435\u0440\u0435\u0437 {0} \u0447",
+              "relativeTimePattern-count-other": "\u0447\u0435\u0440\u0435\u0437 {0} \u0447"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} \u0447 \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-few": "{0} \u0447 \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-many": "{0} \u0447 \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-other": "{0} \u0447 \u043D\u0430\u0437\u0430\u0434"
+            }
+          },
+          "hour-narrow": {
+            "displayName": "\u0447",
+            "relative-type-0": "\u0432 \u044D\u0442\u043E\u0442 \u0447\u0430\u0441",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u002B{0} \u0447",
+              "relativeTimePattern-count-few": "\u002B{0} \u0447",
+              "relativeTimePattern-count-many": "\u002B{0} \u0447",
+              "relativeTimePattern-count-other": "\u002B{0} \u0447"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "-{0} \u0447",
+              "relativeTimePattern-count-few": "-{0} \u0447",
+              "relativeTimePattern-count-many": "-{0} \u0447",
+              "relativeTimePattern-count-other": "-{0} \u0447"
+            }
+          },
+          "day": {
+            "displayName": "\u0434\u0435\u043D\u044C",
+            "relative-type--2": "\u043F\u043E\u0437\u0430\u0432\u0447\u0435\u0440\u0430",
+            "relative-type--1": "\u0432\u0447\u0435\u0440\u0430",
+            "relative-type-0": "\u0441\u0435\u0433\u043E\u0434\u043D\u044F",
+            "relative-type-1": "\u0437\u0430\u0432\u0442\u0440\u0430",
+            "relative-type-2": "\u043F\u043E\u0441\u043B\u0435\u0437\u0430\u0432\u0442\u0440\u0430",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u0447\u0435\u0440\u0435\u0437 {0} \u0434\u0435\u043D\u044C",
+              "relativeTimePattern-count-few": "\u0447\u0435\u0440\u0435\u0437 {0} \u0434\u043D\u044F",
+              "relativeTimePattern-count-many": "\u0447\u0435\u0440\u0435\u0437 {0} \u0434\u043D\u0435\u0439",
+              "relativeTimePattern-count-other": "\u0447\u0435\u0440\u0435\u0437 {0} \u0434\u043D\u044F"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} \u0434\u0435\u043D\u044C \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-few": "{0} \u0434\u043D\u044F \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-many": "{0} \u0434\u043D\u0435\u0439 \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-other": "{0} \u0434\u043D\u044F \u043D\u0430\u0437\u0430\u0434"
+            }
+          },
+          "day-short": {
+            "displayName": "\u0434\u043D.",
+            "relative-type--2": "\u043F\u043E\u0437\u0430\u0432\u0447\u0435\u0440\u0430",
+            "relative-type--1": "\u0432\u0447\u0435\u0440\u0430",
+            "relative-type-0": "\u0441\u0435\u0433\u043E\u0434\u043D\u044F",
+            "relative-type-1": "\u0437\u0430\u0432\u0442\u0440\u0430",
+            "relative-type-2": "\u043F\u043E\u0441\u043B\u0435\u0437\u0430\u0432\u0442\u0440\u0430",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u0447\u0435\u0440\u0435\u0437 {0} \u0434\u043D.",
+              "relativeTimePattern-count-few": "\u0447\u0435\u0440\u0435\u0437 {0} \u0434\u043D.",
+              "relativeTimePattern-count-many": "\u0447\u0435\u0440\u0435\u0437 {0} \u0434\u043D.",
+              "relativeTimePattern-count-other": "\u0447\u0435\u0440\u0435\u0437 {0} \u0434\u043D."
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} \u0434\u043D. \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-few": "{0} \u0434\u043D. \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-many": "{0} \u0434\u043D. \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-other": "{0} \u0434\u043D. \u043D\u0430\u0437\u0430\u0434"
+            }
+          },
+          "day-narrow": {
+            "displayName": "\u0434\u043D.",
+            "relative-type--2": "\u043F\u043E\u0437\u0430\u0432\u0447\u0435\u0440\u0430",
+            "relative-type--1": "\u0432\u0447\u0435\u0440\u0430",
+            "relative-type-0": "\u0441\u0435\u0433\u043E\u0434\u043D\u044F",
+            "relative-type-1": "\u0437\u0430\u0432\u0442\u0440\u0430",
+            "relative-type-2": "\u043F\u043E\u0441\u043B\u0435\u0437\u0430\u0432\u0442\u0440\u0430",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u002B{0} \u0434\u043D.",
+              "relativeTimePattern-count-few": "\u002B{0} \u0434\u043D.",
+              "relativeTimePattern-count-many": "\u002B{0} \u0434\u043D.",
+              "relativeTimePattern-count-other": "\u002B{0} \u0434\u043D."
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "-{0} \u0434\u043D.",
+              "relativeTimePattern-count-few": "-{0} \u0434\u043D.",
+              "relativeTimePattern-count-many": "-{0} \u0434\u043D.",
+              "relativeTimePattern-count-other": "-{0} \u0434\u043D."
+            }
+          },
+          "week": {
+            "displayName": "\u043D\u0435\u0434\u0435\u043B\u044F",
+            "relative-type--1": "\u043D\u0430 \u043F\u0440\u043E\u0448\u043B\u043E\u0439 \u043D\u0435\u0434\u0435\u043B\u0435",
+            "relative-type-0": "\u043D\u0430 \u044D\u0442\u043E\u0439 \u043D\u0435\u0434\u0435\u043B\u0435",
+            "relative-type-1": "\u043D\u0430 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0435\u0439 \u043D\u0435\u0434\u0435\u043B\u0435",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u0447\u0435\u0440\u0435\u0437 {0} \u043D\u0435\u0434\u0435\u043B\u044E",
+              "relativeTimePattern-count-few": "\u0447\u0435\u0440\u0435\u0437 {0} \u043D\u0435\u0434\u0435\u043B\u0438",
+              "relativeTimePattern-count-many": "\u0447\u0435\u0440\u0435\u0437 {0} \u043D\u0435\u0434\u0435\u043B\u044C",
+              "relativeTimePattern-count-other": "\u0447\u0435\u0440\u0435\u0437 {0} \u043D\u0435\u0434\u0435\u043B\u0438"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} \u043D\u0435\u0434\u0435\u043B\u044E \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-few": "{0} \u043D\u0435\u0434\u0435\u043B\u0438 \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-many": "{0} \u043D\u0435\u0434\u0435\u043B\u044C \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-other": "{0} \u043D\u0435\u0434\u0435\u043B\u0438 \u043D\u0430\u0437\u0430\u0434"
+            },
+            "relativePeriod": "\u043D\u0430 \u043D\u0435\u0434\u0435\u043B\u0435 {0}"
+          },
+          "week-short": {
+            "displayName": "\u043D\u0435\u0434.",
+            "relative-type--1": "\u043D\u0430 \u043F\u0440\u043E\u0448\u043B\u043E\u0439 \u043D\u0435\u0434.",
+            "relative-type-0": "\u043D\u0430 \u044D\u0442\u043E\u0439 \u043D\u0435\u0434.",
+            "relative-type-1": "\u043D\u0430 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0435\u0439 \u043D\u0435\u0434.",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u0447\u0435\u0440\u0435\u0437 {0} \u043D\u0435\u0434.",
+              "relativeTimePattern-count-few": "\u0447\u0435\u0440\u0435\u0437 {0} \u043D\u0435\u0434.",
+              "relativeTimePattern-count-many": "\u0447\u0435\u0440\u0435\u0437 {0} \u043D\u0435\u0434.",
+              "relativeTimePattern-count-other": "\u0447\u0435\u0440\u0435\u0437 {0} \u043D\u0435\u0434."
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} \u043D\u0435\u0434. \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-few": "{0} \u043D\u0435\u0434. \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-many": "{0} \u043D\u0435\u0434. \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-other": "{0} \u043D\u0435\u0434. \u043D\u0430\u0437\u0430\u0434"
+            },
+            "relativePeriod": "\u043D\u0430 \u043D\u0435\u0434. {0}"
+          },
+          "week-narrow": {
+            "displayName": "\u043D\u0435\u0434.",
+            "relative-type--1": "\u043D\u0430 \u043F\u0440. \u043D\u0435\u0434.",
+            "relative-type-0": "\u043D\u0430 \u044D\u0442. \u043D\u0435\u0434.",
+            "relative-type-1": "\u043D\u0430 \u0441\u043B\u0435\u0434. \u043D\u0435\u0434.",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u002B{0} \u043D\u0435\u0434.",
+              "relativeTimePattern-count-few": "\u002B{0} \u043D\u0435\u0434.",
+              "relativeTimePattern-count-many": "\u002B{0} \u043D\u0435\u0434.",
+              "relativeTimePattern-count-other": "\u002B{0} \u043D\u0435\u0434."
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "-{0} \u043D\u0435\u0434.",
+              "relativeTimePattern-count-few": "-{0} \u043D\u0435\u0434.",
+              "relativeTimePattern-count-many": "-{0} \u043D\u0435\u0434.",
+              "relativeTimePattern-count-other": "-{0} \u043D\u0435\u0434."
+            },
+            "relativePeriod": "\u043D\u0430 \u043D\u0435\u0434. {0}"
+          },
+          "month": {
+            "displayName": "\u043C\u0435\u0441\u044F\u0446",
+            "relative-type--1": "\u0432 \u043F\u0440\u043E\u0448\u043B\u043E\u043C \u043C\u0435\u0441\u044F\u0446\u0435",
+            "relative-type-0": "\u0432 \u044D\u0442\u043E\u043C \u043C\u0435\u0441\u044F\u0446\u0435",
+            "relative-type-1": "\u0432 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0435\u043C \u043C\u0435\u0441\u044F\u0446\u0435",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u0447\u0435\u0440\u0435\u0437 {0} \u043C\u0435\u0441\u044F\u0446",
+              "relativeTimePattern-count-few": "\u0447\u0435\u0440\u0435\u0437 {0} \u043C\u0435\u0441\u044F\u0446\u0430",
+              "relativeTimePattern-count-many": "\u0447\u0435\u0440\u0435\u0437 {0} \u043C\u0435\u0441\u044F\u0446\u0435\u0432",
+              "relativeTimePattern-count-other": "\u0447\u0435\u0440\u0435\u0437 {0} \u043C\u0435\u0441\u044F\u0446\u0430"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} \u043C\u0435\u0441\u044F\u0446 \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-few": "{0} \u043C\u0435\u0441\u044F\u0446\u0430 \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-many": "{0} \u043C\u0435\u0441\u044F\u0446\u0435\u0432 \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-other": "{0} \u043C\u0435\u0441\u044F\u0446\u0430 \u043D\u0430\u0437\u0430\u0434"
+            }
+          },
+          "month-short": {
+            "displayName": "\u043C\u0435\u0441.",
+            "relative-type--1": "\u0432 \u043F\u0440\u043E\u0448\u043B\u043E\u043C \u043C\u0435\u0441.",
+            "relative-type-0": "\u0432 \u044D\u0442\u043E\u043C \u043C\u0435\u0441.",
+            "relative-type-1": "\u0432 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0435\u043C \u043C\u0435\u0441.",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u0447\u0435\u0440\u0435\u0437 {0} \u043C\u0435\u0441.",
+              "relativeTimePattern-count-few": "\u0447\u0435\u0440\u0435\u0437 {0} \u043C\u0435\u0441.",
+              "relativeTimePattern-count-many": "\u0447\u0435\u0440\u0435\u0437 {0} \u043C\u0435\u0441.",
+              "relativeTimePattern-count-other": "\u0447\u0435\u0440\u0435\u0437 {0} \u043C\u0435\u0441."
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} \u043C\u0435\u0441. \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-few": "{0} \u043C\u0435\u0441. \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-many": "{0} \u043C\u0435\u0441. \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-other": "{0} \u043C\u0435\u0441. \u043D\u0430\u0437\u0430\u0434"
+            }
+          },
+          "month-narrow": {
+            "displayName": "\u043C\u0435\u0441.",
+            "relative-type--1": "\u0432 \u043F\u0440. \u043C\u0435\u0441.",
+            "relative-type-0": "\u0432 \u044D\u0442. \u043C\u0435\u0441.",
+            "relative-type-1": "\u0432 \u0441\u043B\u0435\u0434. \u043C\u0435\u0441.",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u002B{0} \u043C\u0435\u0441.",
+              "relativeTimePattern-count-few": "\u002B{0} \u043C\u0435\u0441.",
+              "relativeTimePattern-count-many": "\u002B{0} \u043C\u0435\u0441.",
+              "relativeTimePattern-count-other": "\u002B{0} \u043C\u0435\u0441."
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "-{0} \u043C\u0435\u0441.",
+              "relativeTimePattern-count-few": "-{0} \u043C\u0435\u0441.",
+              "relativeTimePattern-count-many": "-{0} \u043C\u0435\u0441.",
+              "relativeTimePattern-count-other": "-{0} \u043C\u0435\u0441."
+            }
+          },
+          "quarter": {
+            "displayName": "\u043A\u0432\u0430\u0440\u0442\u0430\u043B",
+            "relative-type--1": "\u0432 \u043F\u0440\u043E\u0448\u043B\u043E\u043C \u043A\u0432\u0430\u0440\u0442\u0430\u043B\u0435",
+            "relative-type-0": "\u0432 \u0442\u0435\u043A\u0443\u0449\u0435\u043C \u043A\u0432\u0430\u0440\u0442\u0430\u043B\u0435",
+            "relative-type-1": "\u0432 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0435\u043C \u043A\u0432\u0430\u0440\u0442\u0430\u043B\u0435",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u0447\u0435\u0440\u0435\u0437 {0} \u043A\u0432\u0430\u0440\u0442\u0430\u043B",
+              "relativeTimePattern-count-few": "\u0447\u0435\u0440\u0435\u0437 {0} \u043A\u0432\u0430\u0440\u0442\u0430\u043B\u0430",
+              "relativeTimePattern-count-many": "\u0447\u0435\u0440\u0435\u0437 {0} \u043A\u0432\u0430\u0440\u0442\u0430\u043B\u043E\u0432",
+              "relativeTimePattern-count-other": "\u0447\u0435\u0440\u0435\u0437 {0} \u043A\u0432\u0430\u0440\u0442\u0430\u043B\u0430"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} \u043A\u0432\u0430\u0440\u0442\u0430\u043B \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-few": "{0} \u043A\u0432\u0430\u0440\u0442\u0430\u043B\u0430 \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-many": "{0} \u043A\u0432\u0430\u0440\u0442\u0430\u043B\u043E\u0432 \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-other": "{0} \u043A\u0432\u0430\u0440\u0442\u0430\u043B\u0430 \u043D\u0430\u0437\u0430\u0434"
+            }
+          },
+          "quarter-short": {
+            "displayName": "\u043A\u0432.",
+            "relative-type--1": "\u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u043A\u0432.",
+            "relative-type-0": "\u0442\u0435\u043A\u0443\u0449\u0438\u0439 \u043A\u0432.",
+            "relative-type-1": "\u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0439 \u043A\u0432.",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u0447\u0435\u0440\u0435\u0437 {0} \u043A\u0432.",
+              "relativeTimePattern-count-few": "\u0447\u0435\u0440\u0435\u0437 {0} \u043A\u0432.",
+              "relativeTimePattern-count-many": "\u0447\u0435\u0440\u0435\u0437 {0} \u043A\u0432.",
+              "relativeTimePattern-count-other": "\u0447\u0435\u0440\u0435\u0437 {0} \u043A\u0432."
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} \u043A\u0432. \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-few": "{0} \u043A\u0432. \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-many": "{0} \u043A\u0432. \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-other": "{0} \u043A\u0432. \u043D\u0430\u0437\u0430\u0434"
+            }
+          },
+          "quarter-narrow": {
+            "displayName": "\u043A\u0432.",
+            "relative-type--1": "\u043F\u043E\u0441\u043B. \u043A\u0432.",
+            "relative-type-0": "\u0442\u0435\u043A. \u043A\u0432.",
+            "relative-type-1": "\u0441\u043B\u0435\u0434. \u043A\u0432.",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u002B{0} \u043A\u0432.",
+              "relativeTimePattern-count-few": "\u002B{0} \u043A\u0432.",
+              "relativeTimePattern-count-many": "\u002B{0} \u043A\u0432.",
+              "relativeTimePattern-count-other": "\u002B{0} \u043A\u0432."
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "-{0} \u043A\u0432.",
+              "relativeTimePattern-count-few": "-{0} \u043A\u0432.",
+              "relativeTimePattern-count-many": "-{0} \u043A\u0432.",
+              "relativeTimePattern-count-other": "-{0} \u043A\u0432."
+            }
+          },
+          "year": {
+            "displayName": "\u0433\u043E\u0434",
+            "relative-type--1": "\u0432 \u043F\u0440\u043E\u0448\u043B\u043E\u043C \u0433\u043E\u0434\u0443",
+            "relative-type-0": "\u0432 \u044D\u0442\u043E\u043C \u0433\u043E\u0434\u0443",
+            "relative-type-1": "\u0432 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0435\u043C \u0433\u043E\u0434\u0443",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u0447\u0435\u0440\u0435\u0437 {0} \u0433\u043E\u0434",
+              "relativeTimePattern-count-few": "\u0447\u0435\u0440\u0435\u0437 {0} \u0433\u043E\u0434\u0430",
+              "relativeTimePattern-count-many": "\u0447\u0435\u0440\u0435\u0437 {0} \u043B\u0435\u0442",
+              "relativeTimePattern-count-other": "\u0447\u0435\u0440\u0435\u0437 {0} \u0433\u043E\u0434\u0430"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} \u0433\u043E\u0434 \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-few": "{0} \u0433\u043E\u0434\u0430 \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-many": "{0} \u043B\u0435\u0442 \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-other": "{0} \u0433\u043E\u0434\u0430 \u043D\u0430\u0437\u0430\u0434"
+            }
+          },
+          "year-short": {
+            "displayName": "\u0433.",
+            "relative-type--1": "\u0432 \u043F\u0440\u043E\u0448\u043B\u043E\u043C \u0433.",
+            "relative-type-0": "\u0432 \u044D\u0442\u043E\u043C \u0433.",
+            "relative-type-1": "\u0432 \u0441\u043B\u0435\u0434. \u0433.",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u0447\u0435\u0440\u0435\u0437 {0} \u0433.",
+              "relativeTimePattern-count-few": "\u0447\u0435\u0440\u0435\u0437 {0} \u0433.",
+              "relativeTimePattern-count-many": "\u0447\u0435\u0440\u0435\u0437 {0} \u043B.",
+              "relativeTimePattern-count-other": "\u0447\u0435\u0440\u0435\u0437 {0} \u0433."
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} \u0433. \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-few": "{0} \u0433. \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-many": "{0} \u043B. \u043D\u0430\u0437\u0430\u0434",
+              "relativeTimePattern-count-other": "{0} \u0433. \u043D\u0430\u0437\u0430\u0434"
+            }
+          },
+          "year-narrow": {
+            "displayName": "\u0433.",
+            "relative-type--1": "\u0432 \u043F\u0440. \u0433.",
+            "relative-type-0": "\u0432 \u044D\u0442. \u0433.",
+            "relative-type-1": "\u0432 \u0441\u043B. \u0433.",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u002B{0} \u0433.",
+              "relativeTimePattern-count-few": "\u002B{0} \u0433.",
+              "relativeTimePattern-count-many": "\u002B{0} \u043B.",
+              "relativeTimePattern-count-other": "\u002B{0} \u0433."
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "-{0} \u0433.",
+              "relativeTimePattern-count-few": "-{0} \u0433.",
+              "relativeTimePattern-count-many": "-{0} \u043B.",
+              "relativeTimePattern-count-other": "-{0} \u0433."
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -97,6 +97,45 @@ public static class CldrLocaleData
     }
 
     /// <summary>
+    /// The CLDR relative-time pattern (with a <c>{0}</c> placeholder) for a locale,
+    /// ECMA-402 unit, style, tense and plural category — used to drive an
+    /// <c>Intl.RelativeTimeFormat</c> formatter with <c>numeric: "always"</c>. Falls
+    /// back to the "other" category, then English, then a bare <c>"{0}"</c>. The
+    /// patterns are generated from the official cldr-json relative-time data.
+    /// </summary>
+    /// <param name="localeTag">A BCP-47 locale tag; only the language subtag is used.</param>
+    /// <param name="unit">An ECMA-402 relative-time unit (e.g. <c>"day"</c>, <c>"year"</c>).</param>
+    /// <param name="style"><c>"long"</c>, <c>"short"</c> or <c>"narrow"</c>.</param>
+    /// <param name="tense"><c>"future"</c> or <c>"past"</c>.</param>
+    /// <param name="pluralCategory">The plural category of the number (e.g. <c>"one"</c>/<c>"other"</c>).</param>
+    public static string GetRelativeTimePattern(string localeTag, string unit, string style, string tense, string pluralCategory)
+    {
+        var language = LanguageOf(localeTag);
+        return CldrRelativeTimeData.Patterns.GetValueOrDefault($"{language}|{unit}|{style}|{tense}|{pluralCategory}")
+            ?? CldrRelativeTimeData.Patterns.GetValueOrDefault($"{language}|{unit}|{style}|{tense}|other")
+            ?? CldrRelativeTimeData.Patterns.GetValueOrDefault($"en|{unit}|{style}|{tense}|{pluralCategory}")
+            ?? CldrRelativeTimeData.Patterns.GetValueOrDefault($"en|{unit}|{style}|{tense}|other")
+            ?? "{0}";
+    }
+
+    /// <summary>
+    /// The CLDR exact relative phrase (e.g. <c>"yesterday"</c>) for a locale, unit,
+    /// style and signed offset, used by <c>Intl.RelativeTimeFormat</c> with
+    /// <c>numeric: "auto"</c>. Returns <see langword="null"/> when the offset has no
+    /// exact phrase (the caller then falls back to the numeric pattern).
+    /// </summary>
+    /// <param name="localeTag">A BCP-47 locale tag; only the language subtag is used.</param>
+    /// <param name="unit">An ECMA-402 relative-time unit (e.g. <c>"day"</c>).</param>
+    /// <param name="style"><c>"long"</c>, <c>"short"</c> or <c>"narrow"</c>.</param>
+    /// <param name="offset">The signed numeric offset (e.g. <c>-1</c> for "yesterday").</param>
+    public static string? GetRelativeTimeExact(string localeTag, string unit, string style, int offset)
+    {
+        var language = LanguageOf(localeTag);
+        return CldrRelativeTimeData.Exact.GetValueOrDefault($"{language}|{unit}|{style}|{offset}")
+            ?? CldrRelativeTimeData.Exact.GetValueOrDefault($"en|{unit}|{style}|{offset}");
+    }
+
+    /// <summary>
     /// The day-period key (e.g. <c>"midnight"</c>, <c>"morning1"</c>, <c>"noon"</c>,
     /// <c>"pm"</c>) for a local time, using the locale's CLDR day-period rules. Falls
     /// back to English rules and then to plain am/pm.

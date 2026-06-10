@@ -61,4 +61,8 @@ public static class RepoLayout
     /// <summary>The path of the committed generated CLDR date-data source file.</summary>
     public static string GeneratedDateSourcePath(string repoRoot) =>
         Path.Combine(repoRoot, "src", "UnicodeCldr.LocaleData", "Generated", "CldrDateData.g.cs");
+
+    /// <summary>The path of the committed generated CLDR relative-time source file.</summary>
+    public static string GeneratedRelativeTimeSourcePath(string repoRoot) =>
+        Path.Combine(repoRoot, "src", "UnicodeCldr.LocaleData", "Generated", "CldrRelativeTimeData.g.cs");
 }

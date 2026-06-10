@@ -1,0 +1,337 @@
+{
+  "main": {
+    "sv": {
+      "dates": {
+        "fields": {
+          "second": {
+            "displayName": "sekund",
+            "relative-type-0": "nu",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "om {0} sekund",
+              "relativeTimePattern-count-other": "om {0} sekunder"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "f\u00F6r {0} sekund sedan",
+              "relativeTimePattern-count-other": "f\u00F6r {0} sekunder sedan"
+            }
+          },
+          "second-short": {
+            "displayName": "sek",
+            "relative-type-0": "nu",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "om\u00A0{0} sek",
+              "relativeTimePattern-count-other": "om {0} sek"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "f\u00F6r {0} s sen",
+              "relativeTimePattern-count-other": "f\u00F6r {0} s sen"
+            }
+          },
+          "second-narrow": {
+            "displayName": "s",
+            "relative-type-0": "nu",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u002B{0} s",
+              "relativeTimePattern-count-other": "\u002B{0} s"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "\u2212{0} s",
+              "relativeTimePattern-count-other": "\u2212{0} s"
+            }
+          },
+          "minute": {
+            "displayName": "minut",
+            "relative-type-0": "denna minut",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "om {0} minut",
+              "relativeTimePattern-count-other": "om {0} minuter"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "f\u00F6r {0} minut sedan",
+              "relativeTimePattern-count-other": "f\u00F6r {0} minuter sedan"
+            }
+          },
+          "minute-short": {
+            "displayName": "min",
+            "relative-type-0": "denna minut",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "om\u00A0{0} min",
+              "relativeTimePattern-count-other": "om\u00A0{0} min"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "f\u00F6r {0} min sen",
+              "relativeTimePattern-count-other": "f\u00F6r {0} min sen"
+            }
+          },
+          "minute-narrow": {
+            "displayName": "m",
+            "relative-type-0": "denna minut",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u002B{0} min",
+              "relativeTimePattern-count-other": "\u002B{0} min"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "\u2212{0} min",
+              "relativeTimePattern-count-other": "\u2212{0} min"
+            }
+          },
+          "hour": {
+            "displayName": "timme",
+            "relative-type-0": "denna timme",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "om {0} timme",
+              "relativeTimePattern-count-other": "om {0} timmar"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "f\u00F6r {0} timme sedan",
+              "relativeTimePattern-count-other": "f\u00F6r {0} timmar sedan"
+            }
+          },
+          "hour-short": {
+            "displayName": "tim",
+            "relative-type-0": "denna timme",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "om {0} tim",
+              "relativeTimePattern-count-other": "om {0} tim"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "f\u00F6r {0} tim sedan",
+              "relativeTimePattern-count-other": "f\u00F6r {0} tim sedan"
+            }
+          },
+          "hour-narrow": {
+            "displayName": "h",
+            "relative-type-0": "denna timme",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u002B{0} h",
+              "relativeTimePattern-count-other": "\u002B{0} h"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "\u2212{0} h",
+              "relativeTimePattern-count-other": "\u2212{0} h"
+            }
+          },
+          "day": {
+            "displayName": "dag",
+            "relative-type--2": "i f\u00F6rrg\u00E5r",
+            "relative-type--1": "i g\u00E5r",
+            "relative-type-0": "i dag",
+            "relative-type-1": "i morgon",
+            "relative-type-2": "i \u00F6vermorgon",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "om {0} dag",
+              "relativeTimePattern-count-other": "om {0} dagar"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "f\u00F6r {0} dag sedan",
+              "relativeTimePattern-count-other": "f\u00F6r {0} dagar sedan"
+            }
+          },
+          "day-short": {
+            "displayName": "d.",
+            "relative-type--2": "i f\u00F6rrg\u00E5r",
+            "relative-type--1": "i g\u00E5r",
+            "relative-type-0": "i dag",
+            "relative-type-1": "i morgon",
+            "relative-type-2": "i \u00F6vermorgon",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "om {0} d",
+              "relativeTimePattern-count-other": "om {0} d"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "f\u00F6r {0} d sedan",
+              "relativeTimePattern-count-other": "f\u00F6r\u00A0{0}\u00A0d sedan"
+            }
+          },
+          "day-narrow": {
+            "displayName": "d",
+            "relative-type--2": "i f\u00F6rrg\u00E5r",
+            "relative-type--1": "ig\u00E5r",
+            "relative-type-0": "idag",
+            "relative-type-1": "imorgon",
+            "relative-type-2": "i \u00F6vermorgon",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u002B{0} d",
+              "relativeTimePattern-count-other": "\u002B{0} d"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "\u2212{0} d",
+              "relativeTimePattern-count-other": "\u2212{0} d"
+            }
+          },
+          "week": {
+            "displayName": "vecka",
+            "relative-type--1": "f\u00F6rra veckan",
+            "relative-type-0": "denna vecka",
+            "relative-type-1": "n\u00E4sta vecka",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "om {0} vecka",
+              "relativeTimePattern-count-other": "om {0} veckor"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "f\u00F6r {0} vecka sedan",
+              "relativeTimePattern-count-other": "f\u00F6r {0} veckor sedan"
+            },
+            "relativePeriod": "veckan f\u00F6r {0}"
+          },
+          "week-short": {
+            "displayName": "v.",
+            "relative-type--1": "f\u00F6rra v.",
+            "relative-type-0": "denna v.",
+            "relative-type-1": "n\u00E4sta v.",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "om {0} v.",
+              "relativeTimePattern-count-other": "om {0} v."
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "f\u00F6r {0} v. sedan",
+              "relativeTimePattern-count-other": "f\u00F6r {0} v. sedan"
+            },
+            "relativePeriod": "veckan f\u00F6r {0}"
+          },
+          "week-narrow": {
+            "displayName": "v",
+            "relative-type--1": "f\u00F6rra v.",
+            "relative-type-0": "denna v.",
+            "relative-type-1": "n\u00E4sta v.",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u002B{0} v.",
+              "relativeTimePattern-count-other": "\u002B{0} v."
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "\u2212{0} v",
+              "relativeTimePattern-count-other": "\u2212{0} v"
+            },
+            "relativePeriod": "veckan f\u00F6r {0}"
+          },
+          "month": {
+            "displayName": "m\u00E5nad",
+            "relative-type--1": "f\u00F6rra m\u00E5naden",
+            "relative-type-0": "den h\u00E4r m\u00E5naden",
+            "relative-type-1": "n\u00E4sta m\u00E5nad",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "om {0} m\u00E5nad",
+              "relativeTimePattern-count-other": "om {0} m\u00E5nader"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "f\u00F6r {0} m\u00E5nad sedan",
+              "relativeTimePattern-count-other": "f\u00F6r {0} m\u00E5nader sedan"
+            }
+          },
+          "month-short": {
+            "displayName": "m\u00E5n",
+            "relative-type--1": "f\u00F6rra m\u00E5n.",
+            "relative-type-0": "denna m\u00E5n.",
+            "relative-type-1": "n\u00E4sta m\u00E5n.",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "om {0} m\u00E5n.",
+              "relativeTimePattern-count-other": "om {0} m\u00E5n."
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "f\u00F6r {0} m\u00E5n. sen",
+              "relativeTimePattern-count-other": "f\u00F6r {0} m\u00E5n. sen"
+            }
+          },
+          "month-narrow": {
+            "displayName": "m",
+            "relative-type--1": "f\u00F6rra m\u00E5n.",
+            "relative-type-0": "denna m\u00E5n.",
+            "relative-type-1": "n\u00E4sta m\u00E5n.",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u002B{0} m\u00E5n.",
+              "relativeTimePattern-count-other": "\u002B{0} m\u00E5n."
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "\u2212{0} m\u00E5n",
+              "relativeTimePattern-count-other": "\u2212{0} m\u00E5n"
+            }
+          },
+          "quarter": {
+            "displayName": "kvartal",
+            "relative-type--1": "f\u00F6rra kvartalet",
+            "relative-type-0": "detta kvartal",
+            "relative-type-1": "n\u00E4sta kvartal",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "om {0} kvartal",
+              "relativeTimePattern-count-other": "om {0} kvartal"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "f\u00F6r {0} kvartal sedan",
+              "relativeTimePattern-count-other": "f\u00F6r {0} kvartal sedan"
+            }
+          },
+          "quarter-short": {
+            "displayName": "kv.",
+            "relative-type--1": "f\u00F6rra kv.",
+            "relative-type-0": "detta kv.",
+            "relative-type-1": "n\u00E4sta kv.",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "om {0} kv.",
+              "relativeTimePattern-count-other": "om {0} kv."
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "f\u00F6r {0} kv. sen",
+              "relativeTimePattern-count-other": "f\u00F6r {0} kv. sen"
+            }
+          },
+          "quarter-narrow": {
+            "displayName": "kv.",
+            "relative-type--1": "f\u00F6rra kv.",
+            "relative-type-0": "detta kv.",
+            "relative-type-1": "n\u00E4sta kv.",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u002B{0} kv.",
+              "relativeTimePattern-count-other": "\u002B{0} kv."
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "\u2212{0} kv",
+              "relativeTimePattern-count-other": "\u2212{0} kv"
+            }
+          },
+          "year": {
+            "displayName": "\u00E5r",
+            "relative-type--1": "f\u00F6rra \u00E5ret",
+            "relative-type-0": "i \u00E5r",
+            "relative-type-1": "n\u00E4sta \u00E5r",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "om {0} \u00E5r",
+              "relativeTimePattern-count-other": "om {0} \u00E5r"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "f\u00F6r {0} \u00E5r sedan",
+              "relativeTimePattern-count-other": "f\u00F6r {0} \u00E5r sedan"
+            }
+          },
+          "year-short": {
+            "displayName": "\u00E5r",
+            "relative-type--1": "f\u00F6rra \u00E5ret",
+            "relative-type-0": "i \u00E5r",
+            "relative-type-1": "n\u00E4sta \u00E5r",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "om {0} \u00E5r",
+              "relativeTimePattern-count-other": "om {0} \u00E5r"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "f\u00F6r {0} \u00E5r sen",
+              "relativeTimePattern-count-other": "f\u00F6r {0} \u00E5r sen"
+            }
+          },
+          "year-narrow": {
+            "displayName": "\u00E5r",
+            "relative-type--1": "f\u00F6rra \u00E5ret",
+            "relative-type-0": "i \u00E5r",
+            "relative-type-1": "n\u00E4sta \u00E5r",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "\u002B{0} \u00E5r",
+              "relativeTimePattern-count-other": "\u002B{0} \u00E5r"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "\u2212{0} \u00E5r",
+              "relativeTimePattern-count-other": "\u2212{0} \u00E5r"
+            }
+          }
+        }
+      }
+    }
+  }
+}

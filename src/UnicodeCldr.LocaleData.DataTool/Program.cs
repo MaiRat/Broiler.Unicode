@@ -94,6 +94,11 @@ async Task DownloadAsync(string version, string dataDir)
         await DownloadTrimmedGregorianAsync(http,
             $"https://raw.githubusercontent.com/unicode-org/cldr-json/{version}/cldr-json/cldr-dates-full/main/{locale}/ca-gregorian.json",
             Path.Combine(localeDir, "ca-gregorian.json"), locale);
+
+        // Relative-time fields, trimmed to the ECMA-402 sanctioned units.
+        await DownloadTrimmedDateFieldsAsync(http,
+            $"https://raw.githubusercontent.com/unicode-org/cldr-json/{version}/cldr-json/cldr-dates-full/main/{locale}/dateFields.json",
+            Path.Combine(localeDir, "dateFields.json"), locale);
     }
 
     // Supplemental data (single files, all locales).
@@ -216,6 +221,46 @@ async Task DownloadTrimmedGregorianAsync(HttpClient http, string url, string des
     Console.WriteLine($"  -> {destination}");
 }
 
+async Task DownloadTrimmedDateFieldsAsync(HttpClient http, string url, string destination, string locale)
+{
+    Console.WriteLine($"Downloading {url} (trimmed)");
+    string content = await http.GetStringAsync(url);
+    var root = JsonNode.Parse(content)!;
+    var fields = root["main"]?[locale]?["dates"]?["fields"]?.AsObject();
+
+    // Keep only the ECMA-402 relative-time units, in their long/short/narrow forms.
+    var keptFields = new JsonObject();
+    if (fields is not null)
+    {
+        foreach (string unit in CldrRelativeTimeParser.Units)
+        {
+            foreach (string suffix in new[] { "", "-short", "-narrow" })
+            {
+                string key = unit + suffix;
+                if (fields.TryGetPropertyValue(key, out var entry) && entry is not null)
+                {
+                    keptFields[key] = entry.DeepClone();
+                }
+            }
+        }
+    }
+
+    var trimmed = new JsonObject
+    {
+        ["main"] = new JsonObject
+        {
+            [locale] = new JsonObject
+            {
+                ["dates"] = new JsonObject { ["fields"] = keptFields },
+            },
+        },
+    };
+
+    Directory.CreateDirectory(Path.GetDirectoryName(destination)!);
+    await File.WriteAllTextAsync(destination, trimmed.ToJsonString(new JsonSerializerOptions { WriteIndented = true }));
+    Console.WriteLine($"  -> {destination}");
+}
+
 async Task DownloadFileAsync(HttpClient http, string url, string destination)
 {
     Console.WriteLine($"Downloading {url}");
@@ -261,6 +306,11 @@ void Generate(string version, string dataDir, string repoRoot)
         dataDir, RepoLayout.SupplementalDirectory(repoRoot, version), version, RepoLayout.GeneratedDateSourcePath(repoRoot));
     Console.WriteLine($"Generated {dates.OutputPath}");
     Console.WriteLine($"  names={dates.NameCount} rules={dates.RuleCount}");
+
+    RelativeTimeGenerationResult relativeTime = CldrRelativeTimeCodeGenerator.Generate(
+        dataDir, version, RepoLayout.GeneratedRelativeTimeSourcePath(repoRoot));
+    Console.WriteLine($"Generated {relativeTime.OutputPath}");
+    Console.WriteLine($"  patterns={relativeTime.PatternCount} exact={relativeTime.ExactCount}");
 }
 
 void PrintUsage()

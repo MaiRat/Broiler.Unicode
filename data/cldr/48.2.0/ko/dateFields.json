@@ -1,0 +1,289 @@
+{
+  "main": {
+    "ko": {
+      "dates": {
+        "fields": {
+          "second": {
+            "displayName": "\uCD08",
+            "relative-type-0": "\uC9C0\uAE08",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uCD08 \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uCD08 \uC804"
+            }
+          },
+          "second-short": {
+            "displayName": "\uCD08",
+            "relative-type-0": "\uC9C0\uAE08",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uCD08 \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uCD08 \uC804"
+            }
+          },
+          "second-narrow": {
+            "displayName": "\uCD08",
+            "relative-type-0": "\uC9C0\uAE08",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uCD08 \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uCD08 \uC804"
+            }
+          },
+          "minute": {
+            "displayName": "\uBD84",
+            "relative-type-0": "\uD604\uC7AC \uBD84",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uBD84 \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uBD84 \uC804"
+            }
+          },
+          "minute-short": {
+            "displayName": "\uBD84",
+            "relative-type-0": "\uD604\uC7AC \uBD84",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uBD84 \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uBD84 \uC804"
+            }
+          },
+          "minute-narrow": {
+            "displayName": "\uBD84",
+            "relative-type-0": "\uD604\uC7AC \uBD84",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uBD84 \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uBD84 \uC804"
+            }
+          },
+          "hour": {
+            "displayName": "\uC2DC",
+            "relative-type-0": "\uD604\uC7AC \uC2DC\uAC04",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uC2DC\uAC04 \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uC2DC\uAC04 \uC804"
+            }
+          },
+          "hour-short": {
+            "displayName": "\uC2DC",
+            "relative-type-0": "\uD604\uC7AC \uC2DC\uAC04",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uC2DC\uAC04 \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uC2DC\uAC04 \uC804"
+            }
+          },
+          "hour-narrow": {
+            "displayName": "\uC2DC",
+            "relative-type-0": "\uD604\uC7AC \uC2DC\uAC04",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uC2DC\uAC04 \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uC2DC\uAC04 \uC804"
+            }
+          },
+          "day": {
+            "displayName": "\uC77C",
+            "relative-type--2": "\uADF8\uC800\uAED8",
+            "relative-type--1": "\uC5B4\uC81C",
+            "relative-type-0": "\uC624\uB298",
+            "relative-type-1": "\uB0B4\uC77C",
+            "relative-type-2": "\uBAA8\uB808",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uC77C \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uC77C \uC804"
+            }
+          },
+          "day-short": {
+            "displayName": "\uC77C",
+            "relative-type--2": "\uADF8\uC800\uAED8",
+            "relative-type--1": "\uC5B4\uC81C",
+            "relative-type-0": "\uC624\uB298",
+            "relative-type-1": "\uB0B4\uC77C",
+            "relative-type-2": "\uBAA8\uB808",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uC77C \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uC77C \uC804"
+            }
+          },
+          "day-narrow": {
+            "displayName": "\uC77C",
+            "relative-type--2": "\uADF8\uC800\uAED8",
+            "relative-type--1": "\uC5B4\uC81C",
+            "relative-type-0": "\uC624\uB298",
+            "relative-type-1": "\uB0B4\uC77C",
+            "relative-type-2": "\uBAA8\uB808",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uC77C \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uC77C \uC804"
+            }
+          },
+          "week": {
+            "displayName": "\uC8FC",
+            "relative-type--1": "\uC9C0\uB09C\uC8FC",
+            "relative-type-0": "\uC774\uBC88 \uC8FC",
+            "relative-type-1": "\uB2E4\uC74C \uC8FC",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uC8FC \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uC8FC \uC804"
+            },
+            "relativePeriod": "{0}\uBC88\uC9F8 \uC8FC"
+          },
+          "week-short": {
+            "displayName": "\uC8FC",
+            "relative-type--1": "\uC9C0\uB09C\uC8FC",
+            "relative-type-0": "\uC774\uBC88 \uC8FC",
+            "relative-type-1": "\uB2E4\uC74C \uC8FC",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uC8FC \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uC8FC \uC804"
+            },
+            "relativePeriod": "{0}\uBC88\uC9F8 \uC8FC"
+          },
+          "week-narrow": {
+            "displayName": "\uC8FC",
+            "relative-type--1": "\uC9C0\uB09C\uC8FC",
+            "relative-type-0": "\uC774\uBC88 \uC8FC",
+            "relative-type-1": "\uB2E4\uC74C \uC8FC",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uC8FC \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uC8FC \uC804"
+            },
+            "relativePeriod": "{0}\uBC88\uC9F8 \uC8FC"
+          },
+          "month": {
+            "displayName": "\uC6D4",
+            "relative-type--1": "\uC9C0\uB09C\uB2EC",
+            "relative-type-0": "\uC774\uBC88 \uB2EC",
+            "relative-type-1": "\uB2E4\uC74C \uB2EC",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uAC1C\uC6D4 \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uAC1C\uC6D4 \uC804"
+            }
+          },
+          "month-short": {
+            "displayName": "\uC6D4",
+            "relative-type--1": "\uC9C0\uB09C\uB2EC",
+            "relative-type-0": "\uC774\uBC88 \uB2EC",
+            "relative-type-1": "\uB2E4\uC74C \uB2EC",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uAC1C\uC6D4 \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uAC1C\uC6D4 \uC804"
+            }
+          },
+          "month-narrow": {
+            "displayName": "\uC6D4",
+            "relative-type--1": "\uC9C0\uB09C\uB2EC",
+            "relative-type-0": "\uC774\uBC88 \uB2EC",
+            "relative-type-1": "\uB2E4\uC74C \uB2EC",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uAC1C\uC6D4 \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uAC1C\uC6D4 \uC804"
+            }
+          },
+          "quarter": {
+            "displayName": "\uBD84\uAE30",
+            "relative-type--1": "\uC9C0\uB09C \uBD84\uAE30",
+            "relative-type-0": "\uC774\uBC88 \uBD84\uAE30",
+            "relative-type-1": "\uB2E4\uC74C \uBD84\uAE30",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uBD84\uAE30 \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uBD84\uAE30 \uC804"
+            }
+          },
+          "quarter-short": {
+            "displayName": "\uBD84\uAE30",
+            "relative-type--1": "\uC9C0\uB09C \uBD84\uAE30",
+            "relative-type-0": "\uC774\uBC88 \uBD84\uAE30",
+            "relative-type-1": "\uB2E4\uC74C \uBD84\uAE30",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uBD84\uAE30 \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uBD84\uAE30 \uC804"
+            }
+          },
+          "quarter-narrow": {
+            "displayName": "\uBD84\uAE30",
+            "relative-type--1": "\uC9C0\uB09C \uBD84\uAE30",
+            "relative-type-0": "\uC774\uBC88 \uBD84\uAE30",
+            "relative-type-1": "\uB2E4\uC74C \uBD84\uAE30",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uBD84\uAE30 \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uBD84\uAE30 \uC804"
+            }
+          },
+          "year": {
+            "displayName": "\uB144",
+            "relative-type--1": "\uC791\uB144",
+            "relative-type-0": "\uC62C\uD574",
+            "relative-type-1": "\uB0B4\uB144",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uB144 \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uB144 \uC804"
+            }
+          },
+          "year-short": {
+            "displayName": "\uB144",
+            "relative-type--1": "\uC791\uB144",
+            "relative-type-0": "\uC62C\uD574",
+            "relative-type-1": "\uB0B4\uB144",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uB144 \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uB144 \uC804"
+            }
+          },
+          "year-narrow": {
+            "displayName": "\uB144",
+            "relative-type--1": "\uC791\uB144",
+            "relative-type-0": "\uC62C\uD574",
+            "relative-type-1": "\uB0B4\uB144",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0}\uB144 \uD6C4"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0}\uB144 \uC804"
+            }
+          }
+        }
+      }
+    }
+  }
+}
