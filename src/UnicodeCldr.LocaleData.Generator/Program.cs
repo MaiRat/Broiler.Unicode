@@ -60,4 +60,8 @@ if (Directory.Exists(supplementalDir))
     Console.WriteLine($"  Day-period names : {dates.NameCount}, rule sets : {dates.RuleCount}");
 }
 
+RelativeTimeGenerationResult relativeTime = CldrRelativeTimeCodeGenerator.Generate(dataDir, version, RepoLayout.GeneratedRelativeTimeSourcePath(repoRoot));
+Console.WriteLine($"Generated {relativeTime.OutputPath}");
+Console.WriteLine($"  Relative-time patterns : {relativeTime.PatternCount}, exact phrases : {relativeTime.ExactCount}");
+
 return 0;

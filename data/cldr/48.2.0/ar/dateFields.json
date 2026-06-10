@@ -1,0 +1,529 @@
+{
+  "main": {
+    "ar": {
+      "dates": {
+        "fields": {
+          "second": {
+            "displayName": "\u0627\u0644\u062B\u0648\u0627\u0646\u064A",
+            "relative-type-0": "\u0627\u0644\u0622\u0646",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u062B\u0627\u0646\u064A\u0629",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u062B\u0627\u0646\u064A\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 \u062B\u0627\u0646\u064A\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u062B\u0648\u0627\u0646\u064D",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u062B\u0627\u0646\u064A\u0629",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u062B\u0627\u0646\u064A\u0629"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u062B\u0627\u0646\u064A\u0629",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u062B\u0627\u0646\u064A\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u062B\u0627\u0646\u064A\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u0642\u0628\u0644 {0} \u062B\u0648\u0627\u0646\u0650",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u062B\u0627\u0646\u064A\u0629",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u062B\u0627\u0646\u064A\u0629"
+            }
+          },
+          "second-short": {
+            "displayName": "\u0627\u0644\u062B\u0648\u0627\u0646\u064A",
+            "relative-type-0": "\u0627\u0644\u0622\u0646",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u062B\u0627\u0646\u064A\u0629",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u062B\u0627\u0646\u064A\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 \u062B\u0627\u0646\u064A\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u062B\u0648\u0627\u0646\u064D",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u062B\u0627\u0646\u064A\u0629",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u062B\u0627\u0646\u064A\u0629"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u062B\u0627\u0646\u064A\u0629",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u062B\u0627\u0646\u064A\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u062B\u0627\u0646\u064A\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u0642\u0628\u0644 {0} \u062B\u0648\u0627\u0646\u064D",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u062B\u0627\u0646\u064A\u0629",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u062B\u0627\u0646\u064A\u0629"
+            }
+          },
+          "second-narrow": {
+            "displayName": "\u0627\u0644\u062B\u0648\u0627\u0646\u064A",
+            "relative-type-0": "\u0627\u0644\u0622\u0646",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u062B\u0627\u0646\u064A\u0629",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u062B\u0627\u0646\u064A\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 \u062B\u0627\u0646\u064A\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u062B\u0648\u0627\u0646\u064D",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u062B\u0627\u0646\u064A\u0629",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u062B\u0627\u0646\u064A\u0629"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u062B\u0627\u0646\u064A\u0629",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u062B\u0627\u0646\u064A\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u062B\u0627\u0646\u064A\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u0642\u0628\u0644 {0} \u062B\u0648\u0627\u0646\u064D",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u062B\u0627\u0646\u064A\u0629",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u062B\u0627\u0646\u064A\u0629"
+            }
+          },
+          "minute": {
+            "displayName": "\u0627\u0644\u062F\u0642\u0627\u0626\u0642",
+            "relative-type-0": "\u0647\u0630\u0647 \u0627\u0644\u062F\u0642\u064A\u0642\u0629",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u062F\u0642\u064A\u0642\u0629",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u062F\u0642\u064A\u0642\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 \u062F\u0642\u064A\u0642\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u062F\u0642\u0627\u0626\u0642",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u062F\u0642\u064A\u0642\u0629",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u062F\u0642\u064A\u0642\u0629"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u062F\u0642\u064A\u0642\u0629",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u062F\u0642\u064A\u0642\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u062F\u0642\u064A\u0642\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u0642\u0628\u0644 {0} \u062F\u0642\u0627\u0626\u0642",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u062F\u0642\u064A\u0642\u0629",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u062F\u0642\u064A\u0642\u0629"
+            }
+          },
+          "minute-short": {
+            "displayName": "\u0627\u0644\u062F\u0642\u0627\u0626\u0642",
+            "relative-type-0": "\u0647\u0630\u0647 \u0627\u0644\u062F\u0642\u064A\u0642\u0629",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u062F\u0642\u064A\u0642\u0629",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u062F\u0642\u064A\u0642\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 \u062F\u0642\u064A\u0642\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u062F\u0642\u0627\u0626\u0642",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u062F\u0642\u064A\u0642\u0629",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u062F\u0642\u064A\u0642\u0629"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u062F\u0642\u064A\u0642\u0629",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u062F\u0642\u064A\u0642\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u062F\u0642\u064A\u0642\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u0642\u0628\u0644 {0} \u062F\u0642\u0627\u0626\u0642",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u062F\u0642\u064A\u0642\u0629",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u062F\u0642\u064A\u0642\u0629"
+            }
+          },
+          "minute-narrow": {
+            "displayName": "\u0627\u0644\u062F\u0642\u0627\u0626\u0642",
+            "relative-type-0": "\u0647\u0630\u0647 \u0627\u0644\u062F\u0642\u064A\u0642\u0629",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u062F\u0642\u064A\u0642\u0629",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u062F\u0642\u064A\u0642\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 \u062F\u0642\u064A\u0642\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u062F\u0642\u0627\u0626\u0642",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u062F\u0642\u064A\u0642\u0629",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u062F\u0642\u064A\u0642\u0629"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u062F\u0642\u064A\u0642\u0629",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u062F\u0642\u064A\u0642\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u062F\u0642\u064A\u0642\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u0642\u0628\u0644 {0} \u062F\u0642\u0627\u0626\u0642",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u062F\u0642\u064A\u0642\u0629",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u062F\u0642\u064A\u0642\u0629"
+            }
+          },
+          "hour": {
+            "displayName": "\u0627\u0644\u0633\u0627\u0639\u0627\u062A",
+            "relative-type-0": "\u0627\u0644\u0633\u0627\u0639\u0629 \u0627\u0644\u062D\u0627\u0644\u064A\u0629",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u0633\u0627\u0639\u0629",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u0633\u0627\u0639\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 \u0633\u0627\u0639\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u0633\u0627\u0639\u0627\u062A",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u0633\u0627\u0639\u0629",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u0633\u0627\u0639\u0629"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u0633\u0627\u0639\u0629",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u0633\u0627\u0639\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u0633\u0627\u0639\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u0642\u0628\u0644 {0} \u0633\u0627\u0639\u0627\u062A",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u0633\u0627\u0639\u0629",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u0633\u0627\u0639\u0629"
+            }
+          },
+          "hour-short": {
+            "displayName": "\u0627\u0644\u0633\u0627\u0639\u0627\u062A",
+            "relative-type-0": "\u0627\u0644\u0633\u0627\u0639\u0629 \u0627\u0644\u062D\u0627\u0644\u064A\u0629",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u0633\u0627\u0639\u0629",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u0633\u0627\u0639\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 \u0633\u0627\u0639\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u0633\u0627\u0639\u0627\u062A",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u0633\u0627\u0639\u0629",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u0633\u0627\u0639\u0629"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u0633\u0627\u0639\u0629",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u0633\u0627\u0639\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u0633\u0627\u0639\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u0642\u0628\u0644 {0} \u0633\u0627\u0639\u0627\u062A",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u0633\u0627\u0639\u0629",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u0633\u0627\u0639\u0629"
+            }
+          },
+          "hour-narrow": {
+            "displayName": "\u0627\u0644\u0633\u0627\u0639\u0627\u062A",
+            "relative-type-0": "\u0627\u0644\u0633\u0627\u0639\u0629 \u0627\u0644\u062D\u0627\u0644\u064A\u0629",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u0633\u0627\u0639\u0629",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u0633\u0627\u0639\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 \u0633\u0627\u0639\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u0633\u0627\u0639\u0627\u062A",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u0633\u0627\u0639\u0629",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u0633\u0627\u0639\u0629"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u0633\u0627\u0639\u0629",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u0633\u0627\u0639\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u0633\u0627\u0639\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u0642\u0628\u0644 {0} \u0633\u0627\u0639\u0627\u062A",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u0633\u0627\u0639\u0629",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u0633\u0627\u0639\u0629"
+            }
+          },
+          "day": {
+            "displayName": "\u064A\u0648\u0645",
+            "relative-type--2": "\u0623\u0648\u0644 \u0623\u0645\u0633",
+            "relative-type--1": "\u0623\u0645\u0633",
+            "relative-type-0": "\u0627\u0644\u064A\u0648\u0645",
+            "relative-type-1": "\u063A\u062F\u064B\u0627",
+            "relative-type-2": "\u0628\u0639\u062F \u0627\u0644\u063A\u062F",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u064A\u0648\u0645",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u064A\u0648\u0645 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 \u064A\u0648\u0645\u064A\u0646",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u0623\u064A\u0627\u0645",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u064A\u0648\u0645\u064B\u0627",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u064A\u0648\u0645"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u064A\u0648\u0645",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u064A\u0648\u0645 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u064A\u0648\u0645\u064A\u0646",
+              "relativeTimePattern-count-few": "\u0642\u0628\u0644 {0} \u0623\u064A\u0627\u0645",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u064A\u0648\u0645\u064B\u0627",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u064A\u0648\u0645"
+            }
+          },
+          "day-short": {
+            "displayName": "\u064A\u0648\u0645",
+            "relative-type--2": "\u0623\u0648\u0644 \u0623\u0645\u0633",
+            "relative-type--1": "\u0623\u0645\u0633",
+            "relative-type-0": "\u0627\u0644\u064A\u0648\u0645",
+            "relative-type-1": "\u063A\u062F\u064B\u0627",
+            "relative-type-2": "\u0628\u0639\u062F \u0627\u0644\u063A\u062F",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u064A\u0648\u0645",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u064A\u0648\u0645 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 \u064A\u0648\u0645\u064A\u0646",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u0623\u064A\u0627\u0645",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u064A\u0648\u0645\u064B\u0627",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u064A\u0648\u0645"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u064A\u0648\u0645",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u064A\u0648\u0645 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u064A\u0648\u0645\u064A\u0646",
+              "relativeTimePattern-count-few": "\u0642\u0628\u0644 {0} \u0623\u064A\u0627\u0645",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u064A\u0648\u0645\u064B\u0627",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u064A\u0648\u0645"
+            }
+          },
+          "day-narrow": {
+            "displayName": "\u064A\u0648\u0645",
+            "relative-type--2": "\u0623\u0648\u0644 \u0623\u0645\u0633",
+            "relative-type--1": "\u0623\u0645\u0633",
+            "relative-type-0": "\u0627\u0644\u064A\u0648\u0645",
+            "relative-type-1": "\u063A\u062F\u064B\u0627",
+            "relative-type-2": "\u0628\u0639\u062F \u0627\u0644\u063A\u062F",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u064A\u0648\u0645",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u064A\u0648\u0645 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 \u064A\u0648\u0645\u064A\u0646",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u0623\u064A\u0627\u0645",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u064A\u0648\u0645\u064B\u0627",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u064A\u0648\u0645"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u064A\u0648\u0645",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u064A\u0648\u0645 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u064A\u0648\u0645\u064A\u0646",
+              "relativeTimePattern-count-few": "\u0642\u0628\u0644 {0} \u0623\u064A\u0627\u0645",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u064A\u0648\u0645\u064B\u0627",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u064A\u0648\u0645"
+            }
+          },
+          "week": {
+            "displayName": "\u0627\u0644\u0623\u0633\u0628\u0648\u0639",
+            "relative-type--1": "\u0627\u0644\u0623\u0633\u0628\u0648\u0639 \u0627\u0644\u0645\u0627\u0636\u064A",
+            "relative-type-0": "\u0647\u0630\u0627 \u0627\u0644\u0623\u0633\u0628\u0648\u0639",
+            "relative-type-1": "\u0627\u0644\u0623\u0633\u0628\u0648\u0639 \u0627\u0644\u0642\u0627\u062F\u0645",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u0623\u0633\u0628\u0648\u0639",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u0623\u0633\u0628\u0648\u0639 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 \u0623\u0633\u0628\u0648\u0639\u064A\u0646",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u0623\u0633\u0627\u0628\u064A\u0639",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u0623\u0633\u0628\u0648\u0639\u064B\u0627",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u0623\u0633\u0628\u0648\u0639"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u0623\u0633\u0628\u0648\u0639",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u0623\u0633\u0628\u0648\u0639 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u0623\u0633\u0628\u0648\u0639\u064A\u0646",
+              "relativeTimePattern-count-few": "\u0642\u0628\u0644 {0} \u0623\u0633\u0627\u0628\u064A\u0639",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u0623\u0633\u0628\u0648\u0639\u064B\u0627",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u0623\u0633\u0628\u0648\u0639"
+            },
+            "relativePeriod": "\u0623\u0633\u0628\u0648\u0639 {0}"
+          },
+          "week-short": {
+            "displayName": "\u0627\u0644\u0623\u0633\u0628\u0648\u0639",
+            "relative-type--1": "\u0627\u0644\u0623\u0633\u0628\u0648\u0639 \u0627\u0644\u0645\u0627\u0636\u064A",
+            "relative-type-0": "\u0647\u0630\u0627 \u0627\u0644\u0623\u0633\u0628\u0648\u0639",
+            "relative-type-1": "\u0627\u0644\u0623\u0633\u0628\u0648\u0639 \u0627\u0644\u0642\u0627\u062F\u0645",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u0623\u0633\u0628\u0648\u0639",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u0623\u0633\u0628\u0648\u0639 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 {0} \u0623\u0633\u0628\u0648\u0639\u064A\u0646",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u0623\u0633\u0627\u0628\u064A\u0639",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u0623\u0633\u0628\u0648\u0639\u064B\u0627",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u0623\u0633\u0628\u0648\u0639"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u0623\u0633\u0628\u0648\u0639",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u0623\u0633\u0628\u0648\u0639 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u0623\u0633\u0628\u0648\u0639\u064A\u0646",
+              "relativeTimePattern-count-few": "\u0642\u0628\u0644 {0} \u0623\u0633\u0627\u0628\u064A\u0639",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u0623\u0633\u0628\u0648\u0639\u064B\u0627",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u0623\u0633\u0628\u0648\u0639"
+            },
+            "relativePeriod": "\u0623\u0633\u0628\u0648\u0639 {0}"
+          },
+          "week-narrow": {
+            "displayName": "\u0627\u0644\u0623\u0633\u0628\u0648\u0639",
+            "relative-type--1": "\u0627\u0644\u0623\u0633\u0628\u0648\u0639 \u0627\u0644\u0645\u0627\u0636\u064A",
+            "relative-type-0": "\u0647\u0630\u0627 \u0627\u0644\u0623\u0633\u0628\u0648\u0639",
+            "relative-type-1": "\u0627\u0644\u0623\u0633\u0628\u0648\u0639 \u0627\u0644\u0642\u0627\u062F\u0645",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u0623\u0633\u0628\u0648\u0639",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u0623\u0633\u0628\u0648\u0639 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 \u0623\u0633\u0628\u0648\u0639\u064A\u0646",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u0623\u0633\u0627\u0628\u064A\u0639",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u0623\u0633\u0628\u0648\u0639\u064B\u0627",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u0623\u0633\u0628\u0648\u0639"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u0623\u0633\u0628\u0648\u0639",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u0623\u0633\u0628\u0648\u0639 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u0623\u0633\u0628\u0648\u0639\u064A\u0646",
+              "relativeTimePattern-count-few": "\u0642\u0628\u0644 {0} \u0623\u0633\u0627\u0628\u064A\u0639",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u0623\u0633\u0628\u0648\u0639\u064B\u0627",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u0623\u0633\u0628\u0648\u0639"
+            },
+            "relativePeriod": "\u0623\u0633\u0628\u0648\u0639 {0}"
+          },
+          "month": {
+            "displayName": "\u0627\u0644\u0634\u0647\u0631",
+            "relative-type--1": "\u0627\u0644\u0634\u0647\u0631 \u0627\u0644\u0645\u0627\u0636\u064A",
+            "relative-type-0": "\u0647\u0630\u0627 \u0627\u0644\u0634\u0647\u0631",
+            "relative-type-1": "\u0627\u0644\u0634\u0647\u0631 \u0627\u0644\u0642\u0627\u062F\u0645",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u0634\u0647\u0631",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u0634\u0647\u0631 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 \u0634\u0647\u0631\u064A\u0646",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u0623\u0634\u0647\u0631",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u0634\u0647\u0631\u064B\u0627",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u0634\u0647\u0631"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u0634\u0647\u0631",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u0634\u0647\u0631 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u0634\u0647\u0631\u064A\u0646",
+              "relativeTimePattern-count-few": "\u0642\u0628\u0644 {0} \u0623\u0634\u0647\u0631",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u0634\u0647\u0631\u064B\u0627",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u0634\u0647\u0631"
+            }
+          },
+          "month-short": {
+            "displayName": "\u0627\u0644\u0634\u0647\u0631",
+            "relative-type--1": "\u0627\u0644\u0634\u0647\u0631 \u0627\u0644\u0645\u0627\u0636\u064A",
+            "relative-type-0": "\u0647\u0630\u0627 \u0627\u0644\u0634\u0647\u0631",
+            "relative-type-1": "\u0627\u0644\u0634\u0647\u0631 \u0627\u0644\u0642\u0627\u062F\u0645",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u0634\u0647\u0631",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u0634\u0647\u0631 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 \u0634\u0647\u0631\u064A\u0646",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u0623\u0634\u0647\u0631",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u0634\u0647\u0631\u064B\u0627",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u0634\u0647\u0631"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u0634\u0647\u0631",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u0634\u0647\u0631 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u0634\u0647\u0631\u064A\u0646",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u0623\u0634\u0647\u0631",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u0634\u0647\u0631\u064B\u0627",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u0634\u0647\u0631"
+            }
+          },
+          "month-narrow": {
+            "displayName": "\u0627\u0644\u0634\u0647\u0631",
+            "relative-type--1": "\u0627\u0644\u0634\u0647\u0631 \u0627\u0644\u0645\u0627\u0636\u064A",
+            "relative-type-0": "\u0647\u0630\u0627 \u0627\u0644\u0634\u0647\u0631",
+            "relative-type-1": "\u0627\u0644\u0634\u0647\u0631 \u0627\u0644\u0642\u0627\u062F\u0645",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u0634\u0647\u0631",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u0634\u0647\u0631 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 \u0634\u0647\u0631\u064A\u0646",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u0623\u0634\u0647\u0631",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u0634\u0647\u0631\u064B\u0627",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u0634\u0647\u0631"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u0634\u0647\u0631",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u0634\u0647\u0631 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u0634\u0647\u0631\u064A\u0646",
+              "relativeTimePattern-count-few": "\u0642\u0628\u0644 {0} \u0623\u0634\u0647\u0631",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u0634\u0647\u0631\u064B\u0627",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u0634\u0647\u0631"
+            }
+          },
+          "quarter": {
+            "displayName": "\u0631\u0628\u0639 \u0627\u0644\u0633\u0646\u0629",
+            "relative-type--1": "\u0627\u0644\u0631\u0628\u0639 \u0627\u0644\u0623\u062E\u064A\u0631",
+            "relative-type-0": "\u0647\u0630\u0627 \u0627\u0644\u0631\u0628\u0639",
+            "relative-type-1": "\u0627\u0644\u0631\u0628\u0639 \u0627\u0644\u0642\u0627\u062F\u0645",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u0631\u0628\u0639 \u0633\u0646\u0629",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u0631\u0628\u0639 \u0633\u0646\u0629 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 \u0631\u0628\u0639\u064A \u0633\u0646\u0629",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u0623\u0631\u0628\u0627\u0639 \u0633\u0646\u0629",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u0631\u0628\u0639 \u0633\u0646\u0629",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u0631\u0628\u0639 \u0633\u0646\u0629"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u0631\u0628\u0639 \u0633\u0646\u0629",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u0631\u0628\u0639 \u0633\u0646\u0629 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u0631\u0628\u0639\u064A \u0633\u0646\u0629",
+              "relativeTimePattern-count-few": "\u0642\u0628\u0644 {0} \u0623\u0631\u0628\u0627\u0639 \u0633\u0646\u0629",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u0631\u0628\u0639 \u0633\u0646\u0629",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u0631\u0628\u0639 \u0633\u0646\u0629"
+            }
+          },
+          "quarter-short": {
+            "displayName": "\u0631\u0628\u0639 \u0627\u0644\u0633\u0646\u0629",
+            "relative-type--1": "\u0627\u0644\u0631\u0628\u0639 \u0627\u0644\u0623\u062E\u064A\u0631",
+            "relative-type-0": "\u0647\u0630\u0627 \u0627\u0644\u0631\u0628\u0639",
+            "relative-type-1": "\u0627\u0644\u0631\u0628\u0639 \u0627\u0644\u0642\u0627\u062F\u0645",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u0631\u0628\u0639 \u0633\u0646\u0629",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u0631\u0628\u0639 \u0633\u0646\u0629 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 \u0631\u0628\u0639\u064A \u0633\u0646\u0629",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u0623\u0631\u0628\u0627\u0639 \u0633\u0646\u0629",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u0631\u0628\u0639 \u0633\u0646\u0629",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u0631\u0628\u0639 \u0633\u0646\u0629"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u0631\u0628\u0639 \u0633\u0646\u0629",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u0631\u0628\u0639 \u0633\u0646\u0629 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u0631\u0628\u0639\u064A \u0633\u0646\u0629",
+              "relativeTimePattern-count-few": "\u0642\u0628\u0644 {0} \u0623\u0631\u0628\u0627\u0639 \u0633\u0646\u0629",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u0631\u0628\u0639 \u0633\u0646\u0629",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u0631\u0628\u0639 \u0633\u0646\u0629"
+            }
+          },
+          "quarter-narrow": {
+            "displayName": "\u0631\u0628\u0639 \u0627\u0644\u0633\u0646\u0629",
+            "relative-type--1": "\u0627\u0644\u0631\u0628\u0639 \u0627\u0644\u0623\u062E\u064A\u0631",
+            "relative-type-0": "\u0647\u0630\u0627 \u0627\u0644\u0631\u0628\u0639",
+            "relative-type-1": "\u0627\u0644\u0631\u0628\u0639 \u0627\u0644\u0642\u0627\u062F\u0645",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u0631\u0628\u0639 \u0633\u0646\u0629",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u0631\u0628\u0639 \u0633\u0646\u0629 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 \u0631\u0628\u0639\u064A \u0633\u0646\u0629",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u0623\u0631\u0628\u0627\u0639 \u0633\u0646\u0629",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u0631\u0628\u0639 \u0633\u0646\u0629",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u0631\u0628\u0639 \u0633\u0646\u0629"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u0631\u0628\u0639 \u0633\u0646\u0629",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u0631\u0628\u0639 \u0633\u0646\u0629 \u0648\u0627\u062D\u062F",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u0631\u0628\u0639\u064A \u0633\u0646\u0629",
+              "relativeTimePattern-count-few": "\u0642\u0628\u0644 {0} \u0623\u0631\u0628\u0627\u0639 \u0633\u0646\u0629",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u0631\u0628\u0639 \u0633\u0646\u0629",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u0631\u0628\u0639 \u0633\u0646\u0629"
+            }
+          },
+          "year": {
+            "displayName": "\u0627\u0644\u0633\u0646\u0629",
+            "relative-type--1": "\u0627\u0644\u0633\u0646\u0629 \u0627\u0644\u0645\u0627\u0636\u064A\u0629",
+            "relative-type-0": "\u0627\u0644\u0633\u0646\u0629 \u0627\u0644\u062D\u0627\u0644\u064A\u0629",
+            "relative-type-1": "\u0627\u0644\u0633\u0646\u0629 \u0627\u0644\u0642\u0627\u062F\u0645\u0629",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u0633\u0646\u0629",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u0633\u0646\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 \u0633\u0646\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u0633\u0646\u0648\u0627\u062A",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u0633\u0646\u0629",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u0633\u0646\u0629"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u0633\u0646\u0629",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u0633\u0646\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u0633\u0646\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u0642\u0628\u0644 {0} \u0633\u0646\u0648\u0627\u062A",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u0633\u0646\u0629",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u0633\u0646\u0629"
+            }
+          },
+          "year-short": {
+            "displayName": "\u0627\u0644\u0633\u0646\u0629",
+            "relative-type--1": "\u0627\u0644\u0633\u0646\u0629 \u0627\u0644\u0645\u0627\u0636\u064A\u0629",
+            "relative-type-0": "\u0627\u0644\u0633\u0646\u0629 \u0627\u0644\u062D\u0627\u0644\u064A\u0629",
+            "relative-type-1": "\u0627\u0644\u0633\u0646\u0629 \u0627\u0644\u0642\u0627\u062F\u0645\u0629",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u0633\u0646\u0629",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u0633\u0646\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 \u0633\u0646\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u0633\u0646\u0648\u0627\u062A",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u0633\u0646\u0629",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u0633\u0646\u0629"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u0633\u0646\u0629",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u0633\u0646\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u0633\u0646\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u0642\u0628\u0644 {0} \u0633\u0646\u0648\u0627\u062A",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u0633\u0646\u0629",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u0633\u0646\u0629"
+            }
+          },
+          "year-narrow": {
+            "displayName": "\u0627\u0644\u0633\u0646\u0629",
+            "relative-type--1": "\u0627\u0644\u0633\u0646\u0629 \u0627\u0644\u0645\u0627\u0636\u064A\u0629",
+            "relative-type-0": "\u0627\u0644\u0633\u0646\u0629 \u0627\u0644\u062D\u0627\u0644\u064A\u0629",
+            "relative-type-1": "\u0627\u0644\u0633\u0646\u0629 \u0627\u0644\u0642\u0627\u062F\u0645\u0629",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-zero": "\u062E\u0644\u0627\u0644 {0} \u0633\u0646\u0629",
+              "relativeTimePattern-count-one": "\u062E\u0644\u0627\u0644 \u0633\u0646\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u062E\u0644\u0627\u0644 \u0633\u0646\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u062E\u0644\u0627\u0644 {0} \u0633\u0646\u0648\u0627\u062A",
+              "relativeTimePattern-count-many": "\u062E\u0644\u0627\u0644 {0} \u0633\u0646\u0629",
+              "relativeTimePattern-count-other": "\u062E\u0644\u0627\u0644 {0} \u0633\u0646\u0629"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-zero": "\u0642\u0628\u0644 {0} \u0633\u0646\u0629",
+              "relativeTimePattern-count-one": "\u0642\u0628\u0644 \u0633\u0646\u0629 \u0648\u0627\u062D\u062F\u0629",
+              "relativeTimePattern-count-two": "\u0642\u0628\u0644 \u0633\u0646\u062A\u064A\u0646",
+              "relativeTimePattern-count-few": "\u0642\u0628\u0644 {0} \u0633\u0646\u0648\u0627\u062A",
+              "relativeTimePattern-count-many": "\u0642\u0628\u0644 {0} \u0633\u0646\u0629",
+              "relativeTimePattern-count-other": "\u0642\u0628\u0644 {0} \u0633\u0646\u0629"
+            }
+          }
+        }
+      }
+    }
+  }
+}

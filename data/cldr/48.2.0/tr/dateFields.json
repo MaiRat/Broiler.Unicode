@@ -1,0 +1,337 @@
+{
+  "main": {
+    "tr": {
+      "dates": {
+        "fields": {
+          "second": {
+            "displayName": "saniye",
+            "relative-type-0": "\u015Fimdi",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} saniye sonra",
+              "relativeTimePattern-count-other": "{0} saniye sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} saniye \u00F6nce",
+              "relativeTimePattern-count-other": "{0} saniye \u00F6nce"
+            }
+          },
+          "second-short": {
+            "displayName": "sn.",
+            "relative-type-0": "\u015Fimdi",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} sn. sonra",
+              "relativeTimePattern-count-other": "{0} sn. sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} sn. \u00F6nce",
+              "relativeTimePattern-count-other": "{0} sn. \u00F6nce"
+            }
+          },
+          "second-narrow": {
+            "displayName": "sn.",
+            "relative-type-0": "\u015Fimdi",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} sn. sonra",
+              "relativeTimePattern-count-other": "{0} sn. sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} sn. \u00F6nce",
+              "relativeTimePattern-count-other": "{0} sn. \u00F6nce"
+            }
+          },
+          "minute": {
+            "displayName": "dakika",
+            "relative-type-0": "bu dakika",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} dakika sonra",
+              "relativeTimePattern-count-other": "{0} dakika sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} dakika \u00F6nce",
+              "relativeTimePattern-count-other": "{0} dakika \u00F6nce"
+            }
+          },
+          "minute-short": {
+            "displayName": "dk.",
+            "relative-type-0": "bu dakika",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} dk. sonra",
+              "relativeTimePattern-count-other": "{0} dk. sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} dk. \u00F6nce",
+              "relativeTimePattern-count-other": "{0} dk. \u00F6nce"
+            }
+          },
+          "minute-narrow": {
+            "displayName": "dk.",
+            "relative-type-0": "bu dakika",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} dk. sonra",
+              "relativeTimePattern-count-other": "{0} dk. sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} dk. \u00F6nce",
+              "relativeTimePattern-count-other": "{0} dk. \u00F6nce"
+            }
+          },
+          "hour": {
+            "displayName": "saat",
+            "relative-type-0": "bu saat",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} saat sonra",
+              "relativeTimePattern-count-other": "{0} saat sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} saat \u00F6nce",
+              "relativeTimePattern-count-other": "{0} saat \u00F6nce"
+            }
+          },
+          "hour-short": {
+            "displayName": "sa.",
+            "relative-type-0": "bu saat",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} sa. sonra",
+              "relativeTimePattern-count-other": "{0} sa. sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} sa. \u00F6nce",
+              "relativeTimePattern-count-other": "{0} sa. \u00F6nce"
+            }
+          },
+          "hour-narrow": {
+            "displayName": "sa.",
+            "relative-type-0": "bu saat",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} sa. sonra",
+              "relativeTimePattern-count-other": "{0} sa. sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} sa. \u00F6nce",
+              "relativeTimePattern-count-other": "{0} sa. \u00F6nce"
+            }
+          },
+          "day": {
+            "displayName": "g\u00FCn",
+            "relative-type--2": "evvelsi g\u00FCn",
+            "relative-type--1": "d\u00FCn",
+            "relative-type-0": "bug\u00FCn",
+            "relative-type-1": "yar\u0131n",
+            "relative-type-2": "\u00F6b\u00FCr g\u00FCn",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} g\u00FCn sonra",
+              "relativeTimePattern-count-other": "{0} g\u00FCn sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} g\u00FCn \u00F6nce",
+              "relativeTimePattern-count-other": "{0} g\u00FCn \u00F6nce"
+            }
+          },
+          "day-short": {
+            "displayName": "g\u00FCn",
+            "relative-type--2": "evvelsi g\u00FCn",
+            "relative-type--1": "d\u00FCn",
+            "relative-type-0": "bug\u00FCn",
+            "relative-type-1": "yar\u0131n",
+            "relative-type-2": "\u00F6b\u00FCr g\u00FCn",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} g\u00FCn sonra",
+              "relativeTimePattern-count-other": "{0} g\u00FCn sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} g\u00FCn \u00F6nce",
+              "relativeTimePattern-count-other": "{0} g\u00FCn \u00F6nce"
+            }
+          },
+          "day-narrow": {
+            "displayName": "g\u00FCn",
+            "relative-type--2": "evvelsi g\u00FCn",
+            "relative-type--1": "d\u00FCn",
+            "relative-type-0": "bug\u00FCn",
+            "relative-type-1": "yar\u0131n",
+            "relative-type-2": "\u00F6b\u00FCr g\u00FCn",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} g\u00FCn sonra",
+              "relativeTimePattern-count-other": "{0} g\u00FCn sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} g\u00FCn \u00F6nce",
+              "relativeTimePattern-count-other": "{0} g\u00FCn \u00F6nce"
+            }
+          },
+          "week": {
+            "displayName": "hafta",
+            "relative-type--1": "ge\u00E7en hafta",
+            "relative-type-0": "bu hafta",
+            "relative-type-1": "gelecek hafta",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} hafta sonra",
+              "relativeTimePattern-count-other": "{0} hafta sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} hafta \u00F6nce",
+              "relativeTimePattern-count-other": "{0} hafta \u00F6nce"
+            },
+            "relativePeriod": "{0} haftas\u0131"
+          },
+          "week-short": {
+            "displayName": "hf.",
+            "relative-type--1": "ge\u00E7en hf.",
+            "relative-type-0": "bu hf.",
+            "relative-type-1": "gelecek hf.",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} hf. sonra",
+              "relativeTimePattern-count-other": "{0} hf. sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} hf. \u00F6nce",
+              "relativeTimePattern-count-other": "{0} hf. \u00F6nce"
+            },
+            "relativePeriod": "{0} haftas\u0131"
+          },
+          "week-narrow": {
+            "displayName": "hf.",
+            "relative-type--1": "ge\u00E7en hf.",
+            "relative-type-0": "bu hf.",
+            "relative-type-1": "gelecek hf.",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} hf. sonra",
+              "relativeTimePattern-count-other": "{0} hf. sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} hf. \u00F6nce",
+              "relativeTimePattern-count-other": "{0} hf. \u00F6nce"
+            },
+            "relativePeriod": "{0} haftas\u0131"
+          },
+          "month": {
+            "displayName": "ay",
+            "relative-type--1": "ge\u00E7en ay",
+            "relative-type-0": "bu ay",
+            "relative-type-1": "gelecek ay",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} ay sonra",
+              "relativeTimePattern-count-other": "{0} ay sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} ay \u00F6nce",
+              "relativeTimePattern-count-other": "{0} ay \u00F6nce"
+            }
+          },
+          "month-short": {
+            "displayName": "ay",
+            "relative-type--1": "ge\u00E7en ay",
+            "relative-type-0": "bu ay",
+            "relative-type-1": "gelecek ay",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} ay sonra",
+              "relativeTimePattern-count-other": "{0} ay sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} ay \u00F6nce",
+              "relativeTimePattern-count-other": "{0} ay \u00F6nce"
+            }
+          },
+          "month-narrow": {
+            "displayName": "ay",
+            "relative-type--1": "ge\u00E7en ay",
+            "relative-type-0": "bu ay",
+            "relative-type-1": "gelecek ay",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} ay sonra",
+              "relativeTimePattern-count-other": "{0} ay sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} ay \u00F6nce",
+              "relativeTimePattern-count-other": "{0} ay \u00F6nce"
+            }
+          },
+          "quarter": {
+            "displayName": "\u00E7eyrek",
+            "relative-type--1": "ge\u00E7en \u00E7eyrek",
+            "relative-type-0": "bu \u00E7eyrek",
+            "relative-type-1": "gelecek \u00E7eyrek",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} \u00E7eyrek sonra",
+              "relativeTimePattern-count-other": "{0} \u00E7eyrek sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} \u00E7eyrek \u00F6nce",
+              "relativeTimePattern-count-other": "{0} \u00E7eyrek \u00F6nce"
+            }
+          },
+          "quarter-short": {
+            "displayName": "\u00E7yr.",
+            "relative-type--1": "ge\u00E7en \u00E7yr.",
+            "relative-type-0": "bu \u00E7yr.",
+            "relative-type-1": "gelecek \u00E7yr.",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} \u00E7yr. sonra",
+              "relativeTimePattern-count-other": "{0} \u00E7yr. sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} \u00E7yr. \u00F6nce",
+              "relativeTimePattern-count-other": "{0} \u00E7yr. \u00F6nce"
+            }
+          },
+          "quarter-narrow": {
+            "displayName": "\u00E7yr.",
+            "relative-type--1": "ge\u00E7en \u00E7yr.",
+            "relative-type-0": "bu \u00E7yr.",
+            "relative-type-1": "gelecek \u00E7yr.",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} \u00E7yr. sonra",
+              "relativeTimePattern-count-other": "{0} \u00E7yr. sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} \u00E7yr. \u00F6nce",
+              "relativeTimePattern-count-other": "{0} \u00E7yr. \u00F6nce"
+            }
+          },
+          "year": {
+            "displayName": "y\u0131l",
+            "relative-type--1": "ge\u00E7en y\u0131l",
+            "relative-type-0": "bu y\u0131l",
+            "relative-type-1": "gelecek y\u0131l",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} y\u0131l sonra",
+              "relativeTimePattern-count-other": "{0} y\u0131l sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} y\u0131l \u00F6nce",
+              "relativeTimePattern-count-other": "{0} y\u0131l \u00F6nce"
+            }
+          },
+          "year-short": {
+            "displayName": "y\u0131l",
+            "relative-type--1": "ge\u00E7en y\u0131l",
+            "relative-type-0": "bu y\u0131l",
+            "relative-type-1": "gelecek y\u0131l",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} y\u0131l sonra",
+              "relativeTimePattern-count-other": "{0} y\u0131l sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} y\u0131l \u00F6nce",
+              "relativeTimePattern-count-other": "{0} y\u0131l \u00F6nce"
+            }
+          },
+          "year-narrow": {
+            "displayName": "y\u0131l",
+            "relative-type--1": "ge\u00E7en y\u0131l",
+            "relative-type-0": "bu y\u0131l",
+            "relative-type-1": "gelecek y\u0131l",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "{0} y\u0131l sonra",
+              "relativeTimePattern-count-other": "{0} y\u0131l sonra"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "{0} y\u0131l \u00F6nce",
+              "relativeTimePattern-count-other": "{0} y\u0131l \u00F6nce"
+            }
+          }
+        }
+      }
+    }
+  }
+}
