@@ -12,6 +12,8 @@ namespace Broiler.Unicode.Properties;
 public static class UnicodeProperties
 {
     private static readonly Dictionary<string, (int Lo, int Hi)[]> BinaryCache = new(StringComparer.Ordinal);
+    private static readonly Dictionary<string, (int Lo, int Hi)[]> ScriptCache = new(StringComparer.Ordinal);
+    private static readonly Dictionary<string, (int Lo, int Hi)[]> ScriptExtensionsCache = new(StringComparer.Ordinal);
     private static readonly object Gate = new();
 
     /// <summary>
@@ -26,17 +28,44 @@ public static class UnicodeProperties
         if (string.IsNullOrEmpty(name))
             return null;
 
+        return Lookup(name, BinaryCache, BinaryPropertyData.Ranges);
+    }
+
+    /// <summary>
+    /// Returns the code-point ranges for the named Unicode <c>Script</c> value (matched
+    /// loosely, accepting the short script code or the long name), or <c>null</c> when
+    /// the name is not a known script.
+    /// </summary>
+    public static (int Lo, int Hi)[]? GetScript(string name)
+        => Lookup(name, ScriptCache, ScriptData.Ranges);
+
+    /// <summary>
+    /// Returns the code-point ranges for the named Unicode <c>Script_Extensions</c>
+    /// value (a code point matches when the script is in its script-extension set), or
+    /// <c>null</c> when the name is not a known script.
+    /// </summary>
+    public static (int Lo, int Hi)[]? GetScriptExtensions(string name)
+        => Lookup(name, ScriptExtensionsCache, ScriptExtensionsData.Ranges);
+
+    private static (int Lo, int Hi)[]? Lookup(
+        string name,
+        Dictionary<string, (int Lo, int Hi)[]> cache,
+        Dictionary<string, string> table)
+    {
+        if (string.IsNullOrEmpty(name))
+            return null;
+
         var key = Normalize(name);
         lock (Gate)
         {
-            if (BinaryCache.TryGetValue(key, out var cached))
+            if (cache.TryGetValue(key, out var cached))
                 return cached;
 
-            if (!BinaryPropertyData.Ranges.TryGetValue(key, out var encoded))
+            if (!table.TryGetValue(key, out var encoded))
                 return null;
 
             var parsed = Parse(encoded);
-            BinaryCache[key] = parsed;
+            cache[key] = parsed;
             return parsed;
         }
     }
