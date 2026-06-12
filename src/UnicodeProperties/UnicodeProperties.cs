@@ -14,6 +14,7 @@ public static class UnicodeProperties
     private static readonly Dictionary<string, (int Lo, int Hi)[]> BinaryCache = new(StringComparer.Ordinal);
     private static readonly Dictionary<string, (int Lo, int Hi)[]> ScriptCache = new(StringComparer.Ordinal);
     private static readonly Dictionary<string, (int Lo, int Hi)[]> ScriptExtensionsCache = new(StringComparer.Ordinal);
+    private static readonly Dictionary<string, (int Lo, int Hi)[]> GeneralCategoryCache = new(StringComparer.Ordinal);
     private static readonly object Gate = new();
 
     /// <summary>
@@ -46,6 +47,15 @@ public static class UnicodeProperties
     /// </summary>
     public static (int Lo, int Hi)[]? GetScriptExtensions(string name)
         => Lookup(name, ScriptExtensionsCache, ScriptExtensionsData.Ranges);
+
+    /// <summary>
+    /// Returns the code-point ranges for the named Unicode <c>General_Category</c> value
+    /// — a specific category (<c>Lu</c>), a group (<c>L</c>, <c>LC</c>), or a long
+    /// name/alias (<c>Uppercase_Letter</c>, <c>digit</c>) — or <c>null</c> when the name
+    /// is not a known category.
+    /// </summary>
+    public static (int Lo, int Hi)[]? GetGeneralCategory(string name)
+        => Lookup(name, GeneralCategoryCache, GeneralCategoryData.Ranges);
 
     private static (int Lo, int Hi)[]? Lookup(
         string name,
