@@ -170,6 +170,19 @@ public static class CldrLocaleData
         => CldrDayPeriods.Name(localeTag, period, width);
 
     /// <summary>
+    /// The localized time-zone display name for an IANA zone, used by the non-offset styles of
+    /// <c>Intl.DateTimeFormat</c>'s <c>timeZoneName</c> option. Returns <c>null</c> when the
+    /// locale (only English is bundled), zone or style is not covered, so the caller can fall
+    /// back to the GMT offset.
+    /// </summary>
+    /// <param name="localeTag">A BCP-47 locale tag; only the language subtag is used.</param>
+    /// <param name="ianaZone">An IANA time-zone id (e.g. <c>"Europe/Vienna"</c>).</param>
+    /// <param name="style">An ECMA-402 style: <c>"long"</c>, <c>"short"</c>, <c>"longGeneric"</c> or <c>"shortGeneric"</c>.</param>
+    /// <param name="isDaylight">Whether daylight-saving time is in effect at the instant.</param>
+    public static string? GetTimeZoneName(string localeTag, string ianaZone, string style, bool isDaylight)
+        => CldrTimeZones.Name(localeTag, ianaZone, style, isDaylight);
+
+    /// <summary>
     /// Resolves the currency layout for a locale.
     /// </summary>
     /// <param name="localeTag">A BCP-47 locale tag (e.g. <c>"de-DE"</c>).</param>

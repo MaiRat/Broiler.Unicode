@@ -58,6 +58,10 @@ if (Directory.Exists(supplementalDir))
     DatesGenerationResult dates = CldrDatesCodeGenerator.Generate(dataDir, supplementalDir, version, RepoLayout.GeneratedDateSourcePath(repoRoot));
     Console.WriteLine($"Generated {dates.OutputPath}");
     Console.WriteLine($"  Day-period names : {dates.NameCount}, rule sets : {dates.RuleCount}");
+
+    TimeZoneNamesGenerationResult timeZones = CldrTimeZoneNamesCodeGenerator.Generate(dataDir, supplementalDir, version, RepoLayout.GeneratedTimeZoneSourcePath(repoRoot));
+    Console.WriteLine($"Generated {timeZones.OutputPath}");
+    Console.WriteLine($"  Time zones : {timeZones.ZoneCount}, names : {timeZones.NameCount}");
 }
 
 RelativeTimeGenerationResult relativeTime = CldrRelativeTimeCodeGenerator.Generate(dataDir, version, RepoLayout.GeneratedRelativeTimeSourcePath(repoRoot));

@@ -101,9 +101,15 @@ async Task DownloadAsync(string version, string dataDir)
             Path.Combine(localeDir, "dateFields.json"), locale);
     }
 
+    // English time-zone (metazone) display names, used by Intl.DateTimeFormat's timeZoneName option.
+    // Only English is curated; other locales fall back to the GMT offset, so this is fetched once.
+    await DownloadFileAsync(http,
+        $"https://raw.githubusercontent.com/unicode-org/cldr-json/{version}/cldr-json/cldr-dates-full/main/en/timeZoneNames.json",
+        Path.Combine(dataDir, "en", "timeZoneNames.json"));
+
     // Supplemental data (single files, all locales).
     string supplementalDir = Path.Combine(dataDir, "supplemental");
-    foreach (string file in new[] { "plurals.json", "ordinals.json", "currencyData.json", "dayPeriods.json" })
+    foreach (string file in new[] { "plurals.json", "ordinals.json", "currencyData.json", "dayPeriods.json", "metaZones.json" })
     {
         string url = $"https://raw.githubusercontent.com/unicode-org/cldr-json/{version}/cldr-json/cldr-core/supplemental/{file}";
         await DownloadFileAsync(http, url, Path.Combine(supplementalDir, file));
