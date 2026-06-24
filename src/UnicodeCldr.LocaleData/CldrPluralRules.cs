@@ -10,7 +10,7 @@ namespace UnicodeCldr.LocaleData;
 internal static class CldrPluralRules
 {
     /// <summary>Returns the plural category (e.g. "one"/"other") for a number.</summary>
-    public static string Select(string localeTag, string type, double number, int minFractionDigits, int maxFractionDigits)
+    public static string Select(string localeTag, string type, double number, int minFractionDigits, int maxFractionDigits, int exponent = 0)
     {
         if (!double.IsFinite(number))
         {
@@ -22,7 +22,7 @@ internal static class CldrPluralRules
             return "other";
         }
 
-        var operands = Operands.Compute(number, minFractionDigits, maxFractionDigits);
+        var operands = Operands.Compute(number, minFractionDigits, maxFractionDigits, exponent);
         for (var k = 0; k + 1 < flat.Length; k += 2)
         {
             if (Evaluate(flat[k + 1], operands))
@@ -183,7 +183,7 @@ internal static class CldrPluralRules
     }
 
     // The plural operands derived from a number formatted with the given fraction
-    // digit bounds (UTS #35: n, i, v, w, f, t; c/e are the compact exponent, 0 here).
+    // digit bounds (UTS #35: n, i, v, w, f, t; c/e are the compact/scientific exponent).
     private readonly struct Operands
     {
         public double N { get; private init; }
@@ -195,7 +195,7 @@ internal static class CldrPluralRules
         public int E { get; private init; }
         public int C { get; private init; }
 
-        public static Operands Compute(double number, int minFractionDigits, int maxFractionDigits)
+        public static Operands Compute(double number, int minFractionDigits, int maxFractionDigits, int exponent = 0)
         {
             var abs = Math.Abs(number);
             var max = Math.Clamp(maxFractionDigits, 0, 15);
@@ -222,8 +222,8 @@ internal static class CldrPluralRules
                 W = trimmed.Length,
                 F = fraction.Length == 0 ? 0 : long.TryParse(fraction, out var f) ? f : 0,
                 T = trimmed.Length == 0 ? 0 : long.TryParse(trimmed, out var t) ? t : 0,
-                E = 0,
-                C = 0,
+                E = exponent,
+                C = exponent,
             };
         }
     }

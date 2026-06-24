@@ -80,8 +80,9 @@ public static class CldrLocaleData
     /// <param name="number">The number to categorize.</param>
     /// <param name="minimumFractionDigits">Minimum visible fraction digits (default 0).</param>
     /// <param name="maximumFractionDigits">Maximum visible fraction digits (default 3).</param>
-    public static string SelectPlural(string localeTag, string type, double number, int minimumFractionDigits = 0, int maximumFractionDigits = 3)
-        => CldrPluralRules.Select(localeTag, type, number, minimumFractionDigits, maximumFractionDigits);
+    /// <param name="exponent">The compact/scientific exponent (the c/e operand); 0 for standard notation.</param>
+    public static string SelectPlural(string localeTag, string type, double number, int minimumFractionDigits = 0, int maximumFractionDigits = 3, int exponent = 0)
+        => CldrPluralRules.Select(localeTag, type, number, minimumFractionDigits, maximumFractionDigits, exponent);
 
     /// <summary>
     /// The ordered plural categories a locale uses for a type (always ending in

@@ -15,7 +15,9 @@ public static class CldrLikelySubtags
     private static Dictionary<string, string> Parse()
     {
         var map = new Dictionary<string, string>(StringComparer.Ordinal);
-        foreach (var line in CldrLikelySubtagsData.Packed.Split('\n'))
+        // The packed literal's line endings follow the source file (CRLF), so split on both
+        // and drop empties — otherwise every value would carry a trailing '\r'.
+        foreach (var line in CldrLikelySubtagsData.Packed.Split('\n', '\r'))
         {
             if (line.Length == 0)
                 continue;
