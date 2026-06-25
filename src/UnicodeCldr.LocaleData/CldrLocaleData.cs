@@ -1,4 +1,4 @@
-﻿namespace UnicodeCldr.LocaleData;
+namespace UnicodeCldr.LocaleData;
 
 /// <summary>
 /// Managed CLDR locale data for ECMA-402 <c>Intl</c> formatters, with no ICU or
@@ -24,6 +24,66 @@ public static class CldrLocaleData
 
         var dash = localeTag.IndexOf('-');
         return (dash < 0 ? localeTag : localeTag[..dash]).ToLowerInvariant();
+    }
+
+    /// <summary>
+    /// The <c>language-REGION</c> key of a BCP-47 tag (e.g. <c>"pt-PT-u-nu-latn"</c> →
+    /// <c>"pt-PT"</c>), used to select region-specific overrides of the language-level
+    /// CLDR tables. Returns the bare language when the tag carries no region subtag (the
+    /// subtag immediately after the language that is two ASCII letters or three digits).
+    /// </summary>
+    public static string RegionKey(string localeTag)
+    {
+        var language = LanguageOf(localeTag);
+        if (string.IsNullOrEmpty(localeTag))
+            return language;
+
+        var parts = localeTag.Split('-');
+        for (var i = 1; i < parts.Length; i++)
+        {
+            var p = parts[i];
+            var isRegion = (p.Length == 2 && char.IsLetter(p[0]) && char.IsLetter(p[1]))
+                || (p.Length == 3 && char.IsDigit(p[0]) && char.IsDigit(p[1]) && char.IsDigit(p[2]));
+            if (isRegion)
+                return language + "-" + p.ToUpperInvariant();
+            // Stop at the `-u-`/`-t-` extension or a script subtag we do not need here.
+            if (p.Length == 1)
+                break;
+        }
+        return language;
+    }
+
+    // Region-specific currency layouts not captured by the language-keyed
+    // CldrCurrencyData.Layout (which holds each language's primary-region convention).
+    // Base "pt" follows pt-BR (symbol before the amount); pt-PT places the symbol after
+    // the amount separated by a NBSP — "3 €" — per CLDR pt-PT currencyFormats. Values are
+    // [symbolAfterNumber, spacing, accountingUsesParentheses], matching CldrCurrencyData.Layout.
+    private static readonly Dictionary<string, string[]> CurrencyLayoutOverrides = new(StringComparer.OrdinalIgnoreCase)
+    {
+        ["pt-PT"] = new[] { "1", " ", "0" },
+    };
+
+    // The locale's number range separator (CLDR miscPatterns/range "{0}<sep>{1}"),
+    // returned as the trimmed separator and whether the pattern surrounds it with spaces.
+    // The CLDR default is an en-dash with no spaces; ICU's NumberRangeFormatter pads a
+    // space-less separator with a space only when a non-digit (an affix) abuts it. A few
+    // locales override the character/spacing — pt-PT uses a spaced hyphen-minus "{0} - {1}".
+    private static readonly Dictionary<string, (string Separator, bool Spaced)> RangePatternOverrides
+        = new(StringComparer.OrdinalIgnoreCase)
+    {
+        ["pt-PT"] = ("-", true),
+    };
+
+    /// <summary>
+    /// The number-range separator for a locale: the trimmed separator string and whether
+    /// the CLDR range pattern already surrounds it with spaces (so the caller skips its
+    /// own ICU-style conditional spacing). Defaults to the CLDR en-dash, no spaces.
+    /// </summary>
+    public static (string Separator, bool Spaced) RangePattern(string localeTag)
+    {
+        if (RangePatternOverrides.TryGetValue(RegionKey(localeTag), out var p))
+            return p;
+        return ("–", false);
     }
 
     /// <summary>
@@ -228,10 +288,12 @@ public static class CldrLocaleData
         var code = (currencyCode ?? string.Empty).ToUpperInvariant();
         var language = LanguageOf(localeTag);
 
-        var layout = CldrCurrencyData.Layout.TryGetValue(language, out var l)
-            || CldrCurrencyData.Layout.TryGetValue("en", out l)
-            ? l
-            : null;
+        var layout = CurrencyLayoutOverrides.TryGetValue(RegionKey(localeTag), out var ovr)
+            ? ovr
+            : CldrCurrencyData.Layout.TryGetValue(language, out var l)
+                || CldrCurrencyData.Layout.TryGetValue("en", out l)
+                ? l
+                : null;
 
         return new CldrCurrencyFormat
         {
