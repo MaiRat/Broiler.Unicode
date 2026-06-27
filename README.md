@@ -1,7 +1,15 @@
-# UnicodeEmoji.StringProperties
+# Broiler.Unicode
+
+Unicode property, emoji string-property, and CLDR locale-data components used by
+Broiler.JS. This README focuses on the `UnicodeEmoji.StringProperties` package.
 
 Managed, allocation-light matching of **Unicode RGI emoji string properties** (UTS #51) for .NET,
 backed by a generated trie. No ICU, no native dependency, no runtime downloads, no giant regex.
+
+> **Preview status:** This is unstable, substantially AI-assisted first-preview software.
+> Generated tables and their generators require human source and data-provenance review.
+> The component is **not human-approved for preview use** while
+> [HUMAN_REVIEW.md](HUMAN_REVIEW.md) remains `PENDING`.
 
 - **Supported Unicode emoji version:** **16.0**
 - **Target frameworks:** `net8.0`, `net10.0`
@@ -184,5 +192,9 @@ data/
 
 ## License
 
-MIT. Unicode data files are © Unicode, Inc. and distributed under the
-[Unicode Terms of Use](https://www.unicode.org/terms_of_use.html).
+Broiler.Unicode source code is licensed under the
+[Apache License 2.0](LICENSE). Unicode-provided data files and derived tables remain
+© Unicode, Inc. and subject to the
+[Unicode Terms of Use](https://www.unicode.org/terms_of_use.html); see
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The Apache license provides the
+software on an “AS IS” basis without warranties or conditions.

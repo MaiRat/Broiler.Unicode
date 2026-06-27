@@ -1,5 +1,10 @@
 # UnicodeProperties data generation
 
+These generator tools are part of the unstable, AI-assisted Broiler.Unicode preview.
+They are covered by the repository's [pending human review](../../../HUMAN_REVIEW.md),
+[Apache License 2.0](../../../LICENSE), and
+[Unicode data notice](../../../THIRD_PARTY_NOTICES.md).
+
 `generate-binary-properties.py` regenerates
 `../Generated/BinaryPropertyData.g.cs` from the Unicode Character Database.
 
