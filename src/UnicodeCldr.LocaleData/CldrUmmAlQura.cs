@@ -55,7 +55,7 @@ public static class CldrUmmAlQura
 
     // 1300..1600 AH: one entry per year; bit (11 - (month-1)) set => that month has 30 days.
     private static readonly ushort[] MonthLengthBits =
-    {
+    [
         0x0AAA, 0x0D54, 0x0EC9, 0x06D4, 0x06EA, 0x036C, 0x0AAD, 0x0555, 0x06A9, 0x0792, 0x0BA9, 0x05D4,
         0x0ADA, 0x055C, 0x0D2D, 0x0695, 0x074A, 0x0B54, 0x0B6A, 0x05AD, 0x04AE, 0x0A4F, 0x0517, 0x068B,
         0x06A5, 0x0AD5, 0x02D6, 0x095B, 0x049D, 0x0A4D, 0x0D26, 0x0D95, 0x05AC, 0x09B6, 0x02BA, 0x0A5B,
@@ -82,11 +82,11 @@ public static class CldrUmmAlQura
         0x06E8, 0x0B6A, 0x056D, 0x0535, 0x0695, 0x0D4A, 0x0DA8, 0x0DD4, 0x06DA, 0x055B, 0x029D, 0x062B,
         0x0B15, 0x0B4A, 0x0B95, 0x05AA, 0x0AAE, 0x092E, 0x0C8F, 0x0527, 0x0695, 0x06AA, 0x0AD6, 0x055D,
         0x029D,
-    };
+    ];
 
     // Rounded least-squares correction (days) applied to the linear year-start estimate.
     private static readonly sbyte[] YearStartEstimateFix =
-    {
+    [
         0, 0, -1, 0, -1, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0,
         0, 0, 0, -1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0,
         0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0,
@@ -108,5 +108,5 @@ public static class CldrUmmAlQura
         0, 0, 0, 0, -1, -1, 0, -1, 0, 1, 0, 0, -1, -1, 0,
         0, 1, 1, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0,
         1,
-    };
+    ];
 }

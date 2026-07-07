@@ -39,7 +39,7 @@ internal static class CldrPluralRules
     {
         if (!TryGetRules(localeTag, type, out var flat))
         {
-            return new[] { "other" };
+            return ["other"];
         }
 
         var categories = new string[flat.Length / 2 + 1];

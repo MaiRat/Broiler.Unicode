@@ -1,5 +1,3 @@
-using System;
-
 namespace UnicodeEmoji.StringProperties;
 
 /// <summary>

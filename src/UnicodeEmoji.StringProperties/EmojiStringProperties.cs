@@ -1,5 +1,3 @@
-using System;
-using System.Collections.Generic;
 using UnicodeEmoji.StringProperties.Internal;
 
 namespace UnicodeEmoji.StringProperties;

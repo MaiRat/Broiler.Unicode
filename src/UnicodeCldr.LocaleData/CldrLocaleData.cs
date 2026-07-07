@@ -60,7 +60,7 @@ public static class CldrLocaleData
     // [symbolAfterNumber, spacing, accountingUsesParentheses], matching CldrCurrencyData.Layout.
     private static readonly Dictionary<string, string[]> CurrencyLayoutOverrides = new(StringComparer.OrdinalIgnoreCase)
     {
-        ["pt-PT"] = new[] { "1", " ", "0" },
+        ["pt-PT"] = ["1", " ", "0"],
     };
 
     // The locale's number range separator (CLDR miscPatterns/range "{0}<sep>{1}"),

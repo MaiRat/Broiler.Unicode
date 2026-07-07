@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-
 namespace UnicodeCldr.LocaleData;
 
 /// <summary>
@@ -30,7 +27,7 @@ public static class CldrChineseCalendar
     private static readonly long Rd1970 = FixedFromGregorian(1970, 1, 1);
     private static readonly double NewMoon0 = NthNewMoon(0);
 
-    private static readonly Dictionary<int, ChineseYear> Cache = new();
+    private static readonly Dictionary<int, ChineseYear> Cache = [];
 
     /// <summary>The data for the Chinese year whose New Year day falls in <paramref name="gregorianYear"/>.</summary>
     public static ChineseYear GetYear(int gregorianYear)
@@ -185,38 +182,38 @@ public static class CldrChineseCalendar
         const long n0 = 24724;
         var k = n - n0;
         var c = k / 1236.85;
-        var approx = J2000 + Poly(c, new[]
-        {
+        var approx = J2000 + Poly(c,
+        [
             5.09766, MeanSynodicMonth * 1236.85, 0.0001437, -0.000000150, 0.00000000073
-        });
-        var capE = Poly(c, new[] { 1.0, -0.002516, -0.0000074 });
-        var solarAnomaly = Poly(c, new[]
-        {
+        ]);
+        var capE = Poly(c, [1.0, -0.002516, -0.0000074]);
+        var solarAnomaly = Poly(c,
+        [
             2.5534, 1236.85 * 29.10535669, -0.0000014, -0.00000011
-        });
-        var lunarAnomaly = Poly(c, new[]
-        {
+        ]);
+        var lunarAnomaly = Poly(c,
+        [
             201.5643, 385.81693528 * 1236.85, 0.0107582, 0.00001238, -0.000000058
-        });
-        var moonArgument = Poly(c, new[]
-        {
+        ]);
+        var moonArgument = Poly(c,
+        [
             160.7108, 390.67050284 * 1236.85, -0.0016118, -0.00000227, 0.000000011
-        });
-        var capOmega = Poly(c, new[]
-        {
+        ]);
+        var capOmega = Poly(c,
+        [
             124.7746, -1.56375588 * 1236.85, 0.0020672, 0.00000215
-        });
+        ]);
 
-        int[] eFactor = { 0, 1, 0, 0, 1, 1, 2, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-        int[] solarCoeff = { 0, 1, 0, 0, -1, 1, 2, 0, 0, 1, 0, 1, 1, -1, 2, 0, 3, 1, 0, 1, -1, -1, 1, 0 };
-        int[] lunarCoeff = { 1, 0, 2, 0, 1, 1, 0, 1, 1, 2, 3, 0, 0, 2, 1, 2, 0, 1, 2, 1, 1, 1, 3, 4 };
-        int[] moonCoeff = { 0, 0, 0, 2, 0, 0, 0, -2, 2, 0, 0, 2, -2, 0, 0, -2, 0, -2, 2, 2, 2, -2, 0, 0 };
+        int[] eFactor = [0, 1, 0, 0, 1, 1, 2, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+        int[] solarCoeff = [0, 1, 0, 0, -1, 1, 2, 0, 0, 1, 0, 1, 1, -1, 2, 0, 3, 1, 0, 1, -1, -1, 1, 0];
+        int[] lunarCoeff = [1, 0, 2, 0, 1, 1, 0, 1, 1, 2, 3, 0, 0, 2, 1, 2, 0, 1, 2, 1, 1, 1, 3, 4];
+        int[] moonCoeff = [0, 0, 0, 2, 0, 0, 0, -2, 2, 0, 0, 2, -2, 0, 0, -2, 0, -2, 2, 2, 2, -2, 0, 0];
         double[] sineCoeff =
-        {
+        [
             -0.40720, 0.17241, 0.01608, 0.01039, 0.00739, -0.00514, 0.00208, -0.00111,
             -0.00057, 0.00056, -0.00042, 0.00042, 0.00038, -0.00024, -0.00007, 0.00004,
             0.00004, 0.00003, 0.00003, -0.00003, 0.00003, -0.00002, -0.00002, 0.00002
-        };
+        ];
 
         var correction = -0.00017 * SinDeg(capOmega);
         for (var i = 0; i < sineCoeff.Length; i++)
@@ -225,23 +222,23 @@ public static class CldrChineseCalendar
                 SinDeg(solarCoeff[i] * solarAnomaly + lunarCoeff[i] * lunarAnomaly + moonCoeff[i] * moonArgument);
         }
 
-        var extra = 0.000325 * SinDeg(Poly(c, new[] { 299.77, 132.8475848, -0.009173 }));
+        var extra = 0.000325 * SinDeg(Poly(c, [299.77, 132.8475848, -0.009173]));
 
         double[] addConst =
-        {
+        [
             251.88, 251.83, 349.42, 84.66, 141.74, 207.14, 154.84, 34.52, 207.19, 291.34,
             161.72, 239.56, 331.55
-        };
+        ];
         double[] addCoeff =
-        {
+        [
             0.016321, 26.651886, 36.412478, 18.206239, 53.303771, 2.453732, 7.306860,
             27.261239, 0.121824, 1.844379, 24.198154, 25.513099, 3.592518
-        };
+        ];
         double[] addFactor =
-        {
+        [
             0.000165, 0.000164, 0.000126, 0.000110, 0.000062, 0.000060, 0.000056, 0.000047,
             0.000042, 0.000040, 0.000037, 0.000035, 0.000023
-        };
+        ];
         var additional = 0.0;
         for (var i = 0; i < addConst.Length; i++)
             additional += addFactor[i] * SinDeg(addConst[i] + addCoeff[i] * k);
@@ -255,13 +252,13 @@ public static class CldrChineseCalendar
     {
         var c = JulianCenturies(tee);
         double[] coefficients =
-        {
+        [
             403406, 195207, 119433, 112392, 3891, 2819, 1721, 660, 350, 334, 314, 268, 242,
             234, 158, 132, 129, 114, 99, 93, 86, 78, 72, 68, 64, 46, 38, 37, 32, 29, 28, 27,
             27, 25, 24, 21, 21, 20, 18, 17, 14, 13, 13, 13, 12, 10, 10, 10, 10
-        };
+        ];
         double[] multipliers =
-        {
+        [
             0.9287892, 35999.1376958, 35999.4089666, 35998.7287385, 71998.20261, 71998.4403,
             36000.35726, 71997.4812, 32964.4678, -19.4410, 445267.1117, 45036.8840, 3.1008,
             22518.4434, -19.9739, 65928.9345, 9038.0293, 3034.7684, 33718.148, 3034.448,
@@ -269,15 +266,15 @@ public static class CldrChineseCalendar
             151.771, 67555.316, 31556.080, -4561.540, 107996.706, 1221.655, 62894.167,
             31437.369, 14578.298, -31931.757, 34777.243, 1221.999, 62894.511, -4442.039,
             107997.909, 119.066, 16859.071, -4.578, 26895.292, -39.127, 12297.536, 90073.778
-        };
+        ];
         double[] addends =
-        {
+        [
             270.54861, 340.19128, 63.91854, 331.26220, 317.843, 86.631, 240.052, 310.26,
             247.23, 260.87, 297.82, 343.14, 166.79, 81.53, 3.50, 132.75, 182.95, 162.03,
             29.8, 266.4, 249.2, 157.6, 257.8, 185.1, 69.9, 8.0, 197.1, 250.4, 65.3, 162.7,
             341.5, 291.6, 98.5, 146.7, 110.0, 5.2, 342.6, 230.9, 256.1, 45.3, 242.9, 115.2,
             151.8, 285.3, 53.3, 126.6, 205.7, 85.9, 146.1
-        };
+        ];
 
         var sum = 0.0;
         for (var i = 0; i < coefficients.Length; i++)
@@ -289,8 +286,8 @@ public static class CldrChineseCalendar
 
     private static double Nutation(double c)
     {
-        var capA = Poly(c, new[] { 124.90, -1934.134, 0.002063 });
-        var capB = Poly(c, new[] { 201.11, 72001.5377, 0.00057 });
+        var capA = Poly(c, [124.90, -1934.134, 0.002063]);
+        var capB = Poly(c, [201.11, 72001.5377, 0.00057]);
         return -0.004778 * SinDeg(capA) + -0.0003667 * SinDeg(capB);
     }
 
@@ -316,20 +313,20 @@ public static class CldrChineseCalendar
         if (year is >= 1988 and <= 2019)
             return (year - 1933) / 86400.0;
         if (year is >= 1900 and <= 1987)
-            return Poly(c, new[]
-            {
+            return Poly(c,
+            [
                 -0.00002, 0.000297, 0.025184, -0.181133, 0.553040, -0.861938, 0.677066, -0.212591
-            });
+            ]);
         if (year is >= 1800 and <= 1899)
-            return Poly(c, new[]
-            {
+            return Poly(c,
+            [
                 -0.000009, 0.003844, 0.083563, 0.865736, 4.867575, 15.845535, 31.332267,
                 38.291999, 28.316289, 11.636204, 2.043794
-            });
+            ]);
         if (year is >= 1700 and <= 1799)
-            return Poly(year - 1700, new[] { 8.118780842, -0.005092142, 0.003336121, -0.0000266484 }) / 86400.0;
+            return Poly(year - 1700, [8.118780842, -0.005092142, 0.003336121, -0.0000266484]) / 86400.0;
         if (year is >= 1620 and <= 1699)
-            return Poly(year - 1600, new[] { 196.58333, -4.0675, 0.0219167 }) / 86400.0;
+            return Poly(year - 1600, [196.58333, -4.0675, 0.0219167]) / 86400.0;
         var x = 0.5 + (FixedFromGregorian(year, 1, 1) - FixedFromGregorian(1810, 1, 1));
         return ((x * x) / 41048480.0 - 15) / 86400.0;
     }
