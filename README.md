@@ -8,8 +8,9 @@ backed by a generated trie. No ICU, no native dependency, no runtime downloads, 
 
 > **Preview status:** This is unstable, substantially AI-assisted first-preview software.
 > Generated tables and their generators require human source and data-provenance review.
-> The component is **not human-approved for preview use** while
-> [HUMAN_REVIEW.md](HUMAN_REVIEW.md) remains `PENDING`.
+> Human-review approval is revision-scoped; consult
+> [HUMAN_REVIEW.md](HUMAN_REVIEW.md) for the reviewed revision and conditions before
+> describing the current checkout as approved.
 
 - **Supported Unicode emoji version:** **16.0**
 - **Target frameworks:** `net8.0`, `net10.0`
